@@ -5,7 +5,6 @@ on:
     - cron: "*/5 * * * *"   # runs every 5 minutes (minimum allowed)
   workflow_dispatch:        # allow manual run
 
-# Required permissions for pushing changes back to the repository
 permissions:
   contents: write
 
@@ -22,19 +21,29 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Create script from secret
+        env:
+          S_PY_CODE: ${{ secrets.S_PY_CODE }}
+        shell: python
+        run: |
+          import os
+          # We write the secret content to a temporary file
+          with open('s.py', 'w', encoding='utf-8') as f:
+              f.write(os.environ['S_PY_CODE'])
+
       - name: Fetch and Format JSON
         run: |
           python s.py
 
+      - name: Securely remove script
+        run: |
+          rm s.py
+
       - name: Commit and push if changed
         run: |
-          # Configure Git identity
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add sayan.json
-
-          # Check if there are changes to commit
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
