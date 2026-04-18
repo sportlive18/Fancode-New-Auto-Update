@@ -21,23 +21,9 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Create script from secret
-        env:
-          S_PY_CODE: ${{ secrets.S_PY_CODE }}
-        shell: python
-        run: |
-          import os
-          # We write the secret content to a temporary file
-          with open('s.py', 'w', encoding='utf-8') as f:
-              f.write(os.environ['S_PY_CODE'])
-
       - name: Fetch and Format JSON
         run: |
-          python s.py
-
-      - name: Securely remove script
-        run: |
-          rm s.py
+          python update_json.py
 
       - name: Commit and push if changed
         run: |
