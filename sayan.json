@@ -2,123 +2,15 @@
     "Author": "DOCTOR_STRANGE",
     "Telegram": "https://t.me/jitendraunatti_github",
     "name": "FanCode Live Matches API",
-    "last_updated": "01:21:03 AM 03-05-2026",
+    "last_updated": "01:35:01 AM 03-05-2026",
     "headers": {
         "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 55,
-    "live_matches": 8,
-    "upcoming_matches": 47,
+    "live_matches": 7,
+    "upcoming_matches": 48,
     "matches": [
-        {
-            "category": "Football",
-            "title": "Al Hazem Fc Vs Al Hilal Sfc",
-            "tournament": "Roshn Saudi League 2025-2026",
-            "match_id": 142144,
-            "status": "LIVE",
-            "streamingStatus": "STARTED",
-            "startTime": "02 May 2026 11:30 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hazem-FC-vs-Al-Hilal-SFC_fc-web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/142144_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hazem-FC-vs-Al-Hilal-SFC_fc-web.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hazem-FC-vs-Al-Hilal-SFC_fc-web.jpg",
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hazem-FC-vs-Al-Hilal-SFC_fc-web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hazem-FC-vs-Al-Hilal-SFC_fc-app.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142144_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "team": [
-                {
-                    "name": "Al-Hazem FC",
-                    "shortName": "HAZ",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-HAZ@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#4c3600",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": {
-                        "points": 0,
-                        "goals": []
-                    },
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Al Hilal SFC",
-                    "shortName": "AHS",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AH@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#031537",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": {
-                        "points": 2,
-                        "goals": [
-                            {
-                                "id": "143173",
-                                "shortName": "M Leonardo",
-                                "isOwnGoal": false,
-                                "goalTime": "82'"
-                            },
-                            {
-                                "id": "1214",
-                                "shortName": "K Benzema",
-                                "isOwnGoal": false,
-                                "goalTime": "9'"
-                            }
-                        ]
-                    },
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "STREAMING_CDN": {
-                "is_drm": false,
-                "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142144_english_hls_d0f0e9fab215617_1ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142144_english_hls_d0f0e9fab215617_1ta-di_h264/index.m3u8",
-                "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142144_english_hls_d0f0e9fab215617_1ta-di_h264/index.m3u8",
-                "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142144_english_hls_d0f0e9fab215617_1ta-di_h264/index.m3u8",
-                "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142144_english_hls_d0f0e9fab215617_1ta-di_h264/index.m3u8",
-                "dai_google_cdn": "Unavailable",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "Unavailable",
-                "language": "ENGLISH",
-                "X-Served-By": "WALTER",
-                "backup": {
-                    "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142144_english_hls_d0f0e9fab215617_1ta-di_h264/index.m3u8",
-                    "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142144_english_hls_d0f0e9fab215617_1ta-di_h264/index.m3u8"
-                }
-            },
-            "auto_streams": [
-                {
-                    "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142144_english_hls_d0f0e9fab215617_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142144_english_hls_d0f0e9fab215617_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142144_english_hls_d0f0e9fab215617_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142144_english_hls_d0f0e9fab215617_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142144_english_hls_d0f0e9fab215617_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142144_english_hls_d0f0e9fab215617_1ta-di_h264/1080p.m3u8",
-                    "cookie": null,
-                    "cookie_valid": "1777834808",
-                    "create_date": "Sunday, May 3, 2026, 12:30:08 AM",
-                    "expire_date": "Monday, May 4, 2026, 12:30:08 AM",
-                    "language": "ENGLISH"
-                }
-            ]
-        },
         {
             "category": "Football",
             "title": "Ca Osasuna Vs Fc Barcelona",
@@ -3075,43 +2967,66 @@
             "auto_streams": null
         },
         {
-            "category": "Football",
-            "title": "Al Hazem Fc Vs Al Hilal Sfc",
-            "tournament": "Roshn Saudi League 2025-2026",
-            "short_name": "Saudi Pro League",
-            "match_id": 142144,
-            "status": "STARTED",
-            "startTime": "02 May 2026 11:30 PM",
-            "startDate": "29 August 2025 05:30 AM",
-            "endDate": "21 May 2026 11:45 PM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hazem-FC-vs-Al-Hilal-SFC_fc-app.jpg",
+            "category": "Cricket",
+            "title": "Speen Ghar Region Vs Boost Region",
+            "tournament": "Super Cola National T20 Cup, 2026",
+            "match_id": 142403,
+            "status": "COMPLETED",
+            "streamingStatus": "COMPLETED",
+            "startTime": "02 May 2026 10:00 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/142144_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hazem-FC-vs-Al-Hilal-SFC_fc-app.jpg",
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/142403_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
                 "PLAYBACK": null,
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142144_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(7)_1777562086651.png",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142403_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
-            "teams": [
+            "team": [
                 {
-                    "id": 3830,
-                    "name": "Al-Hazem FC",
-                    "shortName": "HAZ",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-HAZ@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-HAZ@2x.png",
-                    "color": "#4c3600"
+                    "name": "Speen Ghar Region",
+                    "shortName": "SG",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SPG@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#00ff8d",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
                 },
                 {
-                    "id": 2723,
-                    "name": "Al Hilal SFC",
-                    "shortName": "AHS",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AH@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AH@2x.png",
-                    "color": "#031537"
+                    "name": "Boost Region",
+                    "shortName": "BOS",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BOS@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#ff8484",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
                 }
             ],
             "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
             "STREAMING_CDN": {
                 "language": "BLOODY_SWEET",
                 "Primary_Playback_URL": null
@@ -3415,6 +3330,50 @@
                     "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LIVW@2x.png",
                     "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LIVW@2x.png",
                     "color": "#31b8a2"
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            },
+            "auto_streams": null
+        },
+        {
+            "category": "Football",
+            "title": "Tottenham Hotspur Women Vs London City Lionesses",
+            "tournament": "Women's Super League 2025-26",
+            "short_name": "WSL",
+            "match_id": 142171,
+            "status": "NOT_STARTED",
+            "startTime": "03 May 2026 04:30 PM",
+            "startDate": "10 January 2026 05:30 AM",
+            "endDate": "10 May 2026 11:45 PM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/142171_5826_TOT-W_LCL_FC-App.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/142171_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/142171_5826_TOT-W_LCL_FC-App.jpg",
+                "PLAYBACK": null,
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142171_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "id": 5611,
+                    "name": "Tottenham Hotspur Women",
+                    "shortName": "TOT-W",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-TOTW@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-TOTW@2x.png",
+                    "color": "#7086e0"
+                },
+                {
+                    "id": 12129,
+                    "name": "London City Lionesses",
+                    "shortName": "LCL",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LC@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LC@2x.png",
+                    "color": "#045864"
                 }
             ],
             "language": "BLOODY_SWEET",
