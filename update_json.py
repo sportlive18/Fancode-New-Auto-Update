@@ -34,7 +34,7 @@ def generate_m3u(data):
     return "\n".join(m3u_lines)
 
 def main():
-    url = "https://fcapi.amitbala1993.workers.dev/"
+    url = "https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.json"
     print(f"Fetching full Fancode JSON from {url}...")
     
     try:
