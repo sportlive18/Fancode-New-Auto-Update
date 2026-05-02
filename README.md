@@ -48,7 +48,7 @@ We encourage developers, data enthusiasts, and FanCode fans to **Clone this repo
 
 We extend our sincere thanks to the creator of **sayanpal514-hue/FANCODE-AUTO-UPDATED-PLAYLIST** for their valuable contribution to the open-source community. This project would not be possible without their consistent effort.
 
-👉 **Please support the original source by giving them a Star: [https://github.com/Jitendraunatti)](https://github.com/Jitendraunatti)](https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.json))**
+👉 **Please support the original source by giving him : [https://github.com/Jitendraunatti]
 
 ---
 
