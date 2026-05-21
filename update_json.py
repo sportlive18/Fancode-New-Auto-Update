@@ -55,7 +55,7 @@ def main():
 
         with open('sayan.json', 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
-        print("Saved full JSON to sayan.json")
+        print("Saved full JSON to fancode.json")
 
         m3u_content = generate_m3u(data)
         with open('fancode.m3u', 'w', encoding='utf-8') as f:
