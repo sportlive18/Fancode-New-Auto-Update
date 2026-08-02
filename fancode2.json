@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:28:07 PM 02-08-2026",
+  "last_updated": "11:14:07 PM 02-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 9,
-  "upcoming_matches": 31,
+  "live_matches": 8,
+  "upcoming_matches": 32,
   "matches": [
     {
       "category": "Cricket",
@@ -47,7 +47,7 @@
               "runs": 178,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 8
             }
           ],
@@ -57,7 +57,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -69,14 +69,22 @@
           },
           "isWinner": null,
           "color": "#e7993a",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 34,
+              "overs": "6",
+              "balls": "36",
+              "status": "IN_PROGRESS",
+              "wickets": 3
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -145,11 +153,11 @@
           "color": "#7B0041",
           "cricketScore": [
             {
-              "runs": 58,
-              "overs": "14",
+              "runs": 91,
+              "overs": "25.3",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 1
+              "wickets": 2
             }
           ],
           "kabaddiScore": null,
@@ -209,107 +217,6 @@
           "cookie_valid": "1785764229",
           "create_date": "Sunday, August 2, 2026, 7:07:08 PM",
           "expire_date": "Monday, August 3, 2026, 7:07:09 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Cricket",
-      "title": "Dambulla Sixers Vs Jaffna Kings",
-      "tournament": "Lanka Premier League, 2026",
-      "short_name": null,
-      "match_id": 4246719,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "02 August 2026 07:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://images.fancode.com/aig/match/v1784105762375/4246719_CASACARDS_SPORTY_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4246719_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1784105762375/4246719_CASACARDS_SPORTY_APP.png",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Lanka-Premier-League-T20-2026.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4246719_52991_JK_DS_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1784105762375/4246719_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4246719_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Dambulla Sixers",
-          "shortName": "DS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4EA4EC",
-          "cricketScore": [
-            {
-              "runs": 203,
-              "overs": "20",
-              "balls": "120",
-              "status": "IN_PROGRESS",
-              "wickets": 8
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        },
-        {
-          "name": "Jaffna Kings",
-          "shortName": "JK",
-          "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png"
-          },
-          "isWinner": null,
-          "color": "#232451",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/index.m3u8",
-        "Akamai_cdn": "Unavailable",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/240p.m3u8?hdntl=Expires=1785763804~_GO=Generated~acl=/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/*~Signature=Aej9sTXtNr8bWz47CzrBPULhyrFJrkZhxG--oSgM1ILqh_8xbNgY4yQsr61Xjg7K6lNXAZX5-lII9_omnt3dzI8tOuYC\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/360p.m3u8?hdntl=Expires=1785763804~_GO=Generated~acl=/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/*~Signature=Aej9sTXtNr8bWz47CzrBPULhyrFJrkZhxG--oSgM1ILqh_8xbNgY4yQsr61Xjg7K6lNXAZX5-lII9_omnt3dzI8tOuYC\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/480p.m3u8?hdntl=Expires=1785763804~_GO=Generated~acl=/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/*~Signature=Aej9sTXtNr8bWz47CzrBPULhyrFJrkZhxG--oSgM1ILqh_8xbNgY4yQsr61Xjg7K6lNXAZX5-lII9_omnt3dzI8tOuYC\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/540p.m3u8?hdntl=Expires=1785763804~_GO=Generated~acl=/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/*~Signature=Aej9sTXtNr8bWz47CzrBPULhyrFJrkZhxG--oSgM1ILqh_8xbNgY4yQsr61Xjg7K6lNXAZX5-lII9_omnt3dzI8tOuYC\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/720p.m3u8?hdntl=Expires=1785763804~_GO=Generated~acl=/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/*~Signature=Aej9sTXtNr8bWz47CzrBPULhyrFJrkZhxG--oSgM1ILqh_8xbNgY4yQsr61Xjg7K6lNXAZX5-lII9_omnt3dzI8tOuYC\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/1080p.m3u8?hdntl=Expires=1785763804~_GO=Generated~acl=/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/*~Signature=Aej9sTXtNr8bWz47CzrBPULhyrFJrkZhxG--oSgM1ILqh_8xbNgY4yQsr61Xjg7K6lNXAZX5-lII9_omnt3dzI8tOuYC",
-          "cookie": "hdntl=Expires=1785763804~_GO=Generated~acl=/mumbai/4246719_english_hls_21c3a47cef57337_1ta-di_h264/*~Signature=Aej9sTXtNr8bWz47CzrBPULhyrFJrkZhxG--oSgM1ILqh_8xbNgY4yQsr61Xjg7K6lNXAZX5-lII9_omnt3dzI8tOuYC",
-          "cookie_valid": "1785763804",
-          "create_date": "Sunday, August 2, 2026, 7:00:03 PM",
-          "expire_date": "Monday, August 3, 2026, 7:00:04 PM",
           "language": "ENGLISH"
         }
       ]
@@ -1357,176 +1264,6 @@
     },
     {
       "category": "Cricket",
-      "title": "West Delhi Lions Vs New Delhi Tigers",
-      "tournament": "Delhi Premier League, 2026",
-      "short_name": null,
-      "match_id": 4247967,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "01 August 2026 07:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/DPL-Mini.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247967_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/DPL-Mini.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/DPL-Mini.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247967_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "West Delhi Lions",
-          "shortName": "WDL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png"
-          },
-          "isWinner": true,
-          "color": "#ed4d0b",
-          "cricketScore": [
-            {
-              "runs": 170,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 5
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "New Delhi Tigers",
-          "shortName": "NDT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png"
-          },
-          "isWinner": false,
-          "color": "#B8142D",
-          "cricketScore": [
-            {
-              "runs": 151,
-              "overs": "20",
-              "balls": "120",
-              "status": "IN_PROGRESS",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Galle Gallants Vs Colombo Kaps",
-      "tournament": "Lanka Premier League, 2026",
-      "short_name": null,
-      "match_id": 4246729,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "01 August 2026 07:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://images.fancode.com/aig/match/v1784105762372/4246729_CASACARDS_SPORTY_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4246729_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1784105762372/4246729_CASACARDS_SPORTY_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Lanka-Premier-League-T20-2026.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4246729_52991_CK_GG_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1784105762372/4246729_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4246729_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Galle Gallants",
-          "shortName": "GG",
-          "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png"
-          },
-          "isWinner": true,
-          "color": "#3D900C",
-          "cricketScore": [
-            {
-              "runs": 201,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 6
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Colombo Kaps",
-          "shortName": "CK",
-          "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Colombo-KAPS.png"
-          },
-          "isWinner": false,
-          "color": "#dc37c2",
-          "cricketScore": [
-            {
-              "runs": 188,
-              "overs": "19.4",
-              "balls": "118",
-              "status": "IN_PROGRESS",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
       "title": "Guyana Amazon Warriors Vs San Francisco Unicorns",
       "tournament": "Global Super League, 2026",
       "short_name": null,
@@ -1830,6 +1567,83 @@
           },
           "isWinner": null,
           "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Dambulla Sixers Vs Jaffna Kings",
+      "tournament": "Lanka Premier League, 2026",
+      "short_name": null,
+      "match_id": 4246719,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "02 August 2026 07:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1784105762375/4246719_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4246719_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1784105762375/4246719_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Lanka-Premier-League-T20-2026.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4246719_52991_JK_DS_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1784105762375/4246719_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4246719_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Dambulla Sixers",
+          "shortName": "DS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4EA4EC",
+          "cricketScore": [
+            {
+              "runs": 203,
+              "overs": "20",
+              "balls": "120",
+              "status": "IN_PROGRESS",
+              "wickets": 8
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Jaffna Kings",
+          "shortName": "JK",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Jaffna-Kings-Team-Logo.png"
+          },
+          "isWinner": null,
+          "color": "#232451",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -3072,6 +2886,144 @@
           },
           "isWinner": null,
           "color": "#d01909",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "East Delhi Riders Vs North Delhi Strikers",
+      "tournament": "Delhi Premier League, 2026",
+      "short_name": null,
+      "match_id": 4247976,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 August 2026 07:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/DPL-Mini.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247976_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/DPL-Mini.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/DPL-Mini.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247976_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "East Delhi Riders",
+          "shortName": "EDR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-EDR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#e7993a",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "North Delhi Strikers",
+          "shortName": "NDS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4686c7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Chelsea Vs Juventus",
+      "tournament": "Club Friendlies 2026",
+      "short_name": null,
+      "match_id": 4248018,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 August 2026 05:15 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Chelsea-vs-Juventus_Web-match-card.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248018_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Chelsea-vs-Juventus_Web-match-card.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Chelsea-vs-Juventus_Web-match-card.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248018_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Chelsea",
+          "shortName": "CHE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHEL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#577fb2",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Juventus",
+          "shortName": "JUV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JUT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4c4c4c",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
