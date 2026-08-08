@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:21:07 PM 08-08-2026",
+  "last_updated": "10:14:10 PM 08-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 9,
-  "upcoming_matches": 31,
+  "live_matches": 10,
+  "upcoming_matches": 30,
   "matches": [
     {
       "category": "Cricket",
@@ -44,11 +44,11 @@
           "color": "#0a2346",
           "cricketScore": [
             {
-              "runs": 111,
-              "overs": "13",
-              "balls": "78",
+              "runs": 216,
+              "overs": "20",
+              "balls": "120",
               "status": "IN_PROGRESS",
-              "wickets": 3
+              "wickets": 9
             }
           ],
           "kabaddiScore": null,
@@ -148,7 +148,7 @@
               "runs": 123,
               "overs": "19.3",
               "balls": "117",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 10
             }
           ],
@@ -158,7 +158,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -170,14 +170,22 @@
           },
           "isWinner": null,
           "color": "#3D900C",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 74,
+              "overs": "8.1",
+              "balls": "49",
+              "status": "IN_PROGRESS",
+              "wickets": 3
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -209,261 +217,6 @@
           "cookie_valid": "1786279877",
           "create_date": "Saturday, August 8, 2026, 6:21:18 PM",
           "expire_date": "Sunday, August 9, 2026, 6:21:17 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Derby County Football Club Vs Lincoln City F.c.",
-      "tournament": "Carabao Cup 2026-27",
-      "short_name": null,
-      "match_id": 4248171,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "08 August 2026 07:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248171_53016_DER_LNC_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248171_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248171_53016_DER_LNC_fc-web.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248171_53016_DER_LNC_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248171_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Derby County Football Club",
-          "shortName": "DER",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DER@2x.png"
-          },
-          "isWinner": null,
-          "color": "#B08A3C",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "Lincoln City F.C.",
-          "shortName": "LNC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LNC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#CE1313",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/index.m3u8",
-        "Akamai_cdn": "Unavailable",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/240p.m3u8?hdntl=Expires=1786283045~_GO=Generated~acl=/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/*~Signature=AYCJ36S_X6XiG8ZCaE6nCNNeJbAoGUny8hPnMyxIUkGn2fvUhnbhUXGK-W-xbpkx208PpZzDoY415EiF-Ft0RP_1j4EE\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/360p.m3u8?hdntl=Expires=1786283045~_GO=Generated~acl=/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/*~Signature=AYCJ36S_X6XiG8ZCaE6nCNNeJbAoGUny8hPnMyxIUkGn2fvUhnbhUXGK-W-xbpkx208PpZzDoY415EiF-Ft0RP_1j4EE\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/480p.m3u8?hdntl=Expires=1786283045~_GO=Generated~acl=/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/*~Signature=AYCJ36S_X6XiG8ZCaE6nCNNeJbAoGUny8hPnMyxIUkGn2fvUhnbhUXGK-W-xbpkx208PpZzDoY415EiF-Ft0RP_1j4EE\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/540p.m3u8?hdntl=Expires=1786283045~_GO=Generated~acl=/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/*~Signature=AYCJ36S_X6XiG8ZCaE6nCNNeJbAoGUny8hPnMyxIUkGn2fvUhnbhUXGK-W-xbpkx208PpZzDoY415EiF-Ft0RP_1j4EE\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/720p.m3u8?hdntl=Expires=1786283045~_GO=Generated~acl=/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/*~Signature=AYCJ36S_X6XiG8ZCaE6nCNNeJbAoGUny8hPnMyxIUkGn2fvUhnbhUXGK-W-xbpkx208PpZzDoY415EiF-Ft0RP_1j4EE\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786283045~_GO=Generated~acl=/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/*~Signature=AYCJ36S_X6XiG8ZCaE6nCNNeJbAoGUny8hPnMyxIUkGn2fvUhnbhUXGK-W-xbpkx208PpZzDoY415EiF-Ft0RP_1j4EE",
-          "cookie": "hdntl=Expires=1786283045~_GO=Generated~acl=/mumbai/4248171_english_hls_3bd7412ab951698_1ta-di_h264/*~Signature=AYCJ36S_X6XiG8ZCaE6nCNNeJbAoGUny8hPnMyxIUkGn2fvUhnbhUXGK-W-xbpkx208PpZzDoY415EiF-Ft0RP_1j4EE",
-          "cookie_valid": "1786283045",
-          "create_date": "Saturday, August 8, 2026, 7:14:05 PM",
-          "expire_date": "Sunday, August 9, 2026, 7:14:05 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Swansea City A.f.c. Vs Birmingham City F.c.",
-      "tournament": "Carabao Cup 2026-27",
-      "short_name": null,
-      "match_id": 4248172,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "08 August 2026 07:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://images.fancode.com/aig/match/v1785149849988/4248172_CASACARDS_SPORTY_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248172_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1785149849988/4248172_CASACARDS_SPORTY_APP.png",
-        "PLAYBACK": "",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248172_53016_SWA_BIR_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1785149849988/4248172_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248172_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Swansea City A.F.C.",
-          "shortName": "SWA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SWN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "Birmingham City F.C.",
-          "shortName": "BIR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BIRM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#6183ca",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/index.m3u8",
-        "Akamai_cdn": "Unavailable",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "LOKI",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/240p.m3u8?hdntl=Expires=1786283465~_GO=Generated~acl=/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/*~Signature=AYCJ36QMwHyGS4FcR7KDKQqzU4LGPsIh6kfLqbYDhlVzKdzemUZfyxPi-cIu4ors2es9uWGN1hPJgZN23PbBNB311YQL\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/360p.m3u8?hdntl=Expires=1786283465~_GO=Generated~acl=/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/*~Signature=AYCJ36QMwHyGS4FcR7KDKQqzU4LGPsIh6kfLqbYDhlVzKdzemUZfyxPi-cIu4ors2es9uWGN1hPJgZN23PbBNB311YQL\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/480p.m3u8?hdntl=Expires=1786283465~_GO=Generated~acl=/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/*~Signature=AYCJ36QMwHyGS4FcR7KDKQqzU4LGPsIh6kfLqbYDhlVzKdzemUZfyxPi-cIu4ors2es9uWGN1hPJgZN23PbBNB311YQL\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/540p.m3u8?hdntl=Expires=1786283465~_GO=Generated~acl=/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/*~Signature=AYCJ36QMwHyGS4FcR7KDKQqzU4LGPsIh6kfLqbYDhlVzKdzemUZfyxPi-cIu4ors2es9uWGN1hPJgZN23PbBNB311YQL\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/720p.m3u8?hdntl=Expires=1786283465~_GO=Generated~acl=/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/*~Signature=AYCJ36QMwHyGS4FcR7KDKQqzU4LGPsIh6kfLqbYDhlVzKdzemUZfyxPi-cIu4ors2es9uWGN1hPJgZN23PbBNB311YQL\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786283465~_GO=Generated~acl=/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/*~Signature=AYCJ36QMwHyGS4FcR7KDKQqzU4LGPsIh6kfLqbYDhlVzKdzemUZfyxPi-cIu4ors2es9uWGN1hPJgZN23PbBNB311YQL",
-          "cookie": "hdntl=Expires=1786283465~_GO=Generated~acl=/mumbai/4248172_english_hls_c9c75adddf840_1ta-di_h264/*~Signature=AYCJ36QMwHyGS4FcR7KDKQqzU4LGPsIh6kfLqbYDhlVzKdzemUZfyxPi-cIu4ors2es9uWGN1hPJgZN23PbBNB311YQL",
-          "cookie_valid": "1786283465",
-          "create_date": "Saturday, August 8, 2026, 7:21:05 PM",
-          "expire_date": "Sunday, August 9, 2026, 7:21:05 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "West Ham United Vs Portsmouth F.c.",
-      "tournament": "Carabao Cup 2026-27",
-      "short_name": null,
-      "match_id": 4248173,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "08 August 2026 07:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://images.fancode.com/aig/match/v1785149849990/4248173_CASACARDS_SPORTY_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248173_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1785149849990/4248173_CASACARDS_SPORTY_APP.png",
-        "PLAYBACK": "",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248173_53016_WHU_PRM_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1785149849990/4248173_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248173_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "West Ham United",
-          "shortName": "WHU",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WHA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#b7961b",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "Portsmouth F.C.",
-          "shortName": "PRM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PORTS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#13277b",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/index.m3u8",
-        "Akamai_cdn": "Unavailable",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "LOKI",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/240p.m3u8?hdntl=Expires=1786283467~_GO=Generated~acl=/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/*~Signature=AYCJ36T4Jlv1uzHzsW2MJorww4pRToQi7i9IcXTU2OaK7aaUbsEv_cdaWi8x4hBQA_aKVnLTtXRl2DOdtyzbvB4BGNsB\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/360p.m3u8?hdntl=Expires=1786283467~_GO=Generated~acl=/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/*~Signature=AYCJ36T4Jlv1uzHzsW2MJorww4pRToQi7i9IcXTU2OaK7aaUbsEv_cdaWi8x4hBQA_aKVnLTtXRl2DOdtyzbvB4BGNsB\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/480p.m3u8?hdntl=Expires=1786283467~_GO=Generated~acl=/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/*~Signature=AYCJ36T4Jlv1uzHzsW2MJorww4pRToQi7i9IcXTU2OaK7aaUbsEv_cdaWi8x4hBQA_aKVnLTtXRl2DOdtyzbvB4BGNsB\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/540p.m3u8?hdntl=Expires=1786283467~_GO=Generated~acl=/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/*~Signature=AYCJ36T4Jlv1uzHzsW2MJorww4pRToQi7i9IcXTU2OaK7aaUbsEv_cdaWi8x4hBQA_aKVnLTtXRl2DOdtyzbvB4BGNsB\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/720p.m3u8?hdntl=Expires=1786283467~_GO=Generated~acl=/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/*~Signature=AYCJ36T4Jlv1uzHzsW2MJorww4pRToQi7i9IcXTU2OaK7aaUbsEv_cdaWi8x4hBQA_aKVnLTtXRl2DOdtyzbvB4BGNsB\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786283467~_GO=Generated~acl=/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/*~Signature=AYCJ36T4Jlv1uzHzsW2MJorww4pRToQi7i9IcXTU2OaK7aaUbsEv_cdaWi8x4hBQA_aKVnLTtXRl2DOdtyzbvB4BGNsB",
-          "cookie": "hdntl=Expires=1786283467~_GO=Generated~acl=/mumbai/4248173_english_hls_3924f1b6e556412_1ta-di_h264/*~Signature=AYCJ36T4Jlv1uzHzsW2MJorww4pRToQi7i9IcXTU2OaK7aaUbsEv_cdaWi8x4hBQA_aKVnLTtXRl2DOdtyzbvB4BGNsB",
-          "cookie_valid": "1786283467",
-          "create_date": "Saturday, August 8, 2026, 7:21:07 PM",
-          "expire_date": "Sunday, August 9, 2026, 7:21:07 PM",
           "language": "ENGLISH"
         }
       ]
@@ -531,8 +284,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "39440",
+                "shortName": "B Mbeumo",
+                "isOwnGoal": false,
+                "goalTime": "32'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -570,6 +330,91 @@
           "cookie_valid": "1786286645",
           "create_date": "Saturday, August 8, 2026, 8:14:05 PM",
           "expire_date": "Sunday, August 9, 2026, 8:14:05 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Colchester United Vs Southampton F.c.",
+      "tournament": "Carabao Cup 2026-27",
+      "short_name": null,
+      "match_id": 4248174,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "08 August 2026 10:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1785149849989/4248174_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248174_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1785149849989/4248174_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": "",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248174_53016_CLC_SOU_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1785149849989/4248174_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248174_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Colchester United",
+          "shortName": "CLC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CLC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1282C6",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Southampton F.C.",
+          "shortName": "SOU",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SOU@2x.png"
+          },
+          "isWinner": null,
+          "color": "#de4d5f",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "LOKI",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/240p.m3u8?hdntl=Expires=1786292347~_GO=Generated~acl=/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/*~Signature=AYCJ36S9ZEdJcFwfStC91JMcSoc9Mj1zLIrZLw9g_KgP0QgP_Z6h-oIwgh2u2W95ecxXLtK4KVplRv_8oRQcP38SmfEA\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/360p.m3u8?hdntl=Expires=1786292347~_GO=Generated~acl=/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/*~Signature=AYCJ36S9ZEdJcFwfStC91JMcSoc9Mj1zLIrZLw9g_KgP0QgP_Z6h-oIwgh2u2W95ecxXLtK4KVplRv_8oRQcP38SmfEA\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/480p.m3u8?hdntl=Expires=1786292347~_GO=Generated~acl=/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/*~Signature=AYCJ36S9ZEdJcFwfStC91JMcSoc9Mj1zLIrZLw9g_KgP0QgP_Z6h-oIwgh2u2W95ecxXLtK4KVplRv_8oRQcP38SmfEA\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/540p.m3u8?hdntl=Expires=1786292347~_GO=Generated~acl=/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/*~Signature=AYCJ36S9ZEdJcFwfStC91JMcSoc9Mj1zLIrZLw9g_KgP0QgP_Z6h-oIwgh2u2W95ecxXLtK4KVplRv_8oRQcP38SmfEA\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/720p.m3u8?hdntl=Expires=1786292347~_GO=Generated~acl=/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/*~Signature=AYCJ36S9ZEdJcFwfStC91JMcSoc9Mj1zLIrZLw9g_KgP0QgP_Z6h-oIwgh2u2W95ecxXLtK4KVplRv_8oRQcP38SmfEA\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786292347~_GO=Generated~acl=/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/*~Signature=AYCJ36S9ZEdJcFwfStC91JMcSoc9Mj1zLIrZLw9g_KgP0QgP_Z6h-oIwgh2u2W95ecxXLtK4KVplRv_8oRQcP38SmfEA",
+          "cookie": "hdntl=Expires=1786292347~_GO=Generated~acl=/mumbai/4248174_english_hls_7356322ddd70333_1ta-di_h264/*~Signature=AYCJ36S9ZEdJcFwfStC91JMcSoc9Mj1zLIrZLw9g_KgP0QgP_Z6h-oIwgh2u2W95ecxXLtK4KVplRv_8oRQcP38SmfEA",
+          "cookie_valid": "1786292347",
+          "create_date": "Saturday, August 8, 2026, 9:49:07 PM",
+          "expire_date": "Sunday, August 9, 2026, 9:49:07 PM",
           "language": "ENGLISH"
         }
       ]
@@ -761,36 +606,36 @@
       ]
     },
     {
-      "category": "Golf",
-      "title": "Day 3",
-      "tournament": "PIF London Championship 2026",
+      "category": "Tennis",
+      "title": "Court 5",
+      "tournament": "ATP Masters Omnium Banque National 2026",
       "short_name": null,
-      "match_id": 4248210,
+      "match_id": 4248082,
       "status": "LIVE",
       "streamingStatus": "STARTED",
-      "startTime": "08 August 2026 05:30 PM",
+      "startTime": "08 August 2026 10:00 PM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/PIF-London-Championship_FC-web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248210_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/PIF-London-Championship_FC-web.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248082_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
         "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/London-Championship.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/PIF-London-Championship_FC-web.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Golf.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248210_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248082_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Day 3",
-          "shortName": "Day 3",
+          "name": "Court 5",
+          "shortName": "Court 5",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PIY@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
           "isWinner": null,
-          "color": "#0056B5",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -803,8 +648,287 @@
           }
         },
         {
-          "name": "Centurion Club, St Albans, United Kingdom",
-          "shortName": "Centurion Club, St Albans, United Kingdom",
+          "name": "Montreal, Canada",
+          "shortName": "Montreal, Canada",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "LOKI",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/240p.m3u8?hdntl=Expires=1786292766~_GO=Generated~acl=/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/*~Signature=AYCJ36RqYUhJeKVU2IwUWL0WLAAUHE32KQ8nHNIxYCjieWGClGJhzSkGXat2QWP3eFbKSoCeKlT1xjZ2OtwPvHc52r4N\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/360p.m3u8?hdntl=Expires=1786292766~_GO=Generated~acl=/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/*~Signature=AYCJ36RqYUhJeKVU2IwUWL0WLAAUHE32KQ8nHNIxYCjieWGClGJhzSkGXat2QWP3eFbKSoCeKlT1xjZ2OtwPvHc52r4N\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/480p.m3u8?hdntl=Expires=1786292766~_GO=Generated~acl=/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/*~Signature=AYCJ36RqYUhJeKVU2IwUWL0WLAAUHE32KQ8nHNIxYCjieWGClGJhzSkGXat2QWP3eFbKSoCeKlT1xjZ2OtwPvHc52r4N\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/540p.m3u8?hdntl=Expires=1786292766~_GO=Generated~acl=/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/*~Signature=AYCJ36RqYUhJeKVU2IwUWL0WLAAUHE32KQ8nHNIxYCjieWGClGJhzSkGXat2QWP3eFbKSoCeKlT1xjZ2OtwPvHc52r4N\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/720p.m3u8?hdntl=Expires=1786292766~_GO=Generated~acl=/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/*~Signature=AYCJ36RqYUhJeKVU2IwUWL0WLAAUHE32KQ8nHNIxYCjieWGClGJhzSkGXat2QWP3eFbKSoCeKlT1xjZ2OtwPvHc52r4N\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786292766~_GO=Generated~acl=/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/*~Signature=AYCJ36RqYUhJeKVU2IwUWL0WLAAUHE32KQ8nHNIxYCjieWGClGJhzSkGXat2QWP3eFbKSoCeKlT1xjZ2OtwPvHc52r4N",
+          "cookie": "hdntl=Expires=1786292766~_GO=Generated~acl=/mumbai/4248082_english_hls_b785382d4412925_1ta-di_h264/*~Signature=AYCJ36RqYUhJeKVU2IwUWL0WLAAUHE32KQ8nHNIxYCjieWGClGJhzSkGXat2QWP3eFbKSoCeKlT1xjZ2OtwPvHc52r4N",
+          "cookie_valid": "1786292766",
+          "create_date": "Saturday, August 8, 2026, 9:56:06 PM",
+          "expire_date": "Sunday, August 9, 2026, 9:56:06 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Tennis",
+      "title": "Rogers Court",
+      "tournament": "ATP Masters Omnium Banque National 2026",
+      "short_name": null,
+      "match_id": 4248083,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "08 August 2026 10:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248083_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248083_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Rogers Court",
+          "shortName": "Rogers Court",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Montreal, Canada",
+          "shortName": "Montreal, Canada",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "LOKI",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/240p.m3u8?hdntl=Expires=1786292770~_GO=Generated~acl=/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/*~Signature=AYCJ36SR-I3Dj6zOTyh2NKizfvuxuQMt5fCV6bgiNo8l0q7N2BzZugHkKmg-BOH3LtQplu80IjB67NeDRdTqWUcRHCoL\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/360p.m3u8?hdntl=Expires=1786292770~_GO=Generated~acl=/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/*~Signature=AYCJ36SR-I3Dj6zOTyh2NKizfvuxuQMt5fCV6bgiNo8l0q7N2BzZugHkKmg-BOH3LtQplu80IjB67NeDRdTqWUcRHCoL\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/480p.m3u8?hdntl=Expires=1786292770~_GO=Generated~acl=/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/*~Signature=AYCJ36SR-I3Dj6zOTyh2NKizfvuxuQMt5fCV6bgiNo8l0q7N2BzZugHkKmg-BOH3LtQplu80IjB67NeDRdTqWUcRHCoL\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/540p.m3u8?hdntl=Expires=1786292770~_GO=Generated~acl=/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/*~Signature=AYCJ36SR-I3Dj6zOTyh2NKizfvuxuQMt5fCV6bgiNo8l0q7N2BzZugHkKmg-BOH3LtQplu80IjB67NeDRdTqWUcRHCoL\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/720p.m3u8?hdntl=Expires=1786292770~_GO=Generated~acl=/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/*~Signature=AYCJ36SR-I3Dj6zOTyh2NKizfvuxuQMt5fCV6bgiNo8l0q7N2BzZugHkKmg-BOH3LtQplu80IjB67NeDRdTqWUcRHCoL\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786292770~_GO=Generated~acl=/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/*~Signature=AYCJ36SR-I3Dj6zOTyh2NKizfvuxuQMt5fCV6bgiNo8l0q7N2BzZugHkKmg-BOH3LtQplu80IjB67NeDRdTqWUcRHCoL",
+          "cookie": "hdntl=Expires=1786292770~_GO=Generated~acl=/mumbai/4248083_english_hls_62ce73e70642627_1ta-di_h264/*~Signature=AYCJ36SR-I3Dj6zOTyh2NKizfvuxuQMt5fCV6bgiNo8l0q7N2BzZugHkKmg-BOH3LtQplu80IjB67NeDRdTqWUcRHCoL",
+          "cookie_valid": "1786292770",
+          "create_date": "Saturday, August 8, 2026, 9:56:10 PM",
+          "expire_date": "Sunday, August 9, 2026, 9:56:10 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Tennis",
+      "title": "World Feed 1",
+      "tournament": "ATP Masters Omnium Banque National 2026",
+      "short_name": null,
+      "match_id": 4248084,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "08 August 2026 10:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248084_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248084_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "World Feed 1",
+          "shortName": "World Feed 1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Montreal, Canada",
+          "shortName": "Montreal, Canada",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "LOKI",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/240p.m3u8?hdntl=Expires=1786292773~_GO=Generated~acl=/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/*~Signature=AYCJ36TunEYNnPR0uas19_H1Z8RoDwfiXp1oxJZGMKD08VxfWhdVSzKfpoDKgSUETtGOp1MRO_LYJXMF7MaQ4bBPiIEO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/360p.m3u8?hdntl=Expires=1786292773~_GO=Generated~acl=/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/*~Signature=AYCJ36TunEYNnPR0uas19_H1Z8RoDwfiXp1oxJZGMKD08VxfWhdVSzKfpoDKgSUETtGOp1MRO_LYJXMF7MaQ4bBPiIEO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/480p.m3u8?hdntl=Expires=1786292773~_GO=Generated~acl=/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/*~Signature=AYCJ36TunEYNnPR0uas19_H1Z8RoDwfiXp1oxJZGMKD08VxfWhdVSzKfpoDKgSUETtGOp1MRO_LYJXMF7MaQ4bBPiIEO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/540p.m3u8?hdntl=Expires=1786292773~_GO=Generated~acl=/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/*~Signature=AYCJ36TunEYNnPR0uas19_H1Z8RoDwfiXp1oxJZGMKD08VxfWhdVSzKfpoDKgSUETtGOp1MRO_LYJXMF7MaQ4bBPiIEO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/720p.m3u8?hdntl=Expires=1786292773~_GO=Generated~acl=/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/*~Signature=AYCJ36TunEYNnPR0uas19_H1Z8RoDwfiXp1oxJZGMKD08VxfWhdVSzKfpoDKgSUETtGOp1MRO_LYJXMF7MaQ4bBPiIEO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786292773~_GO=Generated~acl=/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/*~Signature=AYCJ36TunEYNnPR0uas19_H1Z8RoDwfiXp1oxJZGMKD08VxfWhdVSzKfpoDKgSUETtGOp1MRO_LYJXMF7MaQ4bBPiIEO",
+          "cookie": "hdntl=Expires=1786292773~_GO=Generated~acl=/mumbai/4248084_english_hls_039f9ad7bc18894_1ta-di_h264/*~Signature=AYCJ36TunEYNnPR0uas19_H1Z8RoDwfiXp1oxJZGMKD08VxfWhdVSzKfpoDKgSUETtGOp1MRO_LYJXMF7MaQ4bBPiIEO",
+          "cookie_valid": "1786292773",
+          "create_date": "Saturday, August 8, 2026, 9:56:12 PM",
+          "expire_date": "Sunday, August 9, 2026, 9:56:13 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Golf",
+      "title": "Day 3   World Feed",
+      "tournament": "Wyndham Championship 2026",
+      "short_name": null,
+      "match_id": 4248183,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "08 August 2026 10:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248183_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Wyndham-Championship.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Golf.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248183_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Day 3 - World Feed",
+          "shortName": "Day 3 - World Feed",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Sedgefield Country Club - Greensboro, NC",
+          "shortName": "Sedgefield Country Club - Greensboro, NC",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
           },
@@ -825,30 +949,30 @@
       "language": "ENGLISH",
       "STREAMING_CDN": {
         "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/index.m3u8",
         "Akamai_cdn": "Unavailable",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
+        "X-Served-By": "WALTER",
         "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/index.m3u8"
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/index.m3u8"
         }
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/240p.m3u8?hdntl=Expires=1786275846~_GO=Generated~acl=/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/*~Signature=AYCJ36RtA9_cu-S97VoSWQfK4ZgXeKolMQh9javx8jR4cVy7wEuYxWX438T_Lm4N0ldpU6iLMW5dqmJc7t05eEKjDrAC\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/360p.m3u8?hdntl=Expires=1786275846~_GO=Generated~acl=/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/*~Signature=AYCJ36RtA9_cu-S97VoSWQfK4ZgXeKolMQh9javx8jR4cVy7wEuYxWX438T_Lm4N0ldpU6iLMW5dqmJc7t05eEKjDrAC\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/480p.m3u8?hdntl=Expires=1786275846~_GO=Generated~acl=/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/*~Signature=AYCJ36RtA9_cu-S97VoSWQfK4ZgXeKolMQh9javx8jR4cVy7wEuYxWX438T_Lm4N0ldpU6iLMW5dqmJc7t05eEKjDrAC\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/540p.m3u8?hdntl=Expires=1786275846~_GO=Generated~acl=/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/*~Signature=AYCJ36RtA9_cu-S97VoSWQfK4ZgXeKolMQh9javx8jR4cVy7wEuYxWX438T_Lm4N0ldpU6iLMW5dqmJc7t05eEKjDrAC\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/720p.m3u8?hdntl=Expires=1786275846~_GO=Generated~acl=/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/*~Signature=AYCJ36RtA9_cu-S97VoSWQfK4ZgXeKolMQh9javx8jR4cVy7wEuYxWX438T_Lm4N0ldpU6iLMW5dqmJc7t05eEKjDrAC\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786275846~_GO=Generated~acl=/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/*~Signature=AYCJ36RtA9_cu-S97VoSWQfK4ZgXeKolMQh9javx8jR4cVy7wEuYxWX438T_Lm4N0ldpU6iLMW5dqmJc7t05eEKjDrAC",
-          "cookie": "hdntl=Expires=1786275846~_GO=Generated~acl=/mumbai/4248210_english_hls_b8636896f060096_1ta-di_h264/*~Signature=AYCJ36RtA9_cu-S97VoSWQfK4ZgXeKolMQh9javx8jR4cVy7wEuYxWX438T_Lm4N0ldpU6iLMW5dqmJc7t05eEKjDrAC",
-          "cookie_valid": "1786275846",
-          "create_date": "Saturday, August 8, 2026, 5:14:06 PM",
-          "expire_date": "Sunday, August 9, 2026, 5:14:06 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/240p.m3u8?hdntl=Expires=1786207779~_GO=Generated~acl=/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/*~Signature=AYCJ36Ri6JykjRBuw6k5mspthnTPQkvVHs_TCM2hxI3XANC42QaBQj1OMAnPKOD8mFWMdCWrDG4i8JghvE4C9uY3ke4L\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/360p.m3u8?hdntl=Expires=1786207779~_GO=Generated~acl=/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/*~Signature=AYCJ36Ri6JykjRBuw6k5mspthnTPQkvVHs_TCM2hxI3XANC42QaBQj1OMAnPKOD8mFWMdCWrDG4i8JghvE4C9uY3ke4L\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/480p.m3u8?hdntl=Expires=1786207779~_GO=Generated~acl=/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/*~Signature=AYCJ36Ri6JykjRBuw6k5mspthnTPQkvVHs_TCM2hxI3XANC42QaBQj1OMAnPKOD8mFWMdCWrDG4i8JghvE4C9uY3ke4L\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/540p.m3u8?hdntl=Expires=1786207779~_GO=Generated~acl=/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/*~Signature=AYCJ36Ri6JykjRBuw6k5mspthnTPQkvVHs_TCM2hxI3XANC42QaBQj1OMAnPKOD8mFWMdCWrDG4i8JghvE4C9uY3ke4L\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/720p.m3u8?hdntl=Expires=1786207779~_GO=Generated~acl=/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/*~Signature=AYCJ36Ri6JykjRBuw6k5mspthnTPQkvVHs_TCM2hxI3XANC42QaBQj1OMAnPKOD8mFWMdCWrDG4i8JghvE4C9uY3ke4L\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786207779~_GO=Generated~acl=/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/*~Signature=AYCJ36Ri6JykjRBuw6k5mspthnTPQkvVHs_TCM2hxI3XANC42QaBQj1OMAnPKOD8mFWMdCWrDG4i8JghvE4C9uY3ke4L",
+          "cookie": "hdntl=Expires=1786207779~_GO=Generated~acl=/mumbai/4248183_english_hls_3d2114a93d56237_1ta-di_h264/*~Signature=AYCJ36Ri6JykjRBuw6k5mspthnTPQkvVHs_TCM2hxI3XANC42QaBQj1OMAnPKOD8mFWMdCWrDG4i8JghvE4C9uY3ke4L",
+          "cookie_valid": "1786207779",
+          "create_date": "Saturday, August 8, 2026, 10:14:08 PM",
+          "expire_date": "Saturday, August 8, 2026, 10:19:39 PM",
           "language": "ENGLISH"
         }
       ]
@@ -904,75 +1028,6 @@
           "isWinner": null,
           "color": "#B8142D",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Colchester United Vs Southampton F.c.",
-      "tournament": "Carabao Cup 2026-27",
-      "short_name": null,
-      "match_id": 4248174,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "08 August 2026 10:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://images.fancode.com/aig/match/v1785149849989/4248174_CASACARDS_SPORTY_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248174_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1785149849989/4248174_CASACARDS_SPORTY_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248174_53016_CLC_SOU_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1785149849989/4248174_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248174_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Colchester United",
-          "shortName": "CLC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CLC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1282C6",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Southampton F.C.",
-          "shortName": "SOU",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SOU@2x.png"
-          },
-          "isWinner": null,
-          "color": "#de4d5f",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1337,213 +1392,6 @@
       "auto_streams": null
     },
     {
-      "category": "Tennis",
-      "title": "Court 5",
-      "tournament": "ATP Masters Omnium Banque National 2026",
-      "short_name": null,
-      "match_id": 4248082,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "08 August 2026 10:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248082_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248082_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Court 5",
-          "shortName": "Court 5",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Montreal, Canada",
-          "shortName": "Montreal, Canada",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Rogers Court",
-      "tournament": "ATP Masters Omnium Banque National 2026",
-      "short_name": null,
-      "match_id": 4248083,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "08 August 2026 10:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248083_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248083_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Rogers Court",
-          "shortName": "Rogers Court",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Montreal, Canada",
-          "shortName": "Montreal, Canada",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "World Feed 1",
-      "tournament": "ATP Masters Omnium Banque National 2026",
-      "short_name": null,
-      "match_id": 4248084,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "08 August 2026 10:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248084_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248084_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "World Feed 1",
-          "shortName": "World Feed 1",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Montreal, Canada",
-          "shortName": "Montreal, Canada",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "Arsenal Vs Borussia Dortmund",
       "tournament": "Club Friendlies 2026",
@@ -1731,75 +1579,6 @@
           },
           "isWinner": null,
           "color": "#ece125",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Golf",
-      "title": "Day 3   World Feed",
-      "tournament": "Wyndham Championship 2026",
-      "short_name": null,
-      "match_id": 4248183,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "08 August 2026 10:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248183_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Wyndham-Championship.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Golf.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248183_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Day 3 - World Feed",
-          "shortName": "Day 3 - World Feed",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Sedgefield Country Club - Greensboro, NC",
-          "shortName": "Sedgefield Country Club - Greensboro, NC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -3021,6 +2800,282 @@
           },
           "isWinner": null,
           "color": "#2f5ddf",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Purani Dilli 6 Vs Outer Delhi Warriors",
+      "tournament": "Delhi Premier League, 2026",
+      "short_name": null,
+      "match_id": 4247980,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "10 August 2026 07:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247980_53005_PD_ODW_fc-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247980_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247980_53005_PD_ODW_fc-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247980_53005_PD_ODW_fc-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247980_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Purani Dilli-6",
+          "shortName": "PD",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png"
+          },
+          "isWinner": null,
+          "color": "#c3333e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Outer Delhi Warriors",
+          "shortName": "ODW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0a2346",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Plymouth Argyle Vs Exeter City",
+      "tournament": "Carabao Cup 2026-27",
+      "short_name": null,
+      "match_id": 4248176,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 August 2026 12:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1785149849989/4248176_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248176_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1785149849989/4248176_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248176_53016_PLY_EC_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1785149849989/4248176_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248176_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Plymouth Argyle",
+          "shortName": "PLY",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PLYM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#2ecaa8",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Exeter City",
+          "shortName": "EC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EXE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffda00",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Tennis",
+      "title": "Atp Masters Omnium Banque National 2026",
+      "tournament": "ATP Masters Omnium Banque National 2026",
+      "short_name": null,
+      "match_id": 4248090,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "10 August 2026 10:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248090_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248090_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "ATP Masters Omnium Banque National 2026",
+          "shortName": "ATP Masters Omnium Banque National 2026",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Montreal, Canada",
+          "shortName": "Montreal, Canada",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Tennis",
+      "title": "Atp Masters Omnium Banque National 2026",
+      "tournament": "ATP Masters Omnium Banque National 2026",
+      "short_name": null,
+      "match_id": 4248091,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "10 August 2026 10:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248091_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248091_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "ATP Masters Omnium Banque National 2026",
+          "shortName": "ATP Masters Omnium Banque National 2026",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Montreal, Canada",
+          "shortName": "Montreal, Canada",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
