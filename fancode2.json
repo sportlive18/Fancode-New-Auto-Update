@@ -2,23 +2,23 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:49:02 AM 10-08-2026",
+  "last_updated": "01:21:05 PM 10-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 0,
-  "upcoming_matches": 40,
+  "live_matches": 1,
+  "upcoming_matches": 39,
   "matches": [
     {
       "category": "Cricket",
-      "title": "West Delhi Lions Vs East Delhi Riders",
+      "title": "East Delhi Riders Vs West Delhi Lions",
       "tournament": "Delhi Premier League, 2026",
       "short_name": null,
       "match_id": 4247985,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "10 August 2026 01:30 PM",
       "startDate": null,
       "endDate": null,
@@ -26,7 +26,7 @@
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247985_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247985_53005_WDL_EDR_fc-Web.png",
-        "PLAYBACK": null,
+        "PLAYBACK": "",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247985_53005_WDL_EDR_fc-Web.png",
@@ -34,6 +34,33 @@
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247985_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
+        {
+          "name": "East Delhi Riders",
+          "shortName": "EDR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-EDR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#e7993a",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
         {
           "name": "West Delhi Lions",
           "shortName": "WDL",
@@ -52,33 +79,38 @@
               "isBatting": false
             }
           }
-        },
-        {
-          "name": "East Delhi Riders",
-          "shortName": "EDR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-EDR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e7993a",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-ak-flive.akamaized.net/mumbai/4247985_english_hls_29c0c29e0a59151_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "fancode_np_cdn": "Unavailable",
+        "fancode_lk_cdn": "Unavailable",
+        "Akamai_cdn": "https://in-ak-flive.akamaized.net/mumbai/4247985_english_hls_29c0c29e0a59151_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "Unavailable",
+          "fancode_cdn_v1": "Unavailable",
+          "fancode_dai_cdn": "Unavailable"
+        }
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-ak-flive.akamaized.net/mumbai/4247985_english_hls_29c0c29e0a59151_1ta-di_h264/hdntl=exp=1786434665~acl=%2f*~id=323743885_ead1f7ab-6b0b-4e~data=hdntl~hmac=75ac689dec18decbae4000d571e025fa5f49c24b83d7ed2657c4506b5de3ebd7/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-ak-flive.akamaized.net/mumbai/4247985_english_hls_29c0c29e0a59151_1ta-di_h264/hdntl=exp=1786434665~acl=%2f*~id=323743885_ead1f7ab-6b0b-4e~data=hdntl~hmac=75ac689dec18decbae4000d571e025fa5f49c24b83d7ed2657c4506b5de3ebd7/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-ak-flive.akamaized.net/mumbai/4247985_english_hls_29c0c29e0a59151_1ta-di_h264/hdntl=exp=1786434665~acl=%2f*~id=323743885_ead1f7ab-6b0b-4e~data=hdntl~hmac=75ac689dec18decbae4000d571e025fa5f49c24b83d7ed2657c4506b5de3ebd7/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-ak-flive.akamaized.net/mumbai/4247985_english_hls_29c0c29e0a59151_1ta-di_h264/hdntl=exp=1786434665~acl=%2f*~id=323743885_ead1f7ab-6b0b-4e~data=hdntl~hmac=75ac689dec18decbae4000d571e025fa5f49c24b83d7ed2657c4506b5de3ebd7/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-ak-flive.akamaized.net/mumbai/4247985_english_hls_29c0c29e0a59151_1ta-di_h264/hdntl=exp=1786434665~acl=%2f*~id=323743885_ead1f7ab-6b0b-4e~data=hdntl~hmac=75ac689dec18decbae4000d571e025fa5f49c24b83d7ed2657c4506b5de3ebd7/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-ak-flive.akamaized.net/mumbai/4247985_english_hls_29c0c29e0a59151_1ta-di_h264/hdntl=exp=1786434665~acl=%2f*~id=323743885_ead1f7ab-6b0b-4e~data=hdntl~hmac=75ac689dec18decbae4000d571e025fa5f49c24b83d7ed2657c4506b5de3ebd7/1080p.m3u8",
+          "cookie": "hdntl=exp=1786434665~acl=%2f*~id=323743885_ead1f7ab-6b0b-4e~data=hdntl~hmac=75ac689dec18decbae4000d571e025fa5f49c24b83d7ed2657c4506b5de3ebd7",
+          "cookie_valid": "1786434665",
+          "create_date": "Monday, August 10, 2026, 1:21:04 PM",
+          "expire_date": "Tuesday, August 11, 2026, 1:21:05 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Cricket",
@@ -289,91 +321,6 @@
     },
     {
       "category": "Cricket",
-      "title": "Saint Lucia Kings Vs Antigua & Barbuda Falcons",
-      "tournament": "Caribbean Premier League, 2026",
-      "short_name": null,
-      "match_id": 4248280,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "10 August 2026 04:30 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248280_53026_ABF_SLK_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248280_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248280_53026_ABF_SLK_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/CPLT20_Caribbean-Premier-League.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248280_53026_ABF_SLK_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248280_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Saint Lucia Kings",
-          "shortName": "SLK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KIGS@2x.png"
-          },
-          "isWinner": true,
-          "color": "#1e6583",
-          "cricketScore": [
-            {
-              "runs": 187,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 8
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Antigua & Barbuda Falcons",
-          "shortName": "ABF",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ABF@2x.png"
-          },
-          "isWinner": false,
-          "color": "#CC0001",
-          "cricketScore": [
-            {
-              "runs": 183,
-              "overs": "20",
-              "balls": "120",
-              "status": "IN_PROGRESS",
-              "wickets": 7
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
       "title": "Central Delhi Kings Vs New Delhi Tigers",
       "tournament": "Delhi Premier League, 2026",
       "short_name": null,
@@ -422,144 +369,6 @@
           },
           "isWinner": null,
           "color": "#B8142D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Tanzania Vs Hong Kong, China",
-      "tournament": "ICC CWC Challenge League B 2026",
-      "short_name": null,
-      "match_id": 4248253,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 August 2026 11:30 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248253_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC_1785822553374.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248253_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Tanzania",
-          "shortName": "TAN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TNZN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#f9d94b",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Hong Kong, China",
-          "shortName": "HK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HK@2x.png"
-          },
-          "isWinner": null,
-          "color": "#c5190b",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Italy Vs Uganda",
-      "tournament": "ICC CWC Challenge League B 2026",
-      "short_name": null,
-      "match_id": 4248254,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 August 2026 11:30 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248254_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC_1785822553374.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248254_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Italy",
-          "shortName": "ITA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ITA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#a42322",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Uganda",
-          "shortName": "UGA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UGN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#677166",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -649,36 +458,174 @@
       "auto_streams": null
     },
     {
-      "category": "Tennis",
-      "title": "Atp Masters Omnium Banque National 2026",
-      "tournament": "ATP Masters Omnium Banque National 2026",
+      "category": "Cricket",
+      "title": "Tanzania Vs Hong Kong, China",
+      "tournament": "ICC CWC Challenge League B 2026",
       "short_name": null,
-      "match_id": 4248090,
+      "match_id": 4248253,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "10 August 2026 10:00 PM",
+      "startTime": "11 August 2026 11:30 AM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248090_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248253_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248090_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC_1785822553374.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248253_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "ATP Masters Omnium Banque National 2026",
-          "shortName": "ATP Masters Omnium Banque National 2026",
+          "name": "Tanzania",
+          "shortName": "TAN",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TNZN@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
+          "color": "#f9d94b",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Hong Kong, China",
+          "shortName": "HK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HK@2x.png"
+          },
+          "isWinner": null,
+          "color": "#c5190b",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Italy Vs Uganda",
+      "tournament": "ICC CWC Challenge League B 2026",
+      "short_name": null,
+      "match_id": 4248254,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 August 2026 11:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248254_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC_1785822553374.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248254_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Italy",
+          "shortName": "ITA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ITA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#a42322",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Uganda",
+          "shortName": "UGA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UGN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#677166",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "West Delhi Lions Vs North Delhi Strikers",
+      "tournament": "Delhi Premier League, 2026",
+      "short_name": null,
+      "match_id": 4247989,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 August 2026 07:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247989_53005_WDL_NDS_fc-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247989_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247989_53005_WDL_NDS_fc-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247989_53005_WDL_NDS_fc-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247989_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "West Delhi Lions",
+          "shortName": "WDL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ed4d0b",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -691,13 +638,13 @@
           }
         },
         {
-          "name": "Montreal, Canada",
-          "shortName": "Montreal, Canada",
+          "name": "North Delhi Strikers",
+          "shortName": "NDS",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
+          "color": "#4686c7",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -718,37 +665,37 @@
       "auto_streams": null
     },
     {
-      "category": "Tennis",
-      "title": "Atp Masters Omnium Banque National 2026",
-      "tournament": "ATP Masters Omnium Banque National 2026",
+      "category": "Cricket",
+      "title": "Oman Vs Goa",
+      "tournament": "Goa tour of Oman 2026",
       "short_name": null,
-      "match_id": 4248091,
+      "match_id": 4248362,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "10 August 2026 10:00 PM",
+      "startTime": "10 August 2026 08:00 PM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-T20is-old.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248091_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248362_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-T20is-old.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248091_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Goatourlogo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-T20is-old.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248362_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "ATP Masters Omnium Banque National 2026",
-          "shortName": "ATP Masters Omnium Banque National 2026",
+          "name": "Oman",
+          "shortName": "OMA",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
+          "color": "#ad1b0e",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -760,14 +707,14 @@
           }
         },
         {
-          "name": "Montreal, Canada",
-          "shortName": "Montreal, Canada",
+          "name": "Goa",
+          "shortName": "GOA",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Goa.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
+          "color": "#ffd64d",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -788,13 +735,13 @@
     },
     {
       "category": "Tennis",
-      "title": "Atp Masters Omnium Banque National 2026",
+      "title": "Rogers Court",
       "tournament": "ATP Masters Omnium Banque National 2026",
       "short_name": null,
       "match_id": 4248092,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "10 August 2026 10:00 PM",
+      "startTime": "11 August 2026 01:30 AM",
       "startDate": null,
       "endDate": null,
       "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
@@ -810,8 +757,8 @@
       },
       "team": [
         {
-          "name": "ATP Masters Omnium Banque National 2026",
-          "shortName": "ATP Masters Omnium Banque National 2026",
+          "name": "Rogers Court",
+          "shortName": "Rogers Court",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
@@ -857,30 +804,30 @@
     },
     {
       "category": "Tennis",
-      "title": "Atp Masters Omnium Banque National 2026",
+      "title": "World Feed",
       "tournament": "ATP Masters Omnium Banque National 2026",
       "short_name": null,
-      "match_id": 4248093,
+      "match_id": 4248090,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "10 August 2026 10:00 PM",
+      "startTime": "11 August 2026 02:30 AM",
       "startDate": null,
       "endDate": null,
       "image": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248093_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248090_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
         "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Masters-Omnium-Banque-National-2026_FC-WEB.jpg",
         "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248093_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248090_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "ATP Masters Omnium Banque National 2026",
-          "shortName": "ATP Masters Omnium Banque National 2026",
+          "name": "World Feed",
+          "shortName": "World Feed",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
@@ -1180,144 +1127,6 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "West Delhi Lions Vs North Delhi Strikers",
-      "tournament": "Delhi Premier League, 2026",
-      "short_name": null,
-      "match_id": 4247989,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 August 2026 07:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247989_53005_WDL_NDS_fc-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247989_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247989_53005_WDL_NDS_fc-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247989_53005_WDL_NDS_fc-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247989_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "West Delhi Lions",
-          "shortName": "WDL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ed4d0b",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "North Delhi Strikers",
-          "shortName": "NDS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4686c7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Oman Vs Goa",
-      "tournament": "Goa tour of Oman 2026",
-      "short_name": null,
-      "match_id": 4248362,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 August 2026 08:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-T20is-old.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248362_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-T20is-old.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Goatourlogo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-T20is-old.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248362_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Oman",
-          "shortName": "OMA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ad1b0e",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Goa",
-          "shortName": "GOA",
-          "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Goa.png"
-          },
-          "isWinner": null,
-          "color": "#ffd64d",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Live Events",
       "title": "Third Place",
       "tournament": "Asian University Basketball League 2026",
@@ -1436,6 +1245,75 @@
           },
           "isWinner": null,
           "color": "#FFFFFF",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Oman Vs Goa",
+      "tournament": "Goa tour of Oman 2026",
+      "short_name": null,
+      "match_id": 4248363,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 August 2026 08:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-T20is-old.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248363_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-T20is-old.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Goatourlogo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-T20is-old.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248363_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Oman",
+          "shortName": "OMA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ad1b0e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Goa",
+          "shortName": "GOA",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Goa.png"
+          },
+          "isWinner": null,
+          "color": "#ffd64d",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1712,75 +1590,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Oman Vs Goa",
-      "tournament": "Goa tour of Oman 2026",
-      "short_name": null,
-      "match_id": 4248363,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 August 2026 08:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-T20is-old.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248363_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-T20is-old.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Goatourlogo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-T20is-old.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248363_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Oman",
-          "shortName": "OMA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ad1b0e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Goa",
-          "shortName": "GOA",
-          "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Goa.png"
-          },
-          "isWinner": null,
-          "color": "#ffd64d",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2816,6 +2625,213 @@
           },
           "isWinner": null,
           "color": "#c3333e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Oman Vs Goa",
+      "tournament": "Goa tour of Oman 2026",
+      "short_name": null,
+      "match_id": 4248364,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 August 2026 04:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-ODI-old.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248364_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-ODI-old.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Goatourlogo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-ODI-old.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248364_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Oman",
+          "shortName": "OMA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ad1b0e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Goa",
+          "shortName": "GOA",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Goa.png"
+          },
+          "isWinner": null,
+          "color": "#ffd64d",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Golf",
+      "title": "Day 1",
+      "tournament": "VP Bank Swiss Ladies Open 2026",
+      "short_name": null,
+      "match_id": 4248320,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 August 2026 07:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/VP-Bank-Swiss-Ladies-Open-2026-old.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248320_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/VP-Bank-Swiss-Ladies-Open-2026-old.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/06/Swiss-Ladies-Open_Tour-Size.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/VP-Bank-Swiss-Ladies-Open-2026-old.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Golf.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248320_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Day 1",
+          "shortName": "Day 1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-VPSL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#013769",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Golfpark Holzhausem",
+          "shortName": "Golfpark Holzhausem",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Al Shabab Fc Vs Al Quadisiya",
+      "tournament": "Roshn Saudi League 2026-2027",
+      "short_name": null,
+      "match_id": 4248265,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 August 2026 11:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1786336466072.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248265_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1786336466072.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1786336466072.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248265_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Al-Shabab FC",
+          "shortName": "ASF",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ASF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ca8e19",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Al-Quadisiya",
+          "shortName": "ALQ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/ALQ-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1234",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
