@@ -2,15 +2,100 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "11:56:03 PM 10-08-2026",
+  "last_updated": "12:14:06 AM 11-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 0,
-  "upcoming_matches": 40,
+  "live_matches": 1,
+  "upcoming_matches": 39,
   "matches": [
+    {
+      "category": "Football",
+      "title": "Plymouth Argyle Vs Exeter City",
+      "tournament": "Carabao Cup 2026-27",
+      "short_name": null,
+      "match_id": 4248176,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "11 August 2026 12:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1785149849989/4248176_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248176_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1785149849989/4248176_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": "",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248176_53016_PLY_EC_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1785149849989/4248176_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248176_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Plymouth Argyle",
+          "shortName": "PLY",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PLYM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#2ecaa8",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Exeter City",
+          "shortName": "EC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EXE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffda00",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/240p.m3u8?hdntl=Expires=1786473844~_GO=Generated~acl=/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/*~Signature=AVMBkTW3_AvdRJkMwg92BULReUy2LMYJ0qkemYwsGXz4WelZED1Rp67jYYSMXeVOvPJM3on20jevSZX5YS5fCoh8wnoL\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/360p.m3u8?hdntl=Expires=1786473844~_GO=Generated~acl=/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/*~Signature=AVMBkTW3_AvdRJkMwg92BULReUy2LMYJ0qkemYwsGXz4WelZED1Rp67jYYSMXeVOvPJM3on20jevSZX5YS5fCoh8wnoL\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/480p.m3u8?hdntl=Expires=1786473844~_GO=Generated~acl=/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/*~Signature=AVMBkTW3_AvdRJkMwg92BULReUy2LMYJ0qkemYwsGXz4WelZED1Rp67jYYSMXeVOvPJM3on20jevSZX5YS5fCoh8wnoL\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/540p.m3u8?hdntl=Expires=1786473844~_GO=Generated~acl=/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/*~Signature=AVMBkTW3_AvdRJkMwg92BULReUy2LMYJ0qkemYwsGXz4WelZED1Rp67jYYSMXeVOvPJM3on20jevSZX5YS5fCoh8wnoL\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/720p.m3u8?hdntl=Expires=1786473844~_GO=Generated~acl=/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/*~Signature=AVMBkTW3_AvdRJkMwg92BULReUy2LMYJ0qkemYwsGXz4WelZED1Rp67jYYSMXeVOvPJM3on20jevSZX5YS5fCoh8wnoL\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786473844~_GO=Generated~acl=/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/*~Signature=AVMBkTW3_AvdRJkMwg92BULReUy2LMYJ0qkemYwsGXz4WelZED1Rp67jYYSMXeVOvPJM3on20jevSZX5YS5fCoh8wnoL",
+          "cookie": "hdntl=Expires=1786473844~_GO=Generated~acl=/mumbai/4248176_english_hls_30d825e59492259_1ta-di_h264/*~Signature=AVMBkTW3_AvdRJkMwg92BULReUy2LMYJ0qkemYwsGXz4WelZED1Rp67jYYSMXeVOvPJM3on20jevSZX5YS5fCoh8wnoL",
+          "cookie_valid": "1786473844",
+          "create_date": "Tuesday, August 11, 2026, 12:14:04 AM",
+          "expire_date": "Wednesday, August 12, 2026, 12:14:04 AM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
     {
       "category": "Cricket",
       "title": "Central Delhi Kings Vs New Delhi Tigers",
@@ -131,75 +216,6 @@
           "isWinner": null,
           "color": "#d01909",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Plymouth Argyle Vs Exeter City",
-      "tournament": "Carabao Cup 2026-27",
-      "short_name": null,
-      "match_id": 4248176,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 August 2026 12:30 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://images.fancode.com/aig/match/v1785149849989/4248176_CASACARDS_SPORTY_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248176_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1785149849989/4248176_CASACARDS_SPORTY_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248176_53016_PLY_EC_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1785149849989/4248176_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248176_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Plymouth Argyle",
-          "shortName": "PLY",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PLYM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#2ecaa8",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Exeter City",
-          "shortName": "EC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EXE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ffda00",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -633,6 +649,75 @@
       "auto_streams": null
     },
     {
+      "category": "Live Events",
+      "title": "Final",
+      "tournament": "Asian University Basketball League 2026",
+      "short_name": null,
+      "match_id": 4248229,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 August 2026 05:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Asian-University-Basketball-League_FC-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248229_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Asian-University-Basketball-League_FC-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AUBL-TourSize.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Asian-University-Basketball-League_FC-web.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Live-Event.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248229_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Final",
+          "shortName": "Final",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/AUBL-TourSize.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Binjiang Gymnasium, China",
+          "shortName": "Binjiang Gymnasium, China",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFFFFF",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Cricket",
       "title": "United Arab Emirates Vs Scotland",
       "tournament": "ICC CWC League 2 Scotland, 2026",
@@ -961,75 +1046,6 @@
           "status": {
             "cricket": {
               "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Live Events",
-      "title": "Final",
-      "tournament": "Asian University Basketball League 2026",
-      "short_name": null,
-      "match_id": 4248229,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 August 2026 05:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Asian-University-Basketball-League_FC-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248229_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Asian-University-Basketball-League_FC-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AUBL-TourSize.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Asian-University-Basketball-League_FC-web.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Live-Event.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248229_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Final",
-          "shortName": "Final",
-          "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/AUBL-TourSize.png"
-          },
-          "isWinner": null,
-          "color": "#DCDCDC",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Binjiang Gymnasium, China",
-          "shortName": "Binjiang Gymnasium, China",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FFFFFF",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
             }
           }
         }
