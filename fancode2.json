@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:35:06 AM 12-08-2026",
+  "last_updated": "05:21:10 AM 12-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 2,
-  "upcoming_matches": 38,
+  "live_matches": 3,
+  "upcoming_matches": 37,
   "matches": [
     {
       "category": "Tennis",
@@ -193,6 +193,107 @@
           "cookie_valid": "1786572305",
           "create_date": "Wednesday, August 12, 2026, 3:35:05 AM",
           "expire_date": "Thursday, August 13, 2026, 3:35:05 AM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Barbados Tridents Vs Jamaica Kingsmen",
+      "tournament": "Caribbean Premier League, 2026",
+      "short_name": null,
+      "match_id": 4248287,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "12 August 2026 05:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248287_53026_JK_BT_FC-Web_1786367987042.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248287_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248287_53026_JK_BT_FC-Web_1786367987042.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/CPLT20_Caribbean-Premier-League.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248287_53026_JK_BT_FC-Web_1786367987042.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248287_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Barbados Tridents",
+          "shortName": "BT",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Barbardos-Tridents.png"
+          },
+          "isWinner": null,
+          "color": "#621241",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Jamaica Kingsmen",
+          "shortName": "JK",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Jamaica-Kingsmen.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "WALTER",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/240p.m3u8?hdntl=Expires=1786492600~_GO=Generated~acl=/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/*~Signature=AVMBkTVVWUCjba8zK6w2TA5MCjuno295xZtAVeE9kgZSwD-ACxljvMAtd9oWqVglsyRVsT4pVV7ekA3vCyGA61Z6gH0L\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/360p.m3u8?hdntl=Expires=1786492600~_GO=Generated~acl=/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/*~Signature=AVMBkTVVWUCjba8zK6w2TA5MCjuno295xZtAVeE9kgZSwD-ACxljvMAtd9oWqVglsyRVsT4pVV7ekA3vCyGA61Z6gH0L\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/480p.m3u8?hdntl=Expires=1786492600~_GO=Generated~acl=/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/*~Signature=AVMBkTVVWUCjba8zK6w2TA5MCjuno295xZtAVeE9kgZSwD-ACxljvMAtd9oWqVglsyRVsT4pVV7ekA3vCyGA61Z6gH0L\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/540p.m3u8?hdntl=Expires=1786492600~_GO=Generated~acl=/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/*~Signature=AVMBkTVVWUCjba8zK6w2TA5MCjuno295xZtAVeE9kgZSwD-ACxljvMAtd9oWqVglsyRVsT4pVV7ekA3vCyGA61Z6gH0L\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/720p.m3u8?hdntl=Expires=1786492600~_GO=Generated~acl=/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/*~Signature=AVMBkTVVWUCjba8zK6w2TA5MCjuno295xZtAVeE9kgZSwD-ACxljvMAtd9oWqVglsyRVsT4pVV7ekA3vCyGA61Z6gH0L\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786492600~_GO=Generated~acl=/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/*~Signature=AVMBkTVVWUCjba8zK6w2TA5MCjuno295xZtAVeE9kgZSwD-ACxljvMAtd9oWqVglsyRVsT4pVV7ekA3vCyGA61Z6gH0L",
+          "cookie": "hdntl=Expires=1786492600~_GO=Generated~acl=/mumbai/4248287_english_hls_114791f94820087_1ta-di_h264/*~Signature=AVMBkTVVWUCjba8zK6w2TA5MCjuno295xZtAVeE9kgZSwD-ACxljvMAtd9oWqVglsyRVsT4pVV7ekA3vCyGA61Z6gH0L",
+          "cookie_valid": "1786492600",
+          "create_date": "Wednesday, August 12, 2026, 5:21:10 AM",
+          "expire_date": "Wednesday, August 12, 2026, 5:26:40 AM",
           "language": "ENGLISH"
         }
       ]
@@ -612,330 +713,6 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "Jamaica Kingsmen Vs Barbados Tridents",
-      "tournament": "Caribbean Premier League, 2026",
-      "short_name": null,
-      "match_id": 4248287,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "12 August 2026 05:30 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248287_53026_JK_BT_FC-Web_1786367987042.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248287_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248287_53026_JK_BT_FC-Web_1786367987042.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/CPLT20_Caribbean-Premier-League.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248287_53026_JK_BT_FC-Web_1786367987042.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248287_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Jamaica Kingsmen",
-          "shortName": "JK",
-          "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Jamaica-Kingsmen.png"
-          },
-          "isWinner": null,
-          "color": "#DCDCDC",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Barbados Tridents",
-          "shortName": "BT",
-          "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Barbardos-Tridents.png"
-          },
-          "isWinner": null,
-          "color": "#621241",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "New Delhi Tigers Vs Central Delhi Kings",
-      "tournament": "Delhi Premier League, 2026",
-      "short_name": null,
-      "match_id": 4247982,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "11 August 2026 01:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247982_53005_CDK_NDT_fc-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247982_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247982_53005_CDK_NDT_fc-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247982_53005_CDK_NDT_fc-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247982_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "New Delhi Tigers",
-          "shortName": "NDT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png"
-          },
-          "isWinner": false,
-          "color": "#B8142D",
-          "cricketScore": [
-            {
-              "runs": 185,
-              "overs": "18",
-              "balls": "108",
-              "status": "COMPLETED",
-              "wickets": 8
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Central Delhi Kings",
-          "shortName": "CDK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png"
-          },
-          "isWinner": true,
-          "color": "#0082cb",
-          "cricketScore": [
-            {
-              "runs": 187,
-              "overs": "12.2",
-              "balls": "74",
-              "status": "IN_PROGRESS",
-              "wickets": 1
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "United Arab Emirates Vs Canada",
-      "tournament": "ICC CWC League 2 Scotland, 2026",
-      "short_name": null,
-      "match_id": 4248216,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "11 August 2026 03:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248216_53013_UAE_CAN_fc-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248216_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248216_53013_UAE_CAN_fc-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/1_1783441975721.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248216_53013_UAE_CAN_fc-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248216_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "United Arab Emirates",
-          "shortName": "UAE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
-          },
-          "isWinner": true,
-          "color": "#4fb319",
-          "cricketScore": [
-            {
-              "runs": 282,
-              "overs": "50",
-              "balls": "300",
-              "status": "COMPLETED",
-              "wickets": 6
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Canada",
-          "shortName": "CAN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CAN@2x.png"
-          },
-          "isWinner": false,
-          "color": "#d01909",
-          "cricketScore": [
-            {
-              "runs": 185,
-              "overs": "33.4",
-              "balls": "202",
-              "status": "IN_PROGRESS",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "West Delhi Lions Vs North Delhi Strikers",
-      "tournament": "Delhi Premier League, 2026",
-      "short_name": null,
-      "match_id": 4247989,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "11 August 2026 07:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247989_53005_WDL_NDS_fc-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247989_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247989_53005_WDL_NDS_fc-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247989_53005_WDL_NDS_fc-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247989_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "West Delhi Lions",
-          "shortName": "WDL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png"
-          },
-          "isWinner": false,
-          "color": "#ed4d0b",
-          "cricketScore": [
-            {
-              "runs": 146,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 7
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "North Delhi Strikers",
-          "shortName": "NDS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png"
-          },
-          "isWinner": true,
-          "color": "#4686c7",
-          "cricketScore": [
-            {
-              "runs": 150,
-              "overs": "14.2",
-              "balls": "86",
-              "status": "IN_PROGRESS",
-              "wickets": 2
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Tennis",
       "title": "Atp Masters Omnium Banque National 2026",
       "tournament": "ATP Masters Omnium Banque National 2026",
@@ -1213,6 +990,261 @@
     },
     {
       "category": "Cricket",
+      "title": "New Delhi Tigers Vs Central Delhi Kings",
+      "tournament": "Delhi Premier League, 2026",
+      "short_name": null,
+      "match_id": 4247982,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "11 August 2026 01:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247982_53005_CDK_NDT_fc-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247982_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247982_53005_CDK_NDT_fc-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247982_53005_CDK_NDT_fc-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247982_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "New Delhi Tigers",
+          "shortName": "NDT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png"
+          },
+          "isWinner": false,
+          "color": "#B8142D",
+          "cricketScore": [
+            {
+              "runs": 185,
+              "overs": "18",
+              "balls": "108",
+              "status": "COMPLETED",
+              "wickets": 8
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Central Delhi Kings",
+          "shortName": "CDK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png"
+          },
+          "isWinner": true,
+          "color": "#0082cb",
+          "cricketScore": [
+            {
+              "runs": 187,
+              "overs": "12.2",
+              "balls": "74",
+              "status": "IN_PROGRESS",
+              "wickets": 1
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "United Arab Emirates Vs Canada",
+      "tournament": "ICC CWC League 2 Scotland, 2026",
+      "short_name": null,
+      "match_id": 4248216,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "11 August 2026 03:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248216_53013_UAE_CAN_fc-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248216_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248216_53013_UAE_CAN_fc-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/1_1783441975721.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248216_53013_UAE_CAN_fc-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248216_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "United Arab Emirates",
+          "shortName": "UAE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
+          },
+          "isWinner": true,
+          "color": "#4fb319",
+          "cricketScore": [
+            {
+              "runs": 282,
+              "overs": "50",
+              "balls": "300",
+              "status": "COMPLETED",
+              "wickets": 6
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Canada",
+          "shortName": "CAN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CAN@2x.png"
+          },
+          "isWinner": false,
+          "color": "#d01909",
+          "cricketScore": [
+            {
+              "runs": 185,
+              "overs": "33.4",
+              "balls": "202",
+              "status": "IN_PROGRESS",
+              "wickets": 10
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "West Delhi Lions Vs North Delhi Strikers",
+      "tournament": "Delhi Premier League, 2026",
+      "short_name": null,
+      "match_id": 4247989,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "11 August 2026 07:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247989_53005_WDL_NDS_fc-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247989_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247989_53005_WDL_NDS_fc-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247989_53005_WDL_NDS_fc-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247989_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "West Delhi Lions",
+          "shortName": "WDL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png"
+          },
+          "isWinner": false,
+          "color": "#ed4d0b",
+          "cricketScore": [
+            {
+              "runs": 146,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 7
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "North Delhi Strikers",
+          "shortName": "NDS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png"
+          },
+          "isWinner": true,
+          "color": "#4686c7",
+          "cricketScore": [
+            {
+              "runs": 150,
+              "overs": "14.2",
+              "balls": "86",
+              "status": "IN_PROGRESS",
+              "wickets": 2
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
       "title": "Outer Delhi Warriors Vs West Delhi Lions",
       "tournament": "Delhi Premier League, 2026",
       "short_name": null,
@@ -1311,7 +1343,7 @@
           },
           "isWinner": null,
           "color": "#1e6583",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1330,7 +1362,7 @@
           },
           "isWinner": null,
           "color": "#3fd379",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
