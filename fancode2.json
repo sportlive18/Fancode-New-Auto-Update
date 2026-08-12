@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:07:05 PM 12-08-2026",
+  "last_updated": "04:28:06 PM 12-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -44,11 +44,11 @@
           "color": "#2f5ddf",
           "cricketScore": [
             {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
+              "runs": 92,
+              "overs": "15.1",
+              "balls": "91",
               "status": "IN_PROGRESS",
-              "wickets": 0
+              "wickets": 1
             }
           ],
           "kabaddiScore": null,
@@ -148,7 +148,7 @@
               "runs": 170,
               "overs": "50",
               "balls": "300",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 10
             }
           ],
@@ -158,7 +158,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -170,14 +170,22 @@
           },
           "isWinner": null,
           "color": "#677166",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 44,
+              "overs": "17",
+              "balls": "102",
+              "status": "IN_PROGRESS",
+              "wickets": 4
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -204,11 +212,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/240p.m3u8?hdntl=Expires=1786600269~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTVXVdO85qFYbsnoW2H-W0ZWFPm5jKFszDqDununEIoDRbu_AsmMlplPQuKnbwRvT5hUJS-F58jZ9Vcn7qMswGYC\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/360p.m3u8?hdntl=Expires=1786600269~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTVXVdO85qFYbsnoW2H-W0ZWFPm5jKFszDqDununEIoDRbu_AsmMlplPQuKnbwRvT5hUJS-F58jZ9Vcn7qMswGYC\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/480p.m3u8?hdntl=Expires=1786600269~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTVXVdO85qFYbsnoW2H-W0ZWFPm5jKFszDqDununEIoDRbu_AsmMlplPQuKnbwRvT5hUJS-F58jZ9Vcn7qMswGYC\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/540p.m3u8?hdntl=Expires=1786600269~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTVXVdO85qFYbsnoW2H-W0ZWFPm5jKFszDqDununEIoDRbu_AsmMlplPQuKnbwRvT5hUJS-F58jZ9Vcn7qMswGYC\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/720p.m3u8?hdntl=Expires=1786600269~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTVXVdO85qFYbsnoW2H-W0ZWFPm5jKFszDqDununEIoDRbu_AsmMlplPQuKnbwRvT5hUJS-F58jZ9Vcn7qMswGYC\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786600269~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTVXVdO85qFYbsnoW2H-W0ZWFPm5jKFszDqDununEIoDRbu_AsmMlplPQuKnbwRvT5hUJS-F58jZ9Vcn7qMswGYC",
-          "cookie": "hdntl=Expires=1786600269~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTVXVdO85qFYbsnoW2H-W0ZWFPm5jKFszDqDununEIoDRbu_AsmMlplPQuKnbwRvT5hUJS-F58jZ9Vcn7qMswGYC",
-          "cookie_valid": "1786600269",
-          "create_date": "Wednesday, August 12, 2026, 11:21:08 AM",
-          "expire_date": "Thursday, August 13, 2026, 11:21:09 AM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/240p.m3u8?hdntl=Expires=1786618684~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTUzdTyinmmtmvaqLpeYCrXo8N_BmharnbYtZypfOFbfHcg8hh5z1b8tdvGiLFJlffTJ0SzxsuhQDwDR59ZFKwMA\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/360p.m3u8?hdntl=Expires=1786618684~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTUzdTyinmmtmvaqLpeYCrXo8N_BmharnbYtZypfOFbfHcg8hh5z1b8tdvGiLFJlffTJ0SzxsuhQDwDR59ZFKwMA\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/480p.m3u8?hdntl=Expires=1786618684~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTUzdTyinmmtmvaqLpeYCrXo8N_BmharnbYtZypfOFbfHcg8hh5z1b8tdvGiLFJlffTJ0SzxsuhQDwDR59ZFKwMA\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/540p.m3u8?hdntl=Expires=1786618684~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTUzdTyinmmtmvaqLpeYCrXo8N_BmharnbYtZypfOFbfHcg8hh5z1b8tdvGiLFJlffTJ0SzxsuhQDwDR59ZFKwMA\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/720p.m3u8?hdntl=Expires=1786618684~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTUzdTyinmmtmvaqLpeYCrXo8N_BmharnbYtZypfOFbfHcg8hh5z1b8tdvGiLFJlffTJ0SzxsuhQDwDR59ZFKwMA\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786618684~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTUzdTyinmmtmvaqLpeYCrXo8N_BmharnbYtZypfOFbfHcg8hh5z1b8tdvGiLFJlffTJ0SzxsuhQDwDR59ZFKwMA",
+          "cookie": "hdntl=Expires=1786618684~_GO=Generated~acl=/mumbai/4248256_english_hls_350141a51478572_1ta-di_h264/*~Signature=AVMBkTUzdTyinmmtmvaqLpeYCrXo8N_BmharnbYtZypfOFbfHcg8hh5z1b8tdvGiLFJlffTJ0SzxsuhQDwDR59ZFKwMA",
+          "cookie_valid": "1786618684",
+          "create_date": "Wednesday, August 12, 2026, 4:28:04 PM",
+          "expire_date": "Thursday, August 13, 2026, 4:28:04 PM",
           "language": "ENGLISH"
         }
       ]
@@ -249,11 +257,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "South Delhi Superstarz",
@@ -263,6 +267,71 @@
           },
           "isWinner": null,
           "color": "#921b36",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Outer Delhi Warriors Vs West Delhi Lions",
+      "tournament": "Delhi Premier League, 2026",
+      "short_name": null,
+      "match_id": 4247984,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 August 2026 01:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247984_53005_ODW_WDL_fc-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247984_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247984_53005_ODW_WDL_fc-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247984_53005_ODW_WDL_fc-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247984_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Outer Delhi Warriors",
+          "shortName": "ODW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0a2346",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "West Delhi Lions",
+          "shortName": "WDL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ed4d0b",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -422,75 +491,6 @@
     },
     {
       "category": "Cricket",
-      "title": "Outer Delhi Warriors Vs West Delhi Lions",
-      "tournament": "Delhi Premier League, 2026",
-      "short_name": null,
-      "match_id": 4247984,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 August 2026 01:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247984_53005_ODW_WDL_fc-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247984_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247984_53005_ODW_WDL_fc-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247984_53005_ODW_WDL_fc-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247984_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Outer Delhi Warriors",
-          "shortName": "ODW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0a2346",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "West Delhi Lions",
-          "shortName": "WDL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ed4d0b",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
       "title": "Scotland Vs Canada",
       "tournament": "ICC CWC League 2 Scotland, 2026",
       "short_name": null,
@@ -520,7 +520,7 @@
           },
           "isWinner": null,
           "color": "#1672c1",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -539,7 +539,7 @@
           },
           "isWinner": null,
           "color": "#d01909",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -905,91 +905,6 @@
     },
     {
       "category": "Cricket",
-      "title": "United Arab Emirates Vs Canada",
-      "tournament": "ICC CWC League 2 Scotland, 2026",
-      "short_name": null,
-      "match_id": 4248216,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "11 August 2026 03:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248216_53013_UAE_CAN_fc-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248216_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248216_53013_UAE_CAN_fc-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/1_1783441975721.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248216_53013_UAE_CAN_fc-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248216_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "United Arab Emirates",
-          "shortName": "UAE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
-          },
-          "isWinner": true,
-          "color": "#4fb319",
-          "cricketScore": [
-            {
-              "runs": 282,
-              "overs": "50",
-              "balls": "300",
-              "status": "COMPLETED",
-              "wickets": 6
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Canada",
-          "shortName": "CAN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CAN@2x.png"
-          },
-          "isWinner": false,
-          "color": "#d01909",
-          "cricketScore": [
-            {
-              "runs": 185,
-              "overs": "33.4",
-              "balls": "202",
-              "status": "IN_PROGRESS",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
       "title": "West Delhi Lions Vs North Delhi Strikers",
       "tournament": "Delhi Premier League, 2026",
       "short_name": null,
@@ -1104,7 +1019,7 @@
           },
           "isWinner": null,
           "color": "#ad1b0e",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1123,76 +1038,7 @@
           },
           "isWinner": null,
           "color": "#ffd64d",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Golf",
-      "title": "Main Feed   Day 1",
-      "tournament": "FedEx St. Jude Championship 2026",
-      "short_name": null,
-      "match_id": 4248406,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 August 2026 05:15 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248406_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ST.-Jude-Championship_Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Golf.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248406_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Main Feed - Day 1",
-          "shortName": "Main Feed - Day 1",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "TPC Southwind - Memphis, Tennessee",
-          "shortName": "TPC Southwind - Memphis, Tennessee",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1330,6 +1176,75 @@
           },
           "isWinner": null,
           "color": "#19ca84",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Golf",
+      "title": "Main Feed   Day 1",
+      "tournament": "FedEx St. Jude Championship 2026",
+      "short_name": null,
+      "match_id": 4248406,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 August 2026 05:15 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248406_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ST.-Jude-Championship_Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Golf.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248406_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Main Feed - Day 1",
+          "shortName": "Main Feed - Day 1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "TPC Southwind - Memphis, Tennessee",
+          "shortName": "TPC Southwind - Memphis, Tennessee",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2848,6 +2763,75 @@
           },
           "isWinner": null,
           "color": "#FFFFFF",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Wolverhampton Wanderers F.c. Vs Blackburn Rovers F.c.",
+      "tournament": "EFL Championship 2026-27",
+      "short_name": null,
+      "match_id": 4247467,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "15 August 2026 12:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1784709183064/4247467_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247467_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1784709183064/4247467_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1784709183064/4247467_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1784709183064/4247467_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247467_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Wolverhampton Wanderers F.C.",
+          "shortName": "WOL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WOLV@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffe74c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Blackburn Rovers F.C.",
+          "shortName": "BLK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BLKB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#2f68e4",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
