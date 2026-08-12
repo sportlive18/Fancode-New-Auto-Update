@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:35:09 PM 12-08-2026",
+  "last_updated": "09:35:17 PM 12-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -71,11 +71,11 @@
           "color": "#ba6a15",
           "cricketScore": [
             {
-              "runs": 48,
-              "overs": "10.3",
-              "balls": "63",
+              "runs": 118,
+              "overs": "25.1",
+              "balls": "151",
               "status": "IN_PROGRESS",
-              "wickets": 1
+              "wickets": 2
             }
           ],
           "kabaddiScore": null,
@@ -153,11 +153,11 @@
           "color": "#e7993a",
           "cricketScore": [
             {
-              "runs": 146,
-              "overs": "17.3",
-              "balls": "105",
-              "status": "IN_PROGRESS",
-              "wickets": 4
+              "runs": 191,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 6
             }
           ],
           "kabaddiScore": null,
@@ -166,7 +166,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -178,14 +178,22 @@
           },
           "isWinner": null,
           "color": "#921b36",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 51,
+              "overs": "5",
+              "balls": "30",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -212,11 +220,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/240p.m3u8?hdntl=Expires=1786547439~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVWIqzruC0N_nGf4EzcdriLB2khkkwMZr_ecsd8lR0WTeeUrAkJJblJsLGcuqpy5KRPghK-7Tiq_A1JLkB02SkK\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/360p.m3u8?hdntl=Expires=1786547439~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVWIqzruC0N_nGf4EzcdriLB2khkkwMZr_ecsd8lR0WTeeUrAkJJblJsLGcuqpy5KRPghK-7Tiq_A1JLkB02SkK\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/480p.m3u8?hdntl=Expires=1786547439~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVWIqzruC0N_nGf4EzcdriLB2khkkwMZr_ecsd8lR0WTeeUrAkJJblJsLGcuqpy5KRPghK-7Tiq_A1JLkB02SkK\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/540p.m3u8?hdntl=Expires=1786547439~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVWIqzruC0N_nGf4EzcdriLB2khkkwMZr_ecsd8lR0WTeeUrAkJJblJsLGcuqpy5KRPghK-7Tiq_A1JLkB02SkK\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/720p.m3u8?hdntl=Expires=1786547439~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVWIqzruC0N_nGf4EzcdriLB2khkkwMZr_ecsd8lR0WTeeUrAkJJblJsLGcuqpy5KRPghK-7Tiq_A1JLkB02SkK\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786547439~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVWIqzruC0N_nGf4EzcdriLB2khkkwMZr_ecsd8lR0WTeeUrAkJJblJsLGcuqpy5KRPghK-7Tiq_A1JLkB02SkK",
-          "cookie": "hdntl=Expires=1786547439~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVWIqzruC0N_nGf4EzcdriLB2khkkwMZr_ecsd8lR0WTeeUrAkJJblJsLGcuqpy5KRPghK-7Tiq_A1JLkB02SkK",
-          "cookie_valid": "1786547439",
-          "create_date": "Wednesday, August 12, 2026, 8:35:09 PM",
-          "expire_date": "Wednesday, August 12, 2026, 8:40:39 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/240p.m3u8?hdntl=Expires=1786551048~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVKaLLHIsJa3fy4Jiod8nKXi6d5TjO2xJK5fblwRHsS6QWfRevfKguOzKfv5VMGNeToqCota8wLIswWhmMMxkIP\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/360p.m3u8?hdntl=Expires=1786551048~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVKaLLHIsJa3fy4Jiod8nKXi6d5TjO2xJK5fblwRHsS6QWfRevfKguOzKfv5VMGNeToqCota8wLIswWhmMMxkIP\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/480p.m3u8?hdntl=Expires=1786551048~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVKaLLHIsJa3fy4Jiod8nKXi6d5TjO2xJK5fblwRHsS6QWfRevfKguOzKfv5VMGNeToqCota8wLIswWhmMMxkIP\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/540p.m3u8?hdntl=Expires=1786551048~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVKaLLHIsJa3fy4Jiod8nKXi6d5TjO2xJK5fblwRHsS6QWfRevfKguOzKfv5VMGNeToqCota8wLIswWhmMMxkIP\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/720p.m3u8?hdntl=Expires=1786551048~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVKaLLHIsJa3fy4Jiod8nKXi6d5TjO2xJK5fblwRHsS6QWfRevfKguOzKfv5VMGNeToqCota8wLIswWhmMMxkIP\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786551048~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVKaLLHIsJa3fy4Jiod8nKXi6d5TjO2xJK5fblwRHsS6QWfRevfKguOzKfv5VMGNeToqCota8wLIswWhmMMxkIP",
+          "cookie": "hdntl=Expires=1786551048~_GO=Generated~acl=/mumbai/4247987_english_hls_dbcd5584b412688_1ta-di_h264/*~Signature=AVMBkTVKaLLHIsJa3fy4Jiod8nKXi6d5TjO2xJK5fblwRHsS6QWfRevfKguOzKfv5VMGNeToqCota8wLIswWhmMMxkIP",
+          "cookie_valid": "1786551048",
+          "create_date": "Wednesday, August 12, 2026, 9:35:17 PM",
+          "expire_date": "Wednesday, August 12, 2026, 9:40:48 PM",
           "language": "ENGLISH"
         }
       ]
@@ -445,6 +453,75 @@
       "auto_streams": null
     },
     {
+      "category": "Cricket",
+      "title": "North Delhi Strikers Vs Purani Dilli 6",
+      "tournament": "Delhi Premier League, 2026",
+      "short_name": null,
+      "match_id": 4247983,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 August 2026 07:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247983_53005_NDS_PD_fc-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247983_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247983_53005_NDS_PD_fc-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247983_53005_NDS_PD_fc-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247983_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "North Delhi Strikers",
+          "shortName": "NDS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4686c7",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Purani Dilli-6",
+          "shortName": "PD",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png"
+          },
+          "isWinner": null,
+          "color": "#c3333e",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Football",
       "title": "Manchester United Vs Leeds United",
       "tournament": "Club Friendlies 2026",
@@ -514,37 +591,37 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "North Delhi Strikers Vs Purani Dilli 6",
-      "tournament": "Delhi Premier League, 2026",
+      "category": "Football",
+      "title": "Al Shabab Fc Vs Al Quadisiya",
+      "tournament": "Roshn Saudi League 2026-2027",
       "short_name": null,
-      "match_id": 4247983,
+      "match_id": 4248265,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "13 August 2026 07:00 PM",
+      "startTime": "13 August 2026 11:30 PM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247983_53005_NDS_PD_fc-Web.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248265_53025_ASF_ALQ_FC-Web.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247983_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247983_53005_NDS_PD_fc-Web.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248265_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248265_53025_ASF_ALQ_FC-Web.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247983_53005_NDS_PD_fc-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247983_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248265_53025_ASF_ALQ_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248265_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "North Delhi Strikers",
-          "shortName": "NDS",
+          "name": "Al-Shabab FC",
+          "shortName": "ASF",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ASF@2x.png"
           },
           "isWinner": null,
-          "color": "#4686c7",
-          "cricketScore": [],
+          "color": "#ca8e19",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -556,14 +633,83 @@
           }
         },
         {
-          "name": "Purani Dilli-6",
-          "shortName": "PD",
+          "name": "Al-Quadisiya",
+          "shortName": "ALQ",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-QAD@2x.png"
           },
           "isWinner": null,
-          "color": "#c3333e",
-          "cricketScore": [],
+          "color": "#1234",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Diriyah Vs Al Ahli Saudi Fc",
+      "tournament": "Roshn Saudi League 2026-2027",
+      "short_name": null,
+      "match_id": 4248266,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 August 2026 11:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248266_53025_DIR_AAS_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248266_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248266_53025_DIR_AAS_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248266_53025_DIR_AAS_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248266_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Diriyah",
+          "shortName": "DIR",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Diriyah.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Al-Ahli Saudi FC",
+          "shortName": "AAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AAS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#19ca84",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -859,144 +1005,6 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Al Shabab Fc Vs Al Quadisiya",
-      "tournament": "Roshn Saudi League 2026-2027",
-      "short_name": null,
-      "match_id": 4248265,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 August 2026 11:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248265_53025_ASF_ALQ_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248265_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248265_53025_ASF_ALQ_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248265_53025_ASF_ALQ_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248265_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Al-Shabab FC",
-          "shortName": "ASF",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ASF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ca8e19",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Al-Quadisiya",
-          "shortName": "ALQ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-QAD@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1234",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Diriyah Vs Al Ahli Saudi Fc",
-      "tournament": "Roshn Saudi League 2026-2027",
-      "short_name": null,
-      "match_id": 4248266,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 August 2026 11:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248266_53025_DIR_AAS_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248266_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248266_53025_DIR_AAS_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248266_53025_DIR_AAS_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248266_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Diriyah",
-          "shortName": "DIR",
-          "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Diriyah.png"
-          },
-          "isWinner": null,
-          "color": "#DCDCDC",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Al-Ahli Saudi FC",
-          "shortName": "AAS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AAS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#19ca84",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Oman Vs Goa",
       "tournament": "Goa tour of Oman 2026",
@@ -1073,7 +1081,7 @@
       "match_id": 4248406,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "13 August 2026 05:15 PM",
+      "startTime": "13 August 2026 05:30 PM",
       "startDate": null,
       "endDate": null,
       "image": "https://www.fancode.com/skillup-uploads/cms-media/FedEx-St.-Jude-Championship-2026_Web_1080_x_810.jpg",
@@ -2453,7 +2461,7 @@
       "match_id": 4248407,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "14 August 2026 05:15 PM",
+      "startTime": "14 August 2026 05:30 PM",
       "startDate": null,
       "endDate": null,
       "image": "https://www.fancode.com/skillup-uploads/cms-media/FedEx-St.-Jude-Championship-2026_Web_1080_x_810.jpg",
