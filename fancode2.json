@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:14:03 AM 20-08-2026",
+  "last_updated": "01:28:07 AM 20-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -44,10 +44,17 @@
           "color": "#ca2917",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Málaga",
@@ -59,10 +66,17 @@
           "color": "#537eba",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -182,11 +196,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/240p.m3u8?hdntl=Expires=1787237468~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWMyu85liVYwz0UqC_YuLvvE-uh0NQsZ1NoFCCaOpgfieZGBMw2qcIYMkxCcOJBQlCF9BSDR2qJTt3f_aGqQB-gP\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/360p.m3u8?hdntl=Expires=1787237468~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWMyu85liVYwz0UqC_YuLvvE-uh0NQsZ1NoFCCaOpgfieZGBMw2qcIYMkxCcOJBQlCF9BSDR2qJTt3f_aGqQB-gP\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/480p.m3u8?hdntl=Expires=1787237468~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWMyu85liVYwz0UqC_YuLvvE-uh0NQsZ1NoFCCaOpgfieZGBMw2qcIYMkxCcOJBQlCF9BSDR2qJTt3f_aGqQB-gP\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/540p.m3u8?hdntl=Expires=1787237468~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWMyu85liVYwz0UqC_YuLvvE-uh0NQsZ1NoFCCaOpgfieZGBMw2qcIYMkxCcOJBQlCF9BSDR2qJTt3f_aGqQB-gP\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/720p.m3u8?hdntl=Expires=1787237468~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWMyu85liVYwz0UqC_YuLvvE-uh0NQsZ1NoFCCaOpgfieZGBMw2qcIYMkxCcOJBQlCF9BSDR2qJTt3f_aGqQB-gP\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787237468~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWMyu85liVYwz0UqC_YuLvvE-uh0NQsZ1NoFCCaOpgfieZGBMw2qcIYMkxCcOJBQlCF9BSDR2qJTt3f_aGqQB-gP",
-          "cookie": "hdntl=Expires=1787237468~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWMyu85liVYwz0UqC_YuLvvE-uh0NQsZ1NoFCCaOpgfieZGBMw2qcIYMkxCcOJBQlCF9BSDR2qJTt3f_aGqQB-gP",
-          "cookie_valid": "1787237468",
-          "create_date": "Wednesday, August 19, 2026, 8:21:08 PM",
-          "expire_date": "Thursday, August 20, 2026, 8:21:08 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/240p.m3u8?hdntl=Expires=1787255885~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWPS3lcqQS3wUJ2Zm_cJGcxNb0U66ORSHZDz1siX577FTcYy1znwE22sh5qur2Ax2oQrAvKfadZNWdkx5swNvBoA\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/360p.m3u8?hdntl=Expires=1787255885~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWPS3lcqQS3wUJ2Zm_cJGcxNb0U66ORSHZDz1siX577FTcYy1znwE22sh5qur2Ax2oQrAvKfadZNWdkx5swNvBoA\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/480p.m3u8?hdntl=Expires=1787255885~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWPS3lcqQS3wUJ2Zm_cJGcxNb0U66ORSHZDz1siX577FTcYy1znwE22sh5qur2Ax2oQrAvKfadZNWdkx5swNvBoA\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/540p.m3u8?hdntl=Expires=1787255885~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWPS3lcqQS3wUJ2Zm_cJGcxNb0U66ORSHZDz1siX577FTcYy1znwE22sh5qur2Ax2oQrAvKfadZNWdkx5swNvBoA\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/720p.m3u8?hdntl=Expires=1787255885~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWPS3lcqQS3wUJ2Zm_cJGcxNb0U66ORSHZDz1siX577FTcYy1znwE22sh5qur2Ax2oQrAvKfadZNWdkx5swNvBoA\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787255885~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWPS3lcqQS3wUJ2Zm_cJGcxNb0U66ORSHZDz1siX577FTcYy1znwE22sh5qur2Ax2oQrAvKfadZNWdkx5swNvBoA",
+          "cookie": "hdntl=Expires=1787255885~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWPS3lcqQS3wUJ2Zm_cJGcxNb0U66ORSHZDz1siX577FTcYy1znwE22sh5qur2Ax2oQrAvKfadZNWdkx5swNvBoA",
+          "cookie_valid": "1787255885",
+          "create_date": "Thursday, August 20, 2026, 1:28:04 AM",
+          "expire_date": "Friday, August 21, 2026, 1:28:05 AM",
           "language": "ENGLISH"
         }
       ]
@@ -275,11 +289,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/240p.m3u8?hdntl=Expires=1787237470~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWP_SbkwCFAC-doww0NazwNqx-krpq3b6oo39GKOXi5rHYm-8ICvCnmrdGcwat1oqMhRxUuAFuke3oS1wXjVkIYD\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/360p.m3u8?hdntl=Expires=1787237470~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWP_SbkwCFAC-doww0NazwNqx-krpq3b6oo39GKOXi5rHYm-8ICvCnmrdGcwat1oqMhRxUuAFuke3oS1wXjVkIYD\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/480p.m3u8?hdntl=Expires=1787237470~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWP_SbkwCFAC-doww0NazwNqx-krpq3b6oo39GKOXi5rHYm-8ICvCnmrdGcwat1oqMhRxUuAFuke3oS1wXjVkIYD\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/540p.m3u8?hdntl=Expires=1787237470~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWP_SbkwCFAC-doww0NazwNqx-krpq3b6oo39GKOXi5rHYm-8ICvCnmrdGcwat1oqMhRxUuAFuke3oS1wXjVkIYD\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/720p.m3u8?hdntl=Expires=1787237470~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWP_SbkwCFAC-doww0NazwNqx-krpq3b6oo39GKOXi5rHYm-8ICvCnmrdGcwat1oqMhRxUuAFuke3oS1wXjVkIYD\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787237470~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWP_SbkwCFAC-doww0NazwNqx-krpq3b6oo39GKOXi5rHYm-8ICvCnmrdGcwat1oqMhRxUuAFuke3oS1wXjVkIYD",
-          "cookie": "hdntl=Expires=1787237470~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWP_SbkwCFAC-doww0NazwNqx-krpq3b6oo39GKOXi5rHYm-8ICvCnmrdGcwat1oqMhRxUuAFuke3oS1wXjVkIYD",
-          "cookie_valid": "1787237470",
-          "create_date": "Wednesday, August 19, 2026, 8:21:10 PM",
-          "expire_date": "Thursday, August 20, 2026, 8:21:10 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/240p.m3u8?hdntl=Expires=1787255887~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWOjk2vQ_KzhjdZ7Z3zkSj-R_GmDGVknWZSZfMVsd370NpCBfarOFXIT-ZdxY05q2-v4aWAcjnsu_co8dFLMdyID\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/360p.m3u8?hdntl=Expires=1787255887~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWOjk2vQ_KzhjdZ7Z3zkSj-R_GmDGVknWZSZfMVsd370NpCBfarOFXIT-ZdxY05q2-v4aWAcjnsu_co8dFLMdyID\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/480p.m3u8?hdntl=Expires=1787255887~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWOjk2vQ_KzhjdZ7Z3zkSj-R_GmDGVknWZSZfMVsd370NpCBfarOFXIT-ZdxY05q2-v4aWAcjnsu_co8dFLMdyID\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/540p.m3u8?hdntl=Expires=1787255887~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWOjk2vQ_KzhjdZ7Z3zkSj-R_GmDGVknWZSZfMVsd370NpCBfarOFXIT-ZdxY05q2-v4aWAcjnsu_co8dFLMdyID\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/720p.m3u8?hdntl=Expires=1787255887~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWOjk2vQ_KzhjdZ7Z3zkSj-R_GmDGVknWZSZfMVsd370NpCBfarOFXIT-ZdxY05q2-v4aWAcjnsu_co8dFLMdyID\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787255887~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWOjk2vQ_KzhjdZ7Z3zkSj-R_GmDGVknWZSZfMVsd370NpCBfarOFXIT-ZdxY05q2-v4aWAcjnsu_co8dFLMdyID",
+          "cookie": "hdntl=Expires=1787255887~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWOjk2vQ_KzhjdZ7Z3zkSj-R_GmDGVknWZSZfMVsd370NpCBfarOFXIT-ZdxY05q2-v4aWAcjnsu_co8dFLMdyID",
+          "cookie_valid": "1787255887",
+          "create_date": "Thursday, August 20, 2026, 1:28:06 AM",
+          "expire_date": "Friday, August 21, 2026, 1:28:07 AM",
           "language": "ENGLISH"
         }
       ]
@@ -906,75 +920,6 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "Saint Lucia Kings Vs Guyana Amazon Warriors",
-      "tournament": "Caribbean Premier League, 2026",
-      "short_name": null,
-      "match_id": 4248285,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "20 August 2026 04:30 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248285_53026_SLK_GUY_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248285_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248285_53026_SLK_GUY_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/CPLT20_Caribbean-Premier-League.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248285_53026_SLK_GUY_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248285_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Saint Lucia Kings",
-          "shortName": "SLK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KIGS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1e6583",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Guyana Amazon Warriors",
-          "shortName": "GUY",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#b01018",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "Sheffield Wednesday F.c. Vs Bradford City",
       "tournament": "League One 2026-27",
@@ -1025,6 +970,75 @@
           "isWinner": null,
           "color": "#df7b00",
           "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Saint Lucia Kings Vs Guyana Amazon Warriors",
+      "tournament": "Caribbean Premier League, 2026",
+      "short_name": null,
+      "match_id": 4248285,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "20 August 2026 04:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248285_53026_SLK_GUY_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248285_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248285_53026_SLK_GUY_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/CPLT20_Caribbean-Premier-League.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248285_53026_SLK_GUY_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248285_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Saint Lucia Kings",
+          "shortName": "SLK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KIGS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1e6583",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Guyana Amazon Warriors",
+          "shortName": "GUY",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b01018",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
