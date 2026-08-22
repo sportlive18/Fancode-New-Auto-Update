@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:28:05 AM 23-08-2026",
+  "last_updated": "02:56:06 AM 23-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 3,
-  "upcoming_matches": 37,
+  "live_matches": 2,
+  "upcoming_matches": 38,
   "matches": [
     {
       "category": "Football",
@@ -47,7 +47,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Real Madrid",
@@ -62,7 +66,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -97,94 +105,6 @@
         }
       },
       "auto_streams": null
-    },
-    {
-      "category": "Golf",
-      "title": "Day 1",
-      "tournament": "US Women’s Senior Open 2026",
-      "short_name": null,
-      "match_id": 4248527,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "22 August 2026 08:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/MiniMatchCard108x3.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248527_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/MiniMatchCard108x3.png",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/2026_US_Senior_Womens_Open_logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/MiniMatchCard108x3.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Golf.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248527_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Day 1",
-          "shortName": "Day 1",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-US@2x.png"
-          },
-          "isWinner": null,
-          "color": "#B70918",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Barton Hills Country Club, ",
-          "shortName": "Barton Hills Country Club, ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/index.m3u8",
-        "Akamai_cdn": "Unavailable",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "LOKI"
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/240p.m3u8?hdntl=Expires=1787515508~_GO=Generated~acl=/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/*~Signature=ARceAWOQBGtnV8QbnuDNUwZX4C4HanJv8w_LzrPVNRFgCdpKHq8wBdbYFwolkm4H0gs0dunOfQQwfLV3Cqlf7zVcpSAM\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/360p.m3u8?hdntl=Expires=1787515508~_GO=Generated~acl=/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/*~Signature=ARceAWOQBGtnV8QbnuDNUwZX4C4HanJv8w_LzrPVNRFgCdpKHq8wBdbYFwolkm4H0gs0dunOfQQwfLV3Cqlf7zVcpSAM\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/480p.m3u8?hdntl=Expires=1787515508~_GO=Generated~acl=/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/*~Signature=ARceAWOQBGtnV8QbnuDNUwZX4C4HanJv8w_LzrPVNRFgCdpKHq8wBdbYFwolkm4H0gs0dunOfQQwfLV3Cqlf7zVcpSAM\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/540p.m3u8?hdntl=Expires=1787515508~_GO=Generated~acl=/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/*~Signature=ARceAWOQBGtnV8QbnuDNUwZX4C4HanJv8w_LzrPVNRFgCdpKHq8wBdbYFwolkm4H0gs0dunOfQQwfLV3Cqlf7zVcpSAM\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/720p.m3u8?hdntl=Expires=1787515508~_GO=Generated~acl=/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/*~Signature=ARceAWOQBGtnV8QbnuDNUwZX4C4HanJv8w_LzrPVNRFgCdpKHq8wBdbYFwolkm4H0gs0dunOfQQwfLV3Cqlf7zVcpSAM\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787515508~_GO=Generated~acl=/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/*~Signature=ARceAWOQBGtnV8QbnuDNUwZX4C4HanJv8w_LzrPVNRFgCdpKHq8wBdbYFwolkm4H0gs0dunOfQQwfLV3Cqlf7zVcpSAM",
-          "cookie": "hdntl=Expires=1787515508~_GO=Generated~acl=/mumbai/4248527_english_hls_57543c10451186_1ta-di_h264/*~Signature=ARceAWOQBGtnV8QbnuDNUwZX4C4HanJv8w_LzrPVNRFgCdpKHq8wBdbYFwolkm4H0gs0dunOfQQwfLV3Cqlf7zVcpSAM",
-          "cookie_valid": "1787515508",
-          "create_date": "Sunday, August 23, 2026, 1:35:07 AM",
-          "expire_date": "Monday, August 24, 2026, 1:35:08 AM",
-          "language": "ENGLISH"
-        }
-      ]
     },
     {
       "category": "Golf",
@@ -842,36 +762,36 @@
       ]
     },
     {
-      "category": "Football",
-      "title": "Eibar Vs Real Valladolid",
-      "tournament": "LALIGA Hypermotion 2026-27",
+      "category": "Tennis",
+      "title": "World Feed 2",
+      "tournament": "ATP Masters Cincinnati Open 2026",
       "short_name": null,
-      "match_id": 4248394,
+      "match_id": 4248143,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "23 August 2026 08:30 PM",
+      "startTime": "23 August 2026 03:30 AM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248394_53017_EIB_VLD_FC-Web.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Cincinnati-Open-ATP-Masters-old.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248394_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248394_53017_EIB_VLD_FC-Web.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248143_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Cincinnati-Open-ATP-Masters-old.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248394_53017_EIB_VLD_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248394_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Cincinnati-Open-ATP-Masters-old.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248143_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Eibar",
-          "shortName": "EIB",
+          "name": "World Feed 2",
+          "shortName": "World Feed 2",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EIB@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
           "isWinner": null,
-          "color": "#F5D577",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -884,13 +804,13 @@
           }
         },
         {
-          "name": "Real Valladolid",
-          "shortName": "VLD",
+          "name": "Cincinnati, United States",
+          "shortName": "Cincinnati, United States",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VLD@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
-          "color": "#F1948A",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -968,36 +888,36 @@
       ]
     },
     {
-      "category": "Tennis",
-      "title": "World Feed 2",
-      "tournament": "ATP Masters Cincinnati Open 2026",
+      "category": "Football",
+      "title": "Eibar Vs Real Valladolid",
+      "tournament": "LALIGA Hypermotion 2026-27",
       "short_name": null,
-      "match_id": 4248143,
+      "match_id": 4248394,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "23 August 2026 03:30 AM",
+      "startTime": "23 August 2026 08:30 PM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Cincinnati-Open-ATP-Masters-old.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248394_53017_EIB_VLD_FC-Web.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248143_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Cincinnati-Open-ATP-Masters-old.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248394_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248394_53017_EIB_VLD_FC-Web.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_TourTeam-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Cincinnati-Open-ATP-Masters-old.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248143_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248394_53017_EIB_VLD_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248394_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "World Feed 2",
-          "shortName": "World Feed 2",
+          "name": "Eibar",
+          "shortName": "EIB",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EIB@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
+          "color": "#F5D577",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1010,13 +930,13 @@
           }
         },
         {
-          "name": "Cincinnati, United States",
-          "shortName": "Cincinnati, United States",
+          "name": "Real Valladolid",
+          "shortName": "VLD",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VLD@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
+          "color": "#F1948A",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2640,6 +2560,69 @@
           },
           "isWinner": null,
           "color": "#DCDCDC",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "South Delhi Superstarz Vs New Delhi Tigers",
+      "tournament": "Delhi Premier League, 2026",
+      "short_name": null,
+      "match_id": 4248003,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "24 August 2026 07:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248003_53005_SDS_NDT_fc-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248003_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248003_53005_SDS_NDT_fc-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248003_53005_SDS_NDT_fc-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248003_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "South Delhi Superstarz",
+          "shortName": "SDS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#921b36",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "New Delhi Tigers",
+          "shortName": "NDT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#B8142D",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
