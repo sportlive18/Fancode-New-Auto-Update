@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:21:06 PM 23-08-2026",
+  "last_updated": "01:42:04 PM 23-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -26,7 +26,7 @@
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248510_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248510_53041_TT_BNR_FC-Web.jpg",
-        "PLAYBACK": null,
+        "PLAYBACK": "",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Uttarkashi-T20-League.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248510_53041_TT_BNR_FC-Web.jpg",
@@ -72,6 +72,31 @@
             }
           }
         }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/240p.m3u8?hdntl=Expires=1787473054~_GO=Generated~acl=/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/*~Signature=ARceAWM2q7g9_cpl0SnxYelu1Ps-GYJKtoYQx4XdCMoHYV2BphUrBJb2YifHPkyGDmeZMk2AqVbv0DkM9r3WEdYqa2cB\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/360p.m3u8?hdntl=Expires=1787473054~_GO=Generated~acl=/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/*~Signature=ARceAWM2q7g9_cpl0SnxYelu1Ps-GYJKtoYQx4XdCMoHYV2BphUrBJb2YifHPkyGDmeZMk2AqVbv0DkM9r3WEdYqa2cB\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/480p.m3u8?hdntl=Expires=1787473054~_GO=Generated~acl=/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/*~Signature=ARceAWM2q7g9_cpl0SnxYelu1Ps-GYJKtoYQx4XdCMoHYV2BphUrBJb2YifHPkyGDmeZMk2AqVbv0DkM9r3WEdYqa2cB\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/540p.m3u8?hdntl=Expires=1787473054~_GO=Generated~acl=/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/*~Signature=ARceAWM2q7g9_cpl0SnxYelu1Ps-GYJKtoYQx4XdCMoHYV2BphUrBJb2YifHPkyGDmeZMk2AqVbv0DkM9r3WEdYqa2cB\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/720p.m3u8?hdntl=Expires=1787473054~_GO=Generated~acl=/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/*~Signature=ARceAWM2q7g9_cpl0SnxYelu1Ps-GYJKtoYQx4XdCMoHYV2BphUrBJb2YifHPkyGDmeZMk2AqVbv0DkM9r3WEdYqa2cB\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787473054~_GO=Generated~acl=/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/*~Signature=ARceAWM2q7g9_cpl0SnxYelu1Ps-GYJKtoYQx4XdCMoHYV2BphUrBJb2YifHPkyGDmeZMk2AqVbv0DkM9r3WEdYqa2cB",
+          "cookie": "hdntl=Expires=1787473054~_GO=Generated~acl=/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/*~Signature=ARceAWM2q7g9_cpl0SnxYelu1Ps-GYJKtoYQx4XdCMoHYV2BphUrBJb2YifHPkyGDmeZMk2AqVbv0DkM9r3WEdYqa2cB",
+          "cookie_valid": "1787473054",
+          "create_date": "Sunday, August 23, 2026, 1:42:04 PM",
+          "expire_date": "Sunday, August 23, 2026, 1:47:34 PM",
+          "language": "ENGLISH"
+        }
       ]
     },
     {
@@ -107,11 +132,11 @@
           "color": "#771ad2",
           "cricketScore": [
             {
-              "runs": 32,
-              "overs": "3.5",
-              "balls": "23",
+              "runs": 54,
+              "overs": "7.2",
+              "balls": "44",
               "status": "IN_PROGRESS",
-              "wickets": 2
+              "wickets": 3
             }
           ],
           "kabaddiScore": null,
@@ -889,6 +914,69 @@
       ]
     },
     {
+      "category": "Cricket",
+      "title": "Kashi Rudras Vs Lucknow Falcons",
+      "tournament": "Uttar Pradesh T20 League, 2026",
+      "short_name": null,
+      "match_id": 4248352,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "24 August 2026 03:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248352_53029_KAS_LCK_FC-Web_1786702851507.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248352_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248352_53029_KAS_LCK_FC-Web_1786702851507.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248352_53029_KAS_LCK_FC-Web_1786702851507.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248352_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Kashi Rudras",
+          "shortName": "KAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KASHR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b46f2a",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Lucknow Falcons",
+          "shortName": "LCK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LKO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#8458f7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
       "category": "Motorsports",
       "title": "Feature Race",
       "tournament": "F1 ACADEMY NETHERLANDS 2026",
@@ -953,69 +1041,6 @@
     },
     {
       "category": "Cricket",
-      "title": "Kashi Rudras Vs Lucknow Falcons",
-      "tournament": "Uttar Pradesh T20 League, 2026",
-      "short_name": null,
-      "match_id": 4248352,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "24 August 2026 03:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248352_53029_KAS_LCK_FC-Web_1786702851507.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248352_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248352_53029_KAS_LCK_FC-Web_1786702851507.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248352_53029_KAS_LCK_FC-Web_1786702851507.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248352_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Kashi Rudras",
-          "shortName": "KAS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KASHR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#b46f2a",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Lucknow Falcons",
-          "shortName": "LCK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LKO@2x.png"
-          },
-          "isWinner": null,
-          "color": "#8458f7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ]
-    },
-    {
-      "category": "Cricket",
       "title": "Someshwar Warriors Vs Baragaddi Kings",
       "tournament": "Uttarkashi T20 League 2026",
       "short_name": null,
@@ -1045,7 +1070,7 @@
           },
           "isWinner": null,
           "color": "#DCDCDC",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1064,7 +1089,7 @@
           },
           "isWinner": null,
           "color": "#DCDCDC",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1393,6 +1418,69 @@
       ]
     },
     {
+      "category": "Cricket",
+      "title": "Noida Kings Vs Gaur Gorakhpur Lions",
+      "tournament": "Uttar Pradesh T20 League, 2026",
+      "short_name": null,
+      "match_id": 4248353,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "24 August 2026 07:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248353_53029_NOI_GOR_FC-Web_1786702851470.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248353_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248353_53029_NOI_GOR_FC-Web_1786702851470.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248353_53029_NOI_GOR_FC-Web_1786702851470.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248353_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Noida Kings",
+          "shortName": "NOI",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOIDS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1aa231",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Gaur Gorakhpur Lions",
+          "shortName": "GOR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GORK@2x.png"
+          },
+          "isWinner": null,
+          "color": "#5d42cd",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
       "category": "Golf",
       "title": "World Feed   Day 4",
       "tournament": "BMW Championship 2026",
@@ -1694,69 +1782,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ]
-    },
-    {
-      "category": "Cricket",
-      "title": "Noida Kings Vs Gaur Gorakhpur Lions",
-      "tournament": "Uttar Pradesh T20 League, 2026",
-      "short_name": null,
-      "match_id": 4248353,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "24 August 2026 07:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248353_53029_NOI_GOR_FC-Web_1786702851470.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248353_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248353_53029_NOI_GOR_FC-Web_1786702851470.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248353_53029_NOI_GOR_FC-Web_1786702851470.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248353_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Noida Kings",
-          "shortName": "NOI",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOIDS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1aa231",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Gaur Gorakhpur Lions",
-          "shortName": "GOR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GORK@2x.png"
-          },
-          "isWinner": null,
-          "color": "#5d42cd",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2290,7 +2315,7 @@
           },
           "isWinner": null,
           "color": "#3aae2a",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -2309,7 +2334,7 @@
           },
           "isWinner": null,
           "color": "#921b36",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
