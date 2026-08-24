@@ -2,18 +2,18 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:21:07 PM 24-08-2026",
+  "last_updated": "08:21:11 PM 24-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 41,
-  "live_matches": 4,
-  "upcoming_matches": 37,
+  "live_matches": 3,
+  "upcoming_matches": 38,
   "matches": [
     {
       "category": "Cricket",
-      "title": "South Delhi Superstarz Vs New Delhi Tigers",
+      "title": "New Delhi Tigers Vs South Delhi Superstarz",
       "tournament": "Delhi Premier League, 2026",
       "short_name": null,
       "match_id": 4248003,
@@ -35,25 +35,6 @@
       },
       "team": [
         {
-          "name": "South Delhi Superstarz",
-          "shortName": "SDS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#921b36",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "New Delhi Tigers",
           "shortName": "NDT",
           "flag": {
@@ -61,6 +42,33 @@
           },
           "isWinner": null,
           "color": "#B8142D",
+          "cricketScore": [
+            {
+              "runs": 26,
+              "overs": "3.1",
+              "balls": "19",
+              "status": "IN_PROGRESS",
+              "wickets": 1
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "South Delhi Superstarz",
+          "shortName": "SDS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#921b36",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -359,110 +367,6 @@
           "cookie_valid": "1787660766",
           "create_date": "Monday, August 24, 2026, 5:56:05 PM",
           "expire_date": "Tuesday, August 25, 2026, 5:56:06 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Cricket",
-      "title": "South Delhi Superstarz Women Vs Central Delhi Queens",
-      "tournament": "Women's Delhi Premier League, 2026",
-      "short_name": null,
-      "match_id": 4247553,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "24 August 2026 01:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247553_53003_CDQ_SDS-W_FC-Web_1787555685229.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247553_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247553_53003_CDQ_SDS-W_FC-Web_1787555685229.png",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247553_53003_CDQ_SDS-W_FC-Web_1787555685229.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247553_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "South Delhi Superstarz Women",
-          "shortName": "SDS-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png"
-          },
-          "isWinner": true,
-          "color": "#921b36",
-          "cricketScore": [
-            {
-              "runs": 68,
-              "overs": "8",
-              "balls": "48",
-              "status": "COMPLETED",
-              "wickets": 6
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Central Delhi Queens",
-          "shortName": "CDQ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDQ@2x.png"
-          },
-          "isWinner": false,
-          "color": "#3aae2a",
-          "cricketScore": [
-            {
-              "runs": 57,
-              "overs": "8",
-              "balls": "48",
-              "status": "IN_PROGRESS",
-              "wickets": 5
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/index.m3u8",
-        "Akamai_cdn": "Unavailable",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "WALTER"
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/240p.m3u8?hdntl=Expires=1787663105~_GO=Generated~acl=/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/*~Signature=ARB3KG0HPFC4e3LEnIZXmSZWEPwG5SiUYwc5o6zYTzS5CAiVTyAzOpdQS6ggdG0Trs0z0vmO6IPNai6mXzq37FpympsN\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/360p.m3u8?hdntl=Expires=1787663105~_GO=Generated~acl=/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/*~Signature=ARB3KG0HPFC4e3LEnIZXmSZWEPwG5SiUYwc5o6zYTzS5CAiVTyAzOpdQS6ggdG0Trs0z0vmO6IPNai6mXzq37FpympsN\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/480p.m3u8?hdntl=Expires=1787663105~_GO=Generated~acl=/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/*~Signature=ARB3KG0HPFC4e3LEnIZXmSZWEPwG5SiUYwc5o6zYTzS5CAiVTyAzOpdQS6ggdG0Trs0z0vmO6IPNai6mXzq37FpympsN\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/540p.m3u8?hdntl=Expires=1787663105~_GO=Generated~acl=/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/*~Signature=ARB3KG0HPFC4e3LEnIZXmSZWEPwG5SiUYwc5o6zYTzS5CAiVTyAzOpdQS6ggdG0Trs0z0vmO6IPNai6mXzq37FpympsN\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/720p.m3u8?hdntl=Expires=1787663105~_GO=Generated~acl=/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/*~Signature=ARB3KG0HPFC4e3LEnIZXmSZWEPwG5SiUYwc5o6zYTzS5CAiVTyAzOpdQS6ggdG0Trs0z0vmO6IPNai6mXzq37FpympsN\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787663105~_GO=Generated~acl=/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/*~Signature=ARB3KG0HPFC4e3LEnIZXmSZWEPwG5SiUYwc5o6zYTzS5CAiVTyAzOpdQS6ggdG0Trs0z0vmO6IPNai6mXzq37FpympsN",
-          "cookie": "hdntl=Expires=1787663105~_GO=Generated~acl=/mumbai/4247553_english_hls_6b872f507b99405_1ta-di_h264/*~Signature=ARB3KG0HPFC4e3LEnIZXmSZWEPwG5SiUYwc5o6zYTzS5CAiVTyAzOpdQS6ggdG0Trs0z0vmO6IPNai6mXzq37FpympsN",
-          "cookie_valid": "1787663105",
-          "create_date": "Monday, August 24, 2026, 6:35:04 PM",
-          "expire_date": "Tuesday, August 25, 2026, 6:35:05 PM",
           "language": "ENGLISH"
         }
       ]
@@ -847,6 +751,69 @@
     },
     {
       "category": "Cricket",
+      "title": "Lucknow Falcons Vs Kashi Rudras",
+      "tournament": "Uttar Pradesh T20 League, 2026",
+      "short_name": null,
+      "match_id": 4248354,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "25 August 2026 07:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248354_53029_LCK_KAS_FC-Web_1786702851634.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248354_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248354_53029_LCK_KAS_FC-Web_1786702851634.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248354_53029_LCK_KAS_FC-Web_1786702851634.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248354_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Lucknow Falcons",
+          "shortName": "LCK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LKO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#8458f7",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Kashi Rudras",
+          "shortName": "KAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KASHR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b46f2a",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
       "title": "Baukh Night Riders Vs Bhagirathi Giants",
       "tournament": "Uttarkashi T20 League 2026",
       "short_name": null,
@@ -896,69 +863,6 @@
           "isWinner": null,
           "color": "#DCDCDC",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ]
-    },
-    {
-      "category": "Cricket",
-      "title": "Lucknow Falcons Vs Kashi Rudras",
-      "tournament": "Uttar Pradesh T20 League, 2026",
-      "short_name": null,
-      "match_id": 4248354,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "25 August 2026 07:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248354_53029_LCK_KAS_FC-Web_1786702851634.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248354_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248354_53029_LCK_KAS_FC-Web_1786702851634.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248354_53029_LCK_KAS_FC-Web_1786702851634.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248354_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Lucknow Falcons",
-          "shortName": "LCK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LKO@2x.png"
-          },
-          "isWinner": null,
-          "color": "#8458f7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Kashi Rudras",
-          "shortName": "KAS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KASHR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#b46f2a",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1092,6 +996,164 @@
           "status": {
             "cricket": {
               "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Northern Territory Strike Vs Hyderabad Kingsmen Academy",
+      "tournament": "Top End T20 Series, 2026",
+      "short_name": null,
+      "match_id": 4248430,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "24 August 2026 06:00 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1787120232574/4248430_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248430_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1787120232574/4248430_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Top-End-Series-T20-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248430_53036_NTS_HYK_fc-web_1787393619300.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1787120232574/4248430_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248430_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Northern Territory Strike",
+          "shortName": "NTS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NTC@2x.png"
+          },
+          "isWinner": true,
+          "color": "#ea9a3d",
+          "cricketScore": [
+            {
+              "runs": 164,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 5
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Hyderabad Kingsmen Academy",
+          "shortName": "HKA",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Kingsmen.png"
+          },
+          "isWinner": false,
+          "color": "#DCDCDC",
+          "cricketScore": [
+            {
+              "runs": 152,
+              "overs": "20",
+              "balls": "120",
+              "status": "IN_PROGRESS",
+              "wickets": 6
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Nepal A Vs Hobart Hurricanes Academy",
+      "tournament": "Top End T20 Series, 2026",
+      "short_name": null,
+      "match_id": 4248444,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "24 August 2026 03:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248444_53036_HHA_NEP_fc-web_1787393618603.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248444_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248444_53036_HHA_NEP_fc-web_1787393618603.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Top-End-Series-T20-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248444_53036_HHA_NEP_fc-web_1787393618603.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248444_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Nepal A",
+          "shortName": "NEP-A",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png"
+          },
+          "isWinner": true,
+          "color": "#163699",
+          "cricketScore": [
+            {
+              "runs": 154,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 8
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Hobart Hurricanes Academy",
+          "shortName": "HHA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HURN@2x.png"
+          },
+          "isWinner": false,
+          "color": "#771ad2",
+          "cricketScore": [
+            {
+              "runs": 115,
+              "overs": "18.3",
+              "balls": "111",
+              "status": "IN_PROGRESS",
+              "wickets": 10
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
             }
           }
         }
@@ -1287,227 +1349,6 @@
       ]
     },
     {
-      "category": "Cricket",
-      "title": "Hyderabad Kingsmen Vs New Zealand A",
-      "tournament": "Top End T20 Series, 2026",
-      "short_name": null,
-      "match_id": 4248440,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "25 August 2026 10:30 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248440_53036_HYK_NZ-A_fc-web_1787393618652.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248440_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248440_53036_HYK_NZ-A_fc-web_1787393618652.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Top-End-Series-T20-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248440_53036_HYK_NZ-A_fc-web_1787393618652.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248440_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Hyderabad Kingsmen",
-          "shortName": "HYK",
-          "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Kingsmen.png"
-          },
-          "isWinner": null,
-          "color": "#DCDCDC",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "New Zealand A",
-          "shortName": "NZ-A",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NZA-CR1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4c64a7",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ]
-    },
-    {
-      "category": "Cricket",
-      "title": "Gaur Gorakhpur Lions Vs Meerut Mavericks",
-      "tournament": "Uttar Pradesh T20 League, 2026",
-      "short_name": null,
-      "match_id": 4248348,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "23 August 2026 07:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248348_53029_MER_GOR_FC-Web_1786702851594.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248348_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248348_53029_MER_GOR_FC-Web_1786702851594.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248348_53029_MER_GOR_FC-Web_1786702851594.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248348_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Gaur Gorakhpur Lions",
-          "shortName": "GOR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GORK@2x.png"
-          },
-          "isWinner": false,
-          "color": "#5d42cd",
-          "cricketScore": [
-            {
-              "runs": 91,
-              "overs": "8",
-              "balls": "48",
-              "status": "COMPLETED",
-              "wickets": 6
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Meerut Mavericks",
-          "shortName": "MER",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MEERM@2x.png"
-          },
-          "isWinner": true,
-          "color": "#191970",
-          "cricketScore": [
-            {
-              "runs": 92,
-              "overs": "6.4",
-              "balls": "40",
-              "status": "IN_PROGRESS",
-              "wickets": 0
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "category": "Cricket",
-      "title": "Lucknow Falcons Vs Kashi Rudras",
-      "tournament": "Uttar Pradesh T20 League, 2026",
-      "short_name": null,
-      "match_id": 4248352,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "24 August 2026 03:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248352_53029_KAS_LCK_FC-Web_1786702851507.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248352_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248352_53029_KAS_LCK_FC-Web_1786702851507.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248352_53029_KAS_LCK_FC-Web_1786702851507.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248352_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Lucknow Falcons",
-          "shortName": "LCK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LKO@2x.png"
-          },
-          "isWinner": true,
-          "color": "#8458f7",
-          "cricketScore": [
-            {
-              "runs": 174,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 7
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Kashi Rudras",
-          "shortName": "KAS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KASHR@2x.png"
-          },
-          "isWinner": false,
-          "color": "#b46f2a",
-          "cricketScore": [
-            {
-              "runs": 104,
-              "overs": "14",
-              "balls": "84",
-              "status": "IN_PROGRESS",
-              "wickets": 5
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ]
-    },
-    {
       "category": "Football",
       "title": "Al Ettifaq Vs Al Nassr Fc",
       "tournament": "Roshn Saudi League 2026-2027",
@@ -1572,117 +1413,50 @@
     },
     {
       "category": "Cricket",
-      "title": "East Delhi Riders Women Vs North Delhi Strikers Women",
-      "tournament": "Women's Delhi Premier League, 2026",
-      "short_name": null,
-      "match_id": 4247554,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "25 August 2026 01:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247554_53003_EDR-W_NDS-W_FC-Web_1787555684601.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247554_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247554_53003_EDR-W_NDS-W_FC-Web_1787555684601.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247554_53003_EDR-W_NDS-W_FC-Web_1787555684601.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247554_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "East Delhi Riders Women",
-          "shortName": "EDR-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-EDR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e7993a",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "North Delhi Strikers Women",
-          "shortName": "NDS-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#713c94",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ]
-    },
-    {
-      "category": "Cricket",
-      "title": "Adelaide Strikers Academy Vs Bangladesh Hp Xi",
+      "title": "Hyderabad Kingsmen Academy Vs New Zealand A",
       "tournament": "Top End T20 Series, 2026",
       "short_name": null,
-      "match_id": 4248433,
+      "match_id": 4248440,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "25 August 2026 03:00 PM",
+      "startTime": "25 August 2026 10:30 AM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248433_53036_ACA_BAN-HP_fc-web_1787393618656.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248440_53036_HYK_NZ-A_fc-web_1787393618652.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248433_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248433_53036_ACA_BAN-HP_fc-web_1787393618656.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248440_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248440_53036_HYK_NZ-A_fc-web_1787393618652.jpg",
         "PLAYBACK": null,
         "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Top-End-Series-T20-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248433_53036_ACA_BAN-HP_fc-web_1787393618656.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248440_53036_HYK_NZ-A_fc-web_1787393618652.jpg",
         "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248433_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248440_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Adelaide Strikers Academy",
-          "shortName": "ACA",
+          "name": "Hyderabad Kingsmen Academy",
+          "shortName": "HKA",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ADSA@2x.png"
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Kingsmen.png"
           },
           "isWinner": null,
-          "color": "#093E63",
+          "color": "#DCDCDC",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
-          "name": "Bangladesh HP-XI",
-          "shortName": "BAN HP",
+          "name": "New Zealand A",
+          "shortName": "NZ-A",
           "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Bangladesh-HP-XI-1.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NZA-CR1@2x.png"
           },
           "isWinner": null,
-          "color": "#DCDCDC",
+          "color": "#4c64a7",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -2012,6 +1786,148 @@
       ]
     },
     {
+      "category": "Cricket",
+      "title": "Lucknow Falcons Vs Kashi Rudras",
+      "tournament": "Uttar Pradesh T20 League, 2026",
+      "short_name": null,
+      "match_id": 4248352,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "24 August 2026 03:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248352_53029_KAS_LCK_FC-Web_1786702851507.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248352_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248352_53029_KAS_LCK_FC-Web_1786702851507.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UP-T20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248352_53029_KAS_LCK_FC-Web_1786702851507.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248352_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Lucknow Falcons",
+          "shortName": "LCK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LKO@2x.png"
+          },
+          "isWinner": true,
+          "color": "#8458f7",
+          "cricketScore": [
+            {
+              "runs": 174,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 7
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Kashi Rudras",
+          "shortName": "KAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KASHR@2x.png"
+          },
+          "isWinner": false,
+          "color": "#b46f2a",
+          "cricketScore": [
+            {
+              "runs": 104,
+              "overs": "14",
+              "balls": "84",
+              "status": "IN_PROGRESS",
+              "wickets": 5
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "East Delhi Riders Women Vs North Delhi Strikers Women",
+      "tournament": "Women's Delhi Premier League, 2026",
+      "short_name": null,
+      "match_id": 4247554,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "25 August 2026 01:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247554_53003_EDR-W_NDS-W_FC-Web_1787555684601.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247554_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247554_53003_EDR-W_NDS-W_FC-Web_1787555684601.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247554_53003_EDR-W_NDS-W_FC-Web_1787555684601.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247554_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "East Delhi Riders Women",
+          "shortName": "EDR-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-EDR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#e7993a",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "North Delhi Strikers Women",
+          "shortName": "NDS-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#713c94",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
       "category": "Football",
       "title": "Valencia Cf Vs Real Betis",
       "tournament": "LALIGA 2026-27",
@@ -2188,6 +2104,69 @@
           "isWinner": null,
           "color": "#0017c5",
           "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Adelaide Strikers Academy Vs Bangladesh Hp Xi",
+      "tournament": "Top End T20 Series, 2026",
+      "short_name": null,
+      "match_id": 4248433,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "25 August 2026 03:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248433_53036_ACA_BAN-HP_fc-web_1787393618656.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248433_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248433_53036_ACA_BAN-HP_fc-web_1787393618656.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Top-End-Series-T20-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248433_53036_ACA_BAN-HP_fc-web_1787393618656.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248433_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Adelaide Strikers Academy",
+          "shortName": "ACA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ADSA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#093E63",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Bangladesh HP-XI",
+          "shortName": "BAN HP",
+          "flag": {
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Bangladesh-HP-XI-1.png"
+          },
+          "isWinner": null,
+          "color": "#DCDCDC",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
