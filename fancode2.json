@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:56:10 AM 25-08-2026",
+  "last_updated": "01:21:01 AM 25-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 5,
-  "upcoming_matches": 35,
+  "live_matches": 4,
+  "upcoming_matches": 36,
   "matches": [
     {
       "category": "Football",
@@ -124,10 +124,17 @@
           "color": "#537eba",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Deportivo de La Coruna",
@@ -139,10 +146,17 @@
           "color": "#71157B",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -345,107 +359,6 @@
           "language": "ENGLISH"
         }
       ]
-    },
-    {
-      "category": "Football",
-      "title": "Ca Osasuna Vs Levante",
-      "tournament": "LALIGA 2026-27",
-      "short_name": null,
-      "match_id": 4247579,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "24 August 2026 11:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247579_53004_OSN_LET_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247579_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247579_53004_OSN_LET_FC-Web.png",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247579_53004_OSN_LET_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247579_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "CA Osasuna",
-          "shortName": "OSN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-OSN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#F2DC85",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Levante",
-          "shortName": "LET",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
-          },
-          "isWinner": null,
-          "color": "#598bc1",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": true,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4247579_english_dash_10964_1drmta-di_h264/index.mpd",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4247579_english_dash_10964_1drmta-di_h264/index.mpd",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4247579_english_dash_10964_1drmta-di_h264/index.mpd",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4247579_english_dash_10964_1drmta-di_h264/index.mpd",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4247579_english_dash_10964_1drmta-di_h264/index.mpd",
-        "Akamai_cdn": "Unavailable",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "drm": {
-          "keys": [
-            "93ae4a53d7d7475faad197314fcdae2e:f54c367531e87899870f6ddc84d572f4"
-          ],
-          "jwk": {
-            "keys": [
-              {
-                "k": "9Uw2dTHoeJmHD23chNVy9A",
-                "kid": "k65KU9fXR1-q0ZcxT82uLg",
-                "kty": "oct"
-              }
-            ],
-            "type": "temporary"
-          },
-          "clearkey": "93ae4a53d7d7475faad197314fcdae2e:f54c367531e87899870f6ddc84d572f4"
-        }
-      },
-      "auto_streams": null
     },
     {
       "category": "Cricket",
@@ -2683,6 +2596,69 @@
           },
           "isWinner": null,
           "color": "#50E907",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Real Madrid Vs Real Sociedad",
+      "tournament": "LALIGA 2026-27",
+      "short_name": null,
+      "match_id": 4247571,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "27 August 2026 12:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247571_53004_RM_RS_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247571_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247571_53004_RM_RS_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247571_53004_RM_RS_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247571_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Real Madrid",
+          "shortName": "RM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#004996",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Real Sociedad",
+          "shortName": "RS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RSO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ae7a05",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
