@@ -2,15 +2,111 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:49:09 PM 26-08-2026",
+  "last_updated": "01:35:02 PM 26-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 1,
-  "upcoming_matches": 39,
+  "live_matches": 3,
+  "upcoming_matches": 37,
   "matches": [
+    {
+      "category": "Cricket",
+      "title": "South Delhi Superstarz Vs Central Delhi Kings",
+      "tournament": "Delhi Premier League, 2026",
+      "short_name": null,
+      "match_id": 4248001,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "26 August 2026 01:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248001_53005_CDK_SDS_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248001_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248001_53005_CDK_SDS_FC-Web.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248001_53005_CDK_SDS_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248001_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "South Delhi Superstarz",
+          "shortName": "SDS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#921b36",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0.2",
+              "balls": "2",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Central Delhi Kings",
+          "shortName": "CDK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0082cb",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "WALTER"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/240p.m3u8?hdntl=Expires=1787817487~_GO=Generated~acl=/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/*~Signature=ARB3KG16yzTYnYJoghf6aMBDOglSKdbu08a2Q-MOPDUfhtq2fuVGbvGpWRmZrpxVb1qzYIgUwHROykwplAJwHdOB01kF\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/360p.m3u8?hdntl=Expires=1787817487~_GO=Generated~acl=/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/*~Signature=ARB3KG16yzTYnYJoghf6aMBDOglSKdbu08a2Q-MOPDUfhtq2fuVGbvGpWRmZrpxVb1qzYIgUwHROykwplAJwHdOB01kF\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/480p.m3u8?hdntl=Expires=1787817487~_GO=Generated~acl=/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/*~Signature=ARB3KG16yzTYnYJoghf6aMBDOglSKdbu08a2Q-MOPDUfhtq2fuVGbvGpWRmZrpxVb1qzYIgUwHROykwplAJwHdOB01kF\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/540p.m3u8?hdntl=Expires=1787817487~_GO=Generated~acl=/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/*~Signature=ARB3KG16yzTYnYJoghf6aMBDOglSKdbu08a2Q-MOPDUfhtq2fuVGbvGpWRmZrpxVb1qzYIgUwHROykwplAJwHdOB01kF\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/720p.m3u8?hdntl=Expires=1787817487~_GO=Generated~acl=/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/*~Signature=ARB3KG16yzTYnYJoghf6aMBDOglSKdbu08a2Q-MOPDUfhtq2fuVGbvGpWRmZrpxVb1qzYIgUwHROykwplAJwHdOB01kF\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787817487~_GO=Generated~acl=/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/*~Signature=ARB3KG16yzTYnYJoghf6aMBDOglSKdbu08a2Q-MOPDUfhtq2fuVGbvGpWRmZrpxVb1qzYIgUwHROykwplAJwHdOB01kF",
+          "cookie": "hdntl=Expires=1787817487~_GO=Generated~acl=/mumbai/4248001_english_hls_7094f1fcaf2862_1ta-di_h264/*~Signature=ARB3KG16yzTYnYJoghf6aMBDOglSKdbu08a2Q-MOPDUfhtq2fuVGbvGpWRmZrpxVb1qzYIgUwHROykwplAJwHdOB01kF",
+          "cookie_valid": "1787817487",
+          "create_date": "Wednesday, August 26, 2026, 1:28:07 PM",
+          "expire_date": "Thursday, August 27, 2026, 1:28:07 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
     {
       "category": "Cricket",
       "title": "Adelaide Strikers Academy Vs Hobart Hurricanes Academy",
@@ -71,11 +167,11 @@
           "color": "#771ad2",
           "cricketScore": [
             {
-              "runs": 53,
-              "overs": "6.5",
-              "balls": "41",
+              "runs": 134,
+              "overs": "16.1",
+              "balls": "97",
               "status": "IN_PROGRESS",
-              "wickets": 1
+              "wickets": 5
             }
           ],
           "kabaddiScore": null,
@@ -117,35 +213,35 @@
     },
     {
       "category": "Cricket",
-      "title": "Central Delhi Kings Vs South Delhi Superstarz",
-      "tournament": "Delhi Premier League, 2026",
+      "title": "Taknor Tigers Vs Bhagirathi Giants",
+      "tournament": "Uttarkashi T20 League 2026",
       "short_name": null,
-      "match_id": 4248001,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "match_id": 4248516,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "26 August 2026 01:30 PM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248001_53005_CDK_SDS_FC-Web.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248516_53041_TT_BG_FC-Web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248001_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248001_53005_CDK_SDS_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248516_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248516_53041_TT_BG_FC-Web.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Uttarkashi-T20-League.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248001_53005_CDK_SDS_FC-Web.png",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248516_53041_TT_BG_FC-Web.jpg",
         "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248001_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248516_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Central Delhi Kings",
-          "shortName": "CDK",
+          "name": "Taknor Tigers",
+          "shortName": "TT",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CDK@2x.png"
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Taknor-Tigers.png"
           },
           "isWinner": null,
-          "color": "#0082cb",
+          "color": "#DCDCDC",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -158,13 +254,13 @@
           }
         },
         {
-          "name": "South Delhi Superstarz",
-          "shortName": "SDS",
+          "name": "Bhagirathi Giants",
+          "shortName": "BG",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png"
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Bhagirathi-Giants.png"
           },
           "isWinner": null,
-          "color": "#921b36",
+          "color": "#DCDCDC",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -175,6 +271,31 @@
               "isBatting": false
             }
           }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "WALTER"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/240p.m3u8?hdntl=Expires=1787817491~_GO=Generated~acl=/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/*~Signature=ARB3KG38WI9DYb4gF6uvGrzhfndQ3GQJSL9jUtx0X-eThtEPvVF1zsdOIhgARGuVB0Z5aKSfqwU2zmjYIYRsJKqYsM0B\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/360p.m3u8?hdntl=Expires=1787817491~_GO=Generated~acl=/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/*~Signature=ARB3KG38WI9DYb4gF6uvGrzhfndQ3GQJSL9jUtx0X-eThtEPvVF1zsdOIhgARGuVB0Z5aKSfqwU2zmjYIYRsJKqYsM0B\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/480p.m3u8?hdntl=Expires=1787817491~_GO=Generated~acl=/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/*~Signature=ARB3KG38WI9DYb4gF6uvGrzhfndQ3GQJSL9jUtx0X-eThtEPvVF1zsdOIhgARGuVB0Z5aKSfqwU2zmjYIYRsJKqYsM0B\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/540p.m3u8?hdntl=Expires=1787817491~_GO=Generated~acl=/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/*~Signature=ARB3KG38WI9DYb4gF6uvGrzhfndQ3GQJSL9jUtx0X-eThtEPvVF1zsdOIhgARGuVB0Z5aKSfqwU2zmjYIYRsJKqYsM0B\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/720p.m3u8?hdntl=Expires=1787817491~_GO=Generated~acl=/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/*~Signature=ARB3KG38WI9DYb4gF6uvGrzhfndQ3GQJSL9jUtx0X-eThtEPvVF1zsdOIhgARGuVB0Z5aKSfqwU2zmjYIYRsJKqYsM0B\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787817491~_GO=Generated~acl=/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/*~Signature=ARB3KG38WI9DYb4gF6uvGrzhfndQ3GQJSL9jUtx0X-eThtEPvVF1zsdOIhgARGuVB0Z5aKSfqwU2zmjYIYRsJKqYsM0B",
+          "cookie": "hdntl=Expires=1787817491~_GO=Generated~acl=/mumbai/4248516_english_hls_f43c9a608d16208_1ta-di_h264/*~Signature=ARB3KG38WI9DYb4gF6uvGrzhfndQ3GQJSL9jUtx0X-eThtEPvVF1zsdOIhgARGuVB0Z5aKSfqwU2zmjYIYRsJKqYsM0B",
+          "cookie_valid": "1787817491",
+          "create_date": "Wednesday, August 26, 2026, 1:28:12 PM",
+          "expire_date": "Thursday, August 27, 2026, 1:28:11 PM",
+          "language": "ENGLISH"
         }
       ]
     },
@@ -354,69 +475,6 @@
           },
           "isWinner": null,
           "color": "#b46f2a",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ]
-    },
-    {
-      "category": "Cricket",
-      "title": "Taknor Tigers Vs Bhagirathi Giants",
-      "tournament": "Uttarkashi T20 League 2026",
-      "short_name": null,
-      "match_id": 4248516,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "26 August 2026 01:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248516_53041_TT_BG_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248516_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248516_53041_TT_BG_FC-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Uttarkashi-T20-League.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248516_53041_TT_BG_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248516_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Taknor Tigers",
-          "shortName": "TT",
-          "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Taknor-Tigers.png"
-          },
-          "isWinner": null,
-          "color": "#DCDCDC",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Bhagirathi Giants",
-          "shortName": "BG",
-          "flag": {
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Bhagirathi-Giants.png"
-          },
-          "isWinner": null,
-          "color": "#DCDCDC",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -965,7 +1023,7 @@
           },
           "isWinner": null,
           "color": "#DCDCDC",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -984,7 +1042,7 @@
           },
           "isWinner": null,
           "color": "#4c64a7",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1028,7 +1086,7 @@
           },
           "isWinner": null,
           "color": "#DCDCDC",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1047,7 +1105,7 @@
           },
           "isWinner": null,
           "color": "#DCDCDC",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
