@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""
-Convert FanCode live matches JSON to M3U playlist.
-Default JSON URL: https://allinonereborn2.online/fctest/json/fancode_latest.json
-Default output: fancode3.m3u
-
-Usage:
-    python fancode2m3u.py [json_source] [output_file] [--add-headers]
-"""
 
 import sys
 import json
@@ -14,7 +6,7 @@ import requests
 from urllib.parse import urlparse
 
 DEFAULT_JSON_URL = "https://allinonereborn2.online/fctest/json/fancode_latest.json"
-DEFAULT_OUTPUT = "fancode4.m3u"   # changed here
+DEFAULT_OUTPUT = "fancode4.m3u"
 
 LANG_CODE = {
     "HINDI": "HIN",
@@ -23,8 +15,12 @@ LANG_CODE = {
     "ENGLISH": "ENG",
 }
 
+REFERRER = "https://allinonereborn2.online"
+
+
 def get_lang_code(lang):
     return LANG_CODE.get(lang.upper(), lang[:3].upper())
+
 
 def convert_json_to_m3u(data, add_headers=False):
     lines = ["#EXTM3U"]
@@ -51,9 +47,10 @@ def convert_json_to_m3u(data, add_headers=False):
             )
             lines.append(extinf)
             if add_headers:
-                url += '|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/'
+                lines.append(f"#EXTVLCOPT:http-referrer={REFERRER}")
             lines.append(url)
     return "\n".join(lines)
+
 
 def load_json(source):
     parsed = urlparse(source)
@@ -64,6 +61,7 @@ def load_json(source):
     else:
         with open(source, "r", encoding="utf-8") as f:
             return json.load(f)
+
 
 def main():
     source = DEFAULT_JSON_URL
@@ -84,6 +82,7 @@ def main():
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(m3u_content)
     print(f"Playlist written to {output_file}")
+
 
 if __name__ == "__main__":
     main()
