@@ -14,7 +14,7 @@ import requests
 from urllib.parse import urlparse
 
 DEFAULT_JSON_URL = "https://allinonereborn2.online/fctest/json/fancode_latest.json"
-DEFAULT_OUTPUT = "fancode3.m3u"   # changed here
+DEFAULT_OUTPUT = "fancode4.m3u"   # changed here
 
 LANG_CODE = {
     "HINDI": "HIN",
