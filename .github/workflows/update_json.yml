@@ -28,11 +28,13 @@ jobs:
           curl -sS -L -o fancode.m3u "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.m3u"
           curl -sS -o fancode2.json "https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.json"
           curl -sS -L -o fancode2.m3u "https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.m3u"
+          curl -sS -o fancode3.json "https://raw.githubusercontent.com/kajju027/Fancode-Events-Json/refs/heads/main/fancode.json"
+          curl -sS -L -o fancode3.m3u "https://raw.githubusercontent.com/kajju027/Fancode-Events-Json/refs/heads/main/fc.m3u"
           echo "🚀 FanCode Synced | IST: $(date +'%Y-%m-%d %H:%M:%S') | ID: $RANDOM" >> fancode.txt
       - name: Commit and Push
         run: |
           export TZ="Asia/Kolkata"
-          git add fancode.json fancode.m3u fancode2.json fancode2.m3u fancode.txt
+          git add fancode.json fancode.m3u fancode2.json fancode2.m3u fancode3.json fancode3.m3u fancode.txt
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "FanCode Database Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
           git push origin main
