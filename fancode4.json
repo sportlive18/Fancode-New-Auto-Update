@@ -2,39 +2,70 @@
     "author": "Amit",
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "source_last_updated": "06:09:50 AM 22-09-2026",
-    "generated_at": "2026-09-22 00:45:34",
+    "source_last_updated": "10:02:13 AM 22-09-2026",
+    "generated_at": "2026-09-22 04:40:11",
     "base_url": "https://allinonereborn2.online/fctest/",
     "fallback_mode": false,
-    "total_matches": 38,
-    "live_matches_count": 0,
-    "upcoming_matches_count": 38,
+    "total_matches": 39,
+    "live_matches_count": 3,
+    "upcoming_matches_count": 36,
     "matches": [
         {
             "event_category": "Cricket",
-            "match_id": 4249214,
-            "title": "Japan vs India (India tour of Japan, 2026)",
-            "match_name": "Japan vs India",
+            "match_id": "4249214_ENG",
+            "title": "India tour of Japan, 2026 [English]",
+            "match_name": "Japan vs India [English]",
             "event_name": "India tour of Japan, 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/JPN-vs-IND_FC-WEB.jpg",
             "team_1": "Japan",
             "team_2": "India",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "startTime": "09:30:00 AM 22-09-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249214_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
-            "match_id": 4249277,
-            "title": "Queensland vs New South Wales (One Day Cup, 2026/27)",
-            "match_name": "Queensland vs New South Wales",
+            "match_id": "4249214_HIN",
+            "title": "India tour of Japan, 2026 [Hindi]",
+            "match_name": "Japan vs India [Hindi]",
+            "event_name": "India tour of Japan, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/JPN-vs-IND_FC-WEB.jpg",
+            "team_1": "Japan",
+            "team_2": "India",
+            "status": "LIVE",
+            "startTime": "09:30:00 AM 22-09-2026",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "Hindi",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249214_HIN/hindi.m3u8"
+                }
+            ]
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": "4249277_ENG",
+            "title": "One Day Cup, 2026/27 [English]",
+            "match_name": "Queensland vs New South Wales [English]",
             "event_name": "One Day Cup, 2026/27",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4249277_53072_QUN_NSW_FC-Web.jpg",
             "team_1": "Queensland",
             "team_2": "New South Wales",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "startTime": "09:30:00 AM 22-09-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249277_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
@@ -60,6 +91,19 @@
             "team_2": "Bhubaneshwar Tigers",
             "status": "UPCOMING",
             "startTime": "07:30:00 PM 22-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249275,
+            "title": "South Australia vs Tasmania (One Day Cup, 2026/27)",
+            "match_name": "South Australia vs Tasmania",
+            "event_name": "One Day Cup, 2026/27",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249275_53072_SAU_TAS_FC-Web.jpg",
+            "team_1": "South Australia",
+            "team_2": "Tasmania",
+            "status": "UPCOMING",
+            "startTime": "06:00:00 AM 23-09-2026",
             "user-agent": null
         },
         {
@@ -112,19 +156,6 @@
             "team_2": "BK Häcken Women",
             "status": "UPCOMING",
             "startTime": "10:15:00 PM 22-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
-            "match_id": 4249275,
-            "title": "South Australia vs Tasmania (One Day Cup, 2026/27)",
-            "match_name": "South Australia vs Tasmania",
-            "event_name": "One Day Cup, 2026/27",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249275_53072_SAU_TAS_FC-Web.jpg",
-            "team_1": "South Australia",
-            "team_2": "Tasmania",
-            "status": "UPCOMING",
-            "startTime": "06:00:00 AM 23-09-2026",
             "user-agent": null
         },
         {
@@ -505,34 +536,66 @@
             "user-agent": null
         }
     ],
-    "live_matches": [],
-    "upcoming_matches": [
+    "live_matches": [
         {
             "event_category": "Cricket",
-            "match_id": 4249214,
-            "title": "Japan vs India (India tour of Japan, 2026)",
-            "match_name": "Japan vs India",
+            "match_id": "4249214_ENG",
+            "title": "India tour of Japan, 2026 [English]",
+            "match_name": "Japan vs India [English]",
             "event_name": "India tour of Japan, 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/JPN-vs-IND_FC-WEB.jpg",
             "team_1": "Japan",
             "team_2": "India",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "startTime": "09:30:00 AM 22-09-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249214_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
-            "match_id": 4249277,
-            "title": "Queensland vs New South Wales (One Day Cup, 2026/27)",
-            "match_name": "Queensland vs New South Wales",
+            "match_id": "4249214_HIN",
+            "title": "India tour of Japan, 2026 [Hindi]",
+            "match_name": "Japan vs India [Hindi]",
+            "event_name": "India tour of Japan, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/JPN-vs-IND_FC-WEB.jpg",
+            "team_1": "Japan",
+            "team_2": "India",
+            "status": "LIVE",
+            "startTime": "09:30:00 AM 22-09-2026",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "Hindi",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249214_HIN/hindi.m3u8"
+                }
+            ]
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": "4249277_ENG",
+            "title": "One Day Cup, 2026/27 [English]",
+            "match_name": "Queensland vs New South Wales [English]",
             "event_name": "One Day Cup, 2026/27",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4249277_53072_QUN_NSW_FC-Web.jpg",
             "team_1": "Queensland",
             "team_2": "New South Wales",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "startTime": "09:30:00 AM 22-09-2026",
-            "user-agent": null
-        },
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249277_ENG/english.m3u8"
+                }
+            ]
+        }
+    ],
+    "upcoming_matches": [
         {
             "event_category": "Cricket",
             "match_id": 4249574,
@@ -557,6 +620,19 @@
             "team_2": "Bhubaneshwar Tigers",
             "status": "UPCOMING",
             "startTime": "07:30:00 PM 22-09-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4249275,
+            "title": "South Australia vs Tasmania (One Day Cup, 2026/27)",
+            "match_name": "South Australia vs Tasmania",
+            "event_name": "One Day Cup, 2026/27",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249275_53072_SAU_TAS_FC-Web.jpg",
+            "team_1": "South Australia",
+            "team_2": "Tasmania",
+            "status": "UPCOMING",
+            "startTime": "06:00:00 AM 23-09-2026",
             "user-agent": null
         },
         {
@@ -609,19 +685,6 @@
             "team_2": "BK Häcken Women",
             "status": "UPCOMING",
             "startTime": "10:15:00 PM 22-09-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
-            "match_id": 4249275,
-            "title": "South Australia vs Tasmania (One Day Cup, 2026/27)",
-            "match_name": "South Australia vs Tasmania",
-            "event_name": "One Day Cup, 2026/27",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/4249275_53072_SAU_TAS_FC-Web.jpg",
-            "team_1": "South Australia",
-            "team_2": "Tasmania",
-            "status": "UPCOMING",
-            "startTime": "06:00:00 AM 23-09-2026",
             "user-agent": null
         },
         {
