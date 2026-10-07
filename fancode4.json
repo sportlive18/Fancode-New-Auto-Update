@@ -2,26 +2,32 @@
     "author": "Amit",
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "source_last_updated": "04:30:33 AM 08-10-2026",
-    "generated_at": "2026-10-07 23:15:03",
+    "source_last_updated": "04:50:46 AM 08-10-2026",
+    "generated_at": "2026-10-07 23:25:04",
     "base_url": "https://allinonereborn2.online/fctest/",
     "fallback_mode": false,
     "total_matches": 40,
-    "live_matches_count": 0,
-    "upcoming_matches_count": 40,
+    "live_matches_count": 1,
+    "upcoming_matches_count": 39,
     "matches": [
         {
             "event_category": "Cricket",
-            "match_id": 4249663,
-            "title": "New South Wales vs Tasmania (Sheffield Shield, 2026/27)",
-            "match_name": "New South Wales vs Tasmania",
+            "match_id": "4249663_ENG",
+            "title": "Sheffield Shield, 2026/27 [English]",
+            "match_name": "Tasmania vs New South Wales [English]",
             "event_name": "Sheffield Shield, 2026/27",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4249663_53087_NSW_TAS_FC-WEB_1791296057796.jpg",
-            "team_1": "New South Wales",
-            "team_2": "Tasmania",
-            "status": "UPCOMING",
+            "team_1": "Tasmania",
+            "team_2": "New South Wales",
+            "status": "LIVE",
             "startTime": "05:00:00 AM 08-10-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249663_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
@@ -531,21 +537,28 @@
             "user-agent": null
         }
     ],
-    "live_matches": [],
-    "upcoming_matches": [
+    "live_matches": [
         {
             "event_category": "Cricket",
-            "match_id": 4249663,
-            "title": "New South Wales vs Tasmania (Sheffield Shield, 2026/27)",
-            "match_name": "New South Wales vs Tasmania",
+            "match_id": "4249663_ENG",
+            "title": "Sheffield Shield, 2026/27 [English]",
+            "match_name": "Tasmania vs New South Wales [English]",
             "event_name": "Sheffield Shield, 2026/27",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4249663_53087_NSW_TAS_FC-WEB_1791296057796.jpg",
-            "team_1": "New South Wales",
-            "team_2": "Tasmania",
-            "status": "UPCOMING",
+            "team_1": "Tasmania",
+            "team_2": "New South Wales",
+            "status": "LIVE",
             "startTime": "05:00:00 AM 08-10-2026",
-            "user-agent": null
-        },
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249663_ENG/english.m3u8"
+                }
+            ]
+        }
+    ],
+    "upcoming_matches": [
         {
             "event_category": "Cricket",
             "match_id": 4249662,
