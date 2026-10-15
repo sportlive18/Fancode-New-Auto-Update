@@ -2,13 +2,13 @@
     "author": "Amit",
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "source_last_updated": "01:10:04 PM 15-10-2026",
-    "generated_at": "2026-10-15 07:45:40",
+    "source_last_updated": "01:20:09 PM 15-10-2026",
+    "generated_at": "2026-10-15 07:55:09",
     "base_url": "https://allinonereborn2.online/fctest/",
     "fallback_mode": false,
     "total_matches": 40,
-    "live_matches_count": 5,
-    "upcoming_matches_count": 35,
+    "live_matches_count": 6,
+    "upcoming_matches_count": 34,
     "matches": [
         {
             "event_category": "Cricket",
@@ -107,16 +107,22 @@
         },
         {
             "event_category": "Cricket",
-            "match_id": 4250101,
-            "title": "Australia Governor Generals XI vs New Zealand Women (Governor General's XI vs New Zealand W, 2026)",
-            "match_name": "Australia Governor Generals XI vs New Zealand Women",
+            "match_id": "4250101_ENG",
+            "title": "Governor General's XI vs New Zealand W, 2026 [English]",
+            "match_name": "Australia Governor Generals XI vs New Zealand Women [English]",
             "event_name": "Governor General's XI vs New Zealand W, 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/Governor-Generals-XI-vs-New-Zealand-W-2026_FC-WEB.jpg",
             "team_1": "Australia Governor Generals XI",
             "team_2": "New Zealand Women",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "startTime": "01:35:00 PM 15-10-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4250101_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
@@ -656,22 +662,28 @@
                     "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4250144_ENG/english.m3u8"
                 }
             ]
-        }
-    ],
-    "upcoming_matches": [
+        },
         {
             "event_category": "Cricket",
-            "match_id": 4250101,
-            "title": "Australia Governor Generals XI vs New Zealand Women (Governor General's XI vs New Zealand W, 2026)",
-            "match_name": "Australia Governor Generals XI vs New Zealand Women",
+            "match_id": "4250101_ENG",
+            "title": "Governor General's XI vs New Zealand W, 2026 [English]",
+            "match_name": "Australia Governor Generals XI vs New Zealand Women [English]",
             "event_name": "Governor General's XI vs New Zealand W, 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/Governor-Generals-XI-vs-New-Zealand-W-2026_FC-WEB.jpg",
             "team_1": "Australia Governor Generals XI",
             "team_2": "New Zealand Women",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "startTime": "01:35:00 PM 15-10-2026",
-            "user-agent": null
-        },
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4250101_ENG/english.m3u8"
+                }
+            ]
+        }
+    ],
+    "upcoming_matches": [
         {
             "event_category": "Cricket",
             "match_id": 4250189,
