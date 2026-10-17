@@ -2,13 +2,13 @@
     "author": "Amit",
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "source_last_updated": "07:34:57 PM 17-10-2026",
-    "generated_at": "2026-10-17 14:20:03",
+    "source_last_updated": "07:45:39 PM 17-10-2026",
+    "generated_at": "2026-10-17 14:25:05",
     "base_url": "https://allinonereborn2.online/fctest/",
     "fallback_mode": false,
     "total_matches": 36,
-    "live_matches_count": 6,
-    "upcoming_matches_count": 30,
+    "live_matches_count": 7,
+    "upcoming_matches_count": 29,
     "matches": [
         {
             "event_category": "Cricket",
@@ -126,16 +126,22 @@
         },
         {
             "event_category": "Cricket",
-            "match_id": 4250229,
-            "title": "TSV Malmsheim vs THCC Rot-Gelb Hamburg (GSL Championship 2026)",
-            "match_name": "TSV Malmsheim vs THCC Rot-Gelb Hamburg",
+            "match_id": "4250229_ENG",
+            "title": "GSL Championship 2026 [English]",
+            "match_name": "TSV Malmsheim vs THCC Rot-Gelb Hamburg [English]",
             "event_name": "GSL Championship 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4250229_53117_TSV_THCC_fc-web.jpg",
             "team_1": "TSV Malmsheim",
             "team_2": "THCC Rot-Gelb Hamburg",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "startTime": "08:00:00 PM 17-10-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4250229_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
@@ -629,22 +635,28 @@
                     "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4250147_ENG/english.m3u8"
                 }
             ]
-        }
-    ],
-    "upcoming_matches": [
+        },
         {
             "event_category": "Cricket",
-            "match_id": 4250229,
-            "title": "TSV Malmsheim vs THCC Rot-Gelb Hamburg (GSL Championship 2026)",
-            "match_name": "TSV Malmsheim vs THCC Rot-Gelb Hamburg",
+            "match_id": "4250229_ENG",
+            "title": "GSL Championship 2026 [English]",
+            "match_name": "TSV Malmsheim vs THCC Rot-Gelb Hamburg [English]",
             "event_name": "GSL Championship 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4250229_53117_TSV_THCC_fc-web.jpg",
             "team_1": "TSV Malmsheim",
             "team_2": "THCC Rot-Gelb Hamburg",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "startTime": "08:00:00 PM 17-10-2026",
-            "user-agent": null
-        },
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4250229_ENG/english.m3u8"
+                }
+            ]
+        }
+    ],
+    "upcoming_matches": [
         {
             "event_category": "Cricket",
             "match_id": 4249782,
