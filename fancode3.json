@@ -1,9 +1,9 @@
 {
   "name": "FanCode Live Matches API",
-  "updatedAt": "19/10/2026, 10:54:47 am",
+  "updatedAt": "19/10/2026, 10:57:33 am",
   "total_matches": 40,
-  "live_matches": 3,
-  "upcoming_matches": 37,
+  "live_matches": 4,
+  "upcoming_matches": 36,
   "matches": [
     {
       "category": "Cricket",
@@ -106,22 +106,36 @@
     },
     {
       "category": "Cricket",
-      "title": "Nepal vs Oman",
+      "title": "Nepal vs Oman [English]",
       "tournament": "ICC CWC League 2 Oman, 2026",
       "match_id": "4250118",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "startTime": "11:00:00 AM 19-10-2026",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/4250118_53106_OMA_NEP_fc-web.png",
       "language": "ENGLISH",
       "streams": {
-        "primary": "",
-        "fancode_cdn": "UNAVAILABLE",
-        "fancode_bd_cdn": "UNAVAILABLE",
-        "fancode_np_cdn": "UNAVAILABLE",
-        "fancode_lk_cdn": "UNAVAILABLE",
+        "primary": "https://in-mc-flive.fancode.com/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/1080p.m3u8?hdntl=Expires=1792473758~_GO=Generated~acl=/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_daf5fdbd-ac4b-43~Signature=AZJsJWYikH00QMsYjozKUpMJLBaS0Xo5MJrdKR1VLkA8lTN3CTjgqVNEmsKBEeVwXXcEzwjkCSzc4KPOcoueEQEmHQMH",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/index.m3u8",
         "backup": {}
       },
-      "auto_streams": {}
+      "auto_streams": {
+        "ENGLISH": {
+          "streams": {
+            "240p": "https://in-mc-flive.fancode.com/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/240p.m3u8?hdntl=Expires=1792473758~_GO=Generated~acl=/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_daf5fdbd-ac4b-43~Signature=AZJsJWYikH00QMsYjozKUpMJLBaS0Xo5MJrdKR1VLkA8lTN3CTjgqVNEmsKBEeVwXXcEzwjkCSzc4KPOcoueEQEmHQMH",
+            "360p": "https://in-mc-flive.fancode.com/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/360p.m3u8?hdntl=Expires=1792473758~_GO=Generated~acl=/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_daf5fdbd-ac4b-43~Signature=AZJsJWYikH00QMsYjozKUpMJLBaS0Xo5MJrdKR1VLkA8lTN3CTjgqVNEmsKBEeVwXXcEzwjkCSzc4KPOcoueEQEmHQMH",
+            "480p": "https://in-mc-flive.fancode.com/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/480p.m3u8?hdntl=Expires=1792473758~_GO=Generated~acl=/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_daf5fdbd-ac4b-43~Signature=AZJsJWYikH00QMsYjozKUpMJLBaS0Xo5MJrdKR1VLkA8lTN3CTjgqVNEmsKBEeVwXXcEzwjkCSzc4KPOcoueEQEmHQMH",
+            "540p": "https://in-mc-flive.fancode.com/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/540p.m3u8?hdntl=Expires=1792473758~_GO=Generated~acl=/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_daf5fdbd-ac4b-43~Signature=AZJsJWYikH00QMsYjozKUpMJLBaS0Xo5MJrdKR1VLkA8lTN3CTjgqVNEmsKBEeVwXXcEzwjkCSzc4KPOcoueEQEmHQMH",
+            "720p": "https://in-mc-flive.fancode.com/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/720p.m3u8?hdntl=Expires=1792473758~_GO=Generated~acl=/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_daf5fdbd-ac4b-43~Signature=AZJsJWYikH00QMsYjozKUpMJLBaS0Xo5MJrdKR1VLkA8lTN3CTjgqVNEmsKBEeVwXXcEzwjkCSzc4KPOcoueEQEmHQMH",
+            "1080p": "https://in-mc-flive.fancode.com/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/1080p.m3u8?hdntl=Expires=1792473758~_GO=Generated~acl=/mumbai/4250118_english_hls_18e6f9f0c62934_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_daf5fdbd-ac4b-43~Signature=AZJsJWYikH00QMsYjozKUpMJLBaS0Xo5MJrdKR1VLkA8lTN3CTjgqVNEmsKBEeVwXXcEzwjkCSzc4KPOcoueEQEmHQMH"
+          },
+          "sonu_px": "https://akamaii.lovable.app/api/public/px/fancode?url=https%3A%2F%2Fin-mc-flive.fancode.com%2Fmumbai%2F4250118_english_hls_18e6f9f0c62934_1ta-di_h264%2F720p.m3u8%3Fhdntl%3DExpires%3D1792473758~_GO%3DGenerated~acl%3D%2Fmumbai%2F4250118_english_hls_18e6f9f0c62934_1ta-di_h264%2F*~SessionID%3Dfc-app_sportsguruand_watcho_daf5fdbd-ac4b-43~Signature%3DAZJsJWYikH00QMsYjozKUpMJLBaS0Xo5MJrdKR1VLkA8lTN3CTjgqVNEmsKBEeVwXXcEzwjkCSzc4KPOcoueEQEmHQMH",
+          "expires": "1792473758",
+          "expire_date": "20-10-2026 10:52:38 IST"
+        }
+      }
     },
     {
       "category": "Cricket",
