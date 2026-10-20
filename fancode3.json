@@ -1,9 +1,9 @@
 {
   "name": "FanCode Live Matches API",
-  "updatedAt": "20/10/2026, 11:06:52 pm",
+  "updatedAt": "20/10/2026, 11:19:09 pm",
   "total_matches": 40,
-  "live_matches": 3,
-  "upcoming_matches": 37,
+  "live_matches": 5,
+  "upcoming_matches": 35,
   "matches": [
     {
       "category": "Cricket",
@@ -106,6 +106,25 @@
     },
     {
       "category": "Cricket",
+      "title": "South Africa vs Australia",
+      "tournament": "Australia tour of South Africa, 2026",
+      "match_id": "4249782",
+      "status": "UPCOMING",
+      "startTime": "01:30:00 PM 18-10-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/AUS-vs-SA-test_Web-match-card.png",
+      "language": "ENGLISH",
+      "streams": {
+        "primary": "",
+        "fancode_cdn": "UNAVAILABLE",
+        "fancode_bd_cdn": "UNAVAILABLE",
+        "fancode_np_cdn": "UNAVAILABLE",
+        "fancode_lk_cdn": "UNAVAILABLE",
+        "backup": {}
+      },
+      "auto_streams": {}
+    },
+    {
+      "category": "Cricket",
       "title": "Tasmania vs Victoria",
       "tournament": "Sheffield Shield, 2026/27",
       "match_id": "4249665",
@@ -144,25 +163,6 @@
     },
     {
       "category": "Cricket",
-      "title": "South Africa vs Australia",
-      "tournament": "Australia tour of South Africa, 2026",
-      "match_id": "4249782",
-      "status": "UPCOMING",
-      "startTime": "01:30:00 PM 18-10-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/AUS-vs-SA-test_Web-match-card.png",
-      "language": "ENGLISH",
-      "streams": {
-        "primary": "",
-        "fancode_cdn": "UNAVAILABLE",
-        "fancode_bd_cdn": "UNAVAILABLE",
-        "fancode_np_cdn": "UNAVAILABLE",
-        "fancode_lk_cdn": "UNAVAILABLE",
-        "backup": {}
-      },
-      "auto_streams": {}
-    },
-    {
-      "category": "Cricket",
       "title": "New South Wales vs Western Australia",
       "tournament": "Sheffield Shield, 2026/27",
       "match_id": "4249667",
@@ -182,41 +182,69 @@
     },
     {
       "category": "Football",
-      "title": "Al-Ettifaq vs Al-Ittihad",
+      "title": "Al-Ettifaq vs Al-Ittihad [English]",
       "tournament": "Roshn Saudi League 2026-2027",
       "match_id": "4250216",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "startTime": "11:30:00 PM 20-10-2026",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/4250216_53025_ETT_ITT_FC-Web.png",
       "language": "ENGLISH",
       "streams": {
-        "primary": "",
-        "fancode_cdn": "UNAVAILABLE",
-        "fancode_bd_cdn": "UNAVAILABLE",
-        "fancode_np_cdn": "UNAVAILABLE",
-        "fancode_lk_cdn": "UNAVAILABLE",
+        "primary": "https://in-mc-flive.fancode.com/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/1080p.m3u8?hdntl=Expires=1792604724~_GO=Generated~acl=/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_42882a8f-840b-4d~Signature=ASgJGVD6htyXU1aRRaiEn_NC-97AdaDbzbA9eEEfMOX31BglzLsLiPxPEpEES9wpxLjlLNHg4saJs-_Uqr9OZ-pQ0YQD",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/index.m3u8",
         "backup": {}
       },
-      "auto_streams": {}
+      "auto_streams": {
+        "ENGLISH": {
+          "streams": {
+            "240p": "https://in-mc-flive.fancode.com/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/240p.m3u8?hdntl=Expires=1792604724~_GO=Generated~acl=/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_42882a8f-840b-4d~Signature=ASgJGVD6htyXU1aRRaiEn_NC-97AdaDbzbA9eEEfMOX31BglzLsLiPxPEpEES9wpxLjlLNHg4saJs-_Uqr9OZ-pQ0YQD",
+            "360p": "https://in-mc-flive.fancode.com/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/360p.m3u8?hdntl=Expires=1792604724~_GO=Generated~acl=/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_42882a8f-840b-4d~Signature=ASgJGVD6htyXU1aRRaiEn_NC-97AdaDbzbA9eEEfMOX31BglzLsLiPxPEpEES9wpxLjlLNHg4saJs-_Uqr9OZ-pQ0YQD",
+            "480p": "https://in-mc-flive.fancode.com/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/480p.m3u8?hdntl=Expires=1792604724~_GO=Generated~acl=/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_42882a8f-840b-4d~Signature=ASgJGVD6htyXU1aRRaiEn_NC-97AdaDbzbA9eEEfMOX31BglzLsLiPxPEpEES9wpxLjlLNHg4saJs-_Uqr9OZ-pQ0YQD",
+            "540p": "https://in-mc-flive.fancode.com/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/540p.m3u8?hdntl=Expires=1792604724~_GO=Generated~acl=/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_42882a8f-840b-4d~Signature=ASgJGVD6htyXU1aRRaiEn_NC-97AdaDbzbA9eEEfMOX31BglzLsLiPxPEpEES9wpxLjlLNHg4saJs-_Uqr9OZ-pQ0YQD",
+            "720p": "https://in-mc-flive.fancode.com/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/720p.m3u8?hdntl=Expires=1792604724~_GO=Generated~acl=/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_42882a8f-840b-4d~Signature=ASgJGVD6htyXU1aRRaiEn_NC-97AdaDbzbA9eEEfMOX31BglzLsLiPxPEpEES9wpxLjlLNHg4saJs-_Uqr9OZ-pQ0YQD",
+            "1080p": "https://in-mc-flive.fancode.com/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/1080p.m3u8?hdntl=Expires=1792604724~_GO=Generated~acl=/mumbai/4250216_english_hls_667def4df736640_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_42882a8f-840b-4d~Signature=ASgJGVD6htyXU1aRRaiEn_NC-97AdaDbzbA9eEEfMOX31BglzLsLiPxPEpEES9wpxLjlLNHg4saJs-_Uqr9OZ-pQ0YQD"
+          },
+          "sonu_px": "https://akamaii.lovable.app/api/public/px/fancode?url=https%3A%2F%2Fin-mc-flive.fancode.com%2Fmumbai%2F4250216_english_hls_667def4df736640_1ta-di_h264%2F720p.m3u8%3Fhdntl%3DExpires%3D1792604724~_GO%3DGenerated~acl%3D%2Fmumbai%2F4250216_english_hls_667def4df736640_1ta-di_h264%2F*~SessionID%3Dfc-app_sportsguruand_watcho_42882a8f-840b-4d~Signature%3DASgJGVD6htyXU1aRRaiEn_NC-97AdaDbzbA9eEEfMOX31BglzLsLiPxPEpEES9wpxLjlLNHg4saJs-_Uqr9OZ-pQ0YQD",
+          "expires": "1792604724",
+          "expire_date": "21-10-2026 23:15:24 IST"
+        }
+      }
     },
     {
       "category": "Football",
-      "title": "Al-Nassr FC vs Neom SC",
+      "title": "Al-Nassr FC vs Neom SC [English]",
       "tournament": "Roshn Saudi League 2026-2027",
       "match_id": "4250217",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "startTime": "11:30:00 PM 20-10-2026",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/4250217_53025_ANF_NEOM_FC-Web.png",
       "language": "ENGLISH",
       "streams": {
-        "primary": "",
-        "fancode_cdn": "UNAVAILABLE",
-        "fancode_bd_cdn": "UNAVAILABLE",
-        "fancode_np_cdn": "UNAVAILABLE",
-        "fancode_lk_cdn": "UNAVAILABLE",
+        "primary": "https://in-mc-flive.fancode.com/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/1080p.m3u8?hdntl=Expires=1792604726~_GO=Generated~acl=/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_5ee36c93-f2b9-42~Signature=ASgJGVAZjAV2jg82wwTpheNwMY_I6EHNOBnn-CbkEZJOlSIY0LO0sknk_XA9hjfH8pD74aCUSKiOA2UdEEwsNh8UGiUA",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/index.m3u8",
         "backup": {}
       },
-      "auto_streams": {}
+      "auto_streams": {
+        "ENGLISH": {
+          "streams": {
+            "240p": "https://in-mc-flive.fancode.com/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/240p.m3u8?hdntl=Expires=1792604726~_GO=Generated~acl=/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_5ee36c93-f2b9-42~Signature=ASgJGVAZjAV2jg82wwTpheNwMY_I6EHNOBnn-CbkEZJOlSIY0LO0sknk_XA9hjfH8pD74aCUSKiOA2UdEEwsNh8UGiUA",
+            "360p": "https://in-mc-flive.fancode.com/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/360p.m3u8?hdntl=Expires=1792604726~_GO=Generated~acl=/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_5ee36c93-f2b9-42~Signature=ASgJGVAZjAV2jg82wwTpheNwMY_I6EHNOBnn-CbkEZJOlSIY0LO0sknk_XA9hjfH8pD74aCUSKiOA2UdEEwsNh8UGiUA",
+            "480p": "https://in-mc-flive.fancode.com/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/480p.m3u8?hdntl=Expires=1792604726~_GO=Generated~acl=/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_5ee36c93-f2b9-42~Signature=ASgJGVAZjAV2jg82wwTpheNwMY_I6EHNOBnn-CbkEZJOlSIY0LO0sknk_XA9hjfH8pD74aCUSKiOA2UdEEwsNh8UGiUA",
+            "540p": "https://in-mc-flive.fancode.com/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/540p.m3u8?hdntl=Expires=1792604726~_GO=Generated~acl=/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_5ee36c93-f2b9-42~Signature=ASgJGVAZjAV2jg82wwTpheNwMY_I6EHNOBnn-CbkEZJOlSIY0LO0sknk_XA9hjfH8pD74aCUSKiOA2UdEEwsNh8UGiUA",
+            "720p": "https://in-mc-flive.fancode.com/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/720p.m3u8?hdntl=Expires=1792604726~_GO=Generated~acl=/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_5ee36c93-f2b9-42~Signature=ASgJGVAZjAV2jg82wwTpheNwMY_I6EHNOBnn-CbkEZJOlSIY0LO0sknk_XA9hjfH8pD74aCUSKiOA2UdEEwsNh8UGiUA",
+            "1080p": "https://in-mc-flive.fancode.com/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/1080p.m3u8?hdntl=Expires=1792604726~_GO=Generated~acl=/mumbai/4250217_english_hls_90a5e6e7cf68957_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_5ee36c93-f2b9-42~Signature=ASgJGVAZjAV2jg82wwTpheNwMY_I6EHNOBnn-CbkEZJOlSIY0LO0sknk_XA9hjfH8pD74aCUSKiOA2UdEEwsNh8UGiUA"
+          },
+          "sonu_px": "https://akamaii.lovable.app/api/public/px/fancode?url=https%3A%2F%2Fin-mc-flive.fancode.com%2Fmumbai%2F4250217_english_hls_90a5e6e7cf68957_1ta-di_h264%2F720p.m3u8%3Fhdntl%3DExpires%3D1792604726~_GO%3DGenerated~acl%3D%2Fmumbai%2F4250217_english_hls_90a5e6e7cf68957_1ta-di_h264%2F*~SessionID%3Dfc-app_sportsguruand_watcho_5ee36c93-f2b9-42~Signature%3DASgJGVAZjAV2jg82wwTpheNwMY_I6EHNOBnn-CbkEZJOlSIY0LO0sknk_XA9hjfH8pD74aCUSKiOA2UdEEwsNh8UGiUA",
+          "expires": "1792604726",
+          "expire_date": "21-10-2026 23:15:26 IST"
+        }
+      }
     },
     {
       "category": "Cricket",
@@ -352,13 +380,13 @@
       "auto_streams": {}
     },
     {
-      "category": "Football",
-      "title": "Gillingham vs Port Vale F.C.",
-      "tournament": "League Two 2026-27",
-      "match_id": "4249999",
+      "category": "Cricket",
+      "title": "Zambia vs Nigeria",
+      "tournament": "ICC Men's T20 WC Africa Sub-regional Qualifier C, 2026",
+      "match_id": "4249759",
       "status": "UPCOMING",
-      "startTime": "12:30:00 AM 21-10-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card-2.png",
+      "startTime": "06:20:00 PM 21-10-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249759_53093_ZAM_NGR_FC-Web_1792493252671.png",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
@@ -371,13 +399,13 @@
       "auto_streams": {}
     },
     {
-      "category": "Cricket",
-      "title": "Zambia vs Nigeria",
-      "tournament": "ICC Men's T20 WC Africa Sub-regional Qualifier C, 2026",
-      "match_id": "4249759",
+      "category": "Football",
+      "title": "Gillingham vs Port Vale F.C.",
+      "tournament": "League Two 2026-27",
+      "match_id": "4249999",
       "status": "UPCOMING",
-      "startTime": "06:20:00 PM 21-10-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4249759_53093_ZAM_NGR_FC-Web_1792493252671.png",
+      "startTime": "12:30:00 AM 21-10-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card-2.png",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
