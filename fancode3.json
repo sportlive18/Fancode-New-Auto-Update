@@ -1,9 +1,9 @@
 {
   "name": "FanCode Live Matches API",
-  "updatedAt": "21/10/2026, 2:58:41 pm",
+  "updatedAt": "21/10/2026, 3:06:38 pm",
   "total_matches": 40,
-  "live_matches": 7,
-  "upcoming_matches": 33,
+  "live_matches": 8,
+  "upcoming_matches": 32,
   "matches": [
     {
       "category": "Cricket",
@@ -447,22 +447,36 @@
     },
     {
       "category": "Tennis",
-      "title": "Day 3 - World Feed",
+      "title": "Day 3 - World Feed [English]",
       "tournament": "ATP 250 - BNP Paribas Fortis European Open",
       "match_id": "4249623",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "startTime": "03:30:00 PM 21-10-2026",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP-Paribas-Fortis-European-Open_fc-web.jpg",
       "language": "ENGLISH",
       "streams": {
-        "primary": "",
-        "fancode_cdn": "UNAVAILABLE",
-        "fancode_bd_cdn": "UNAVAILABLE",
-        "fancode_np_cdn": "UNAVAILABLE",
-        "fancode_lk_cdn": "UNAVAILABLE",
+        "primary": "https://in-mc-flive.fancode.com/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/1080p.m3u8?hdntl=Expires=1792661657~_GO=Generated~acl=/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_491bfcb4-3f21-49~Signature=ASgJGVB8dBg7FykjCE2oMS3jX2f1T68ry1jrEzfuDFxjCO18615euZXDwhQ_FRzha-fwGlD890qchJ9uJ4BbhbKhnVUG",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/index.m3u8",
         "backup": {}
       },
-      "auto_streams": {}
+      "auto_streams": {
+        "ENGLISH": {
+          "streams": {
+            "240p": "https://in-mc-flive.fancode.com/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/240p.m3u8?hdntl=Expires=1792661657~_GO=Generated~acl=/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_491bfcb4-3f21-49~Signature=ASgJGVB8dBg7FykjCE2oMS3jX2f1T68ry1jrEzfuDFxjCO18615euZXDwhQ_FRzha-fwGlD890qchJ9uJ4BbhbKhnVUG",
+            "360p": "https://in-mc-flive.fancode.com/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/360p.m3u8?hdntl=Expires=1792661657~_GO=Generated~acl=/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_491bfcb4-3f21-49~Signature=ASgJGVB8dBg7FykjCE2oMS3jX2f1T68ry1jrEzfuDFxjCO18615euZXDwhQ_FRzha-fwGlD890qchJ9uJ4BbhbKhnVUG",
+            "480p": "https://in-mc-flive.fancode.com/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/480p.m3u8?hdntl=Expires=1792661657~_GO=Generated~acl=/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_491bfcb4-3f21-49~Signature=ASgJGVB8dBg7FykjCE2oMS3jX2f1T68ry1jrEzfuDFxjCO18615euZXDwhQ_FRzha-fwGlD890qchJ9uJ4BbhbKhnVUG",
+            "540p": "https://in-mc-flive.fancode.com/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/540p.m3u8?hdntl=Expires=1792661657~_GO=Generated~acl=/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_491bfcb4-3f21-49~Signature=ASgJGVB8dBg7FykjCE2oMS3jX2f1T68ry1jrEzfuDFxjCO18615euZXDwhQ_FRzha-fwGlD890qchJ9uJ4BbhbKhnVUG",
+            "720p": "https://in-mc-flive.fancode.com/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/720p.m3u8?hdntl=Expires=1792661657~_GO=Generated~acl=/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_491bfcb4-3f21-49~Signature=ASgJGVB8dBg7FykjCE2oMS3jX2f1T68ry1jrEzfuDFxjCO18615euZXDwhQ_FRzha-fwGlD890qchJ9uJ4BbhbKhnVUG",
+            "1080p": "https://in-mc-flive.fancode.com/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/1080p.m3u8?hdntl=Expires=1792661657~_GO=Generated~acl=/mumbai/4249623_english_hls_6c8130a2c479550_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_491bfcb4-3f21-49~Signature=ASgJGVB8dBg7FykjCE2oMS3jX2f1T68ry1jrEzfuDFxjCO18615euZXDwhQ_FRzha-fwGlD890qchJ9uJ4BbhbKhnVUG"
+          },
+          "sonu_px": "https://akamaii.lovable.app/api/public/px/fancode?url=https%3A%2F%2Fin-mc-flive.fancode.com%2Fmumbai%2F4249623_english_hls_6c8130a2c479550_1ta-di_h264%2F720p.m3u8%3Fhdntl%3DExpires%3D1792661657~_GO%3DGenerated~acl%3D%2Fmumbai%2F4249623_english_hls_6c8130a2c479550_1ta-di_h264%2F*~SessionID%3Dfc-app_sportsguruand_watcho_491bfcb4-3f21-49~Signature%3DASgJGVB8dBg7FykjCE2oMS3jX2f1T68ry1jrEzfuDFxjCO18615euZXDwhQ_FRzha-fwGlD890qchJ9uJ4BbhbKhnVUG",
+          "expires": "1792661657",
+          "expire_date": "22-10-2026 15:04:17 IST"
+        }
+      }
     },
     {
       "category": "Cricket",
@@ -674,25 +688,6 @@
       "auto_streams": {}
     },
     {
-      "category": "MotoGP",
-      "title": "Day 1",
-      "tournament": "GRAND PRIX OF AUSTRALIA 2026",
-      "match_id": "139978",
-      "status": "UPCOMING",
-      "startTime": "03:30:00 AM 23-10-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Grand-Prix-of-Australiaold-match-card.png",
-      "language": "ENGLISH",
-      "streams": {
-        "primary": "",
-        "fancode_cdn": "UNAVAILABLE",
-        "fancode_bd_cdn": "UNAVAILABLE",
-        "fancode_np_cdn": "UNAVAILABLE",
-        "fancode_lk_cdn": "UNAVAILABLE",
-        "backup": {}
-      },
-      "auto_streams": {}
-    },
-    {
       "category": "Motorsports",
       "title": "Practice",
       "tournament": "F1 ACADEMY AUSTIN 2026",
@@ -719,6 +714,25 @@
       "status": "UPCOMING",
       "startTime": "03:00:00 AM 23-10-2026",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+      "language": "ENGLISH",
+      "streams": {
+        "primary": "",
+        "fancode_cdn": "UNAVAILABLE",
+        "fancode_bd_cdn": "UNAVAILABLE",
+        "fancode_np_cdn": "UNAVAILABLE",
+        "fancode_lk_cdn": "UNAVAILABLE",
+        "backup": {}
+      },
+      "auto_streams": {}
+    },
+    {
+      "category": "MotoGP",
+      "title": "Day 1",
+      "tournament": "GRAND PRIX OF AUSTRALIA 2026",
+      "match_id": "139978",
+      "status": "UPCOMING",
+      "startTime": "03:30:00 AM 23-10-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Grand-Prix-of-Australiaold-match-card.png",
       "language": "ENGLISH",
       "streams": {
         "primary": "",
