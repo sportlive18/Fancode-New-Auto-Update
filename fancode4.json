@@ -2,26 +2,32 @@
     "author": "Amit",
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "source_last_updated": "10:44:07 AM 04-11-2026",
-    "generated_at": "2026-11-04 05:20:11",
+    "source_last_updated": "10:54:21 AM 04-11-2026",
+    "generated_at": "2026-11-04 05:25:16",
     "base_url": "https://allinonereborn2.online/fctest/",
     "fallback_mode": false,
     "total_matches": 40,
-    "live_matches_count": 0,
-    "upcoming_matches_count": 40,
+    "live_matches_count": 1,
+    "upcoming_matches_count": 39,
     "matches": [
         {
             "event_category": "Cricket",
-            "match_id": 4250521,
-            "title": "United Arab Emirates vs Oman (ICC CWC League 2 UAE, 2026)",
-            "match_name": "United Arab Emirates vs Oman",
+            "match_id": "4250521_ENG",
+            "title": "ICC CWC League 2 UAE, 2026 [English]",
+            "match_name": "United Arab Emirates vs Oman [English]",
             "event_name": "ICC CWC League 2 UAE, 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/ICC-CWC-League_Web-match-card.png",
             "team_1": "United Arab Emirates",
             "team_2": "Oman",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "startTime": "11:00:00 AM 04-11-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4250521_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
@@ -129,19 +135,6 @@
         },
         {
             "event_category": "Cricket",
-            "match_id": 4250205,
-            "title": "West Indies A vs England Lions (England Lions tour of West Indies, 2026)",
-            "match_name": "West Indies A vs England Lions",
-            "event_name": "England Lions tour of West Indies, 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_FC-Mini.png",
-            "team_1": "West Indies A",
-            "team_2": "England Lions",
-            "status": "UPCOMING",
-            "startTime": "10:30:00 PM 04-11-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
             "match_id": 4250527,
             "title": "Bangladesh vs West Indies (West Indies tour of Bangladesh, 2026)",
             "match_name": "Bangladesh vs West Indies",
@@ -151,6 +144,19 @@
             "team_2": "West Indies",
             "status": "UPCOMING",
             "startTime": "09:00:00 AM 05-11-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4250205,
+            "title": "West Indies A vs England Lions (England Lions tour of West Indies, 2026)",
+            "match_name": "West Indies A vs England Lions",
+            "event_name": "England Lions tour of West Indies, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_FC-Mini.png",
+            "team_1": "West Indies A",
+            "team_2": "England Lions",
+            "status": "UPCOMING",
+            "startTime": "10:30:00 PM 04-11-2026",
             "user-agent": null
         },
         {
@@ -531,21 +537,28 @@
             "user-agent": null
         }
     ],
-    "live_matches": [],
-    "upcoming_matches": [
+    "live_matches": [
         {
             "event_category": "Cricket",
-            "match_id": 4250521,
-            "title": "United Arab Emirates vs Oman (ICC CWC League 2 UAE, 2026)",
-            "match_name": "United Arab Emirates vs Oman",
+            "match_id": "4250521_ENG",
+            "title": "ICC CWC League 2 UAE, 2026 [English]",
+            "match_name": "United Arab Emirates vs Oman [English]",
             "event_name": "ICC CWC League 2 UAE, 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/ICC-CWC-League_Web-match-card.png",
             "team_1": "United Arab Emirates",
             "team_2": "Oman",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "startTime": "11:00:00 AM 04-11-2026",
-            "user-agent": null
-        },
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4250521_ENG/english.m3u8"
+                }
+            ]
+        }
+    ],
+    "upcoming_matches": [
         {
             "event_category": "Cricket",
             "match_id": 4250395,
@@ -652,19 +665,6 @@
         },
         {
             "event_category": "Cricket",
-            "match_id": 4250205,
-            "title": "West Indies A vs England Lions (England Lions tour of West Indies, 2026)",
-            "match_name": "West Indies A vs England Lions",
-            "event_name": "England Lions tour of West Indies, 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_FC-Mini.png",
-            "team_1": "West Indies A",
-            "team_2": "England Lions",
-            "status": "UPCOMING",
-            "startTime": "10:30:00 PM 04-11-2026",
-            "user-agent": null
-        },
-        {
-            "event_category": "Cricket",
             "match_id": 4250527,
             "title": "Bangladesh vs West Indies (West Indies tour of Bangladesh, 2026)",
             "match_name": "Bangladesh vs West Indies",
@@ -674,6 +674,19 @@
             "team_2": "West Indies",
             "status": "UPCOMING",
             "startTime": "09:00:00 AM 05-11-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Cricket",
+            "match_id": 4250205,
+            "title": "West Indies A vs England Lions (England Lions tour of West Indies, 2026)",
+            "match_name": "West Indies A vs England Lions",
+            "event_name": "England Lions tour of West Indies, 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_FC-Mini.png",
+            "team_1": "West Indies A",
+            "team_2": "England Lions",
+            "status": "UPCOMING",
+            "startTime": "10:30:00 PM 04-11-2026",
             "user-agent": null
         },
         {
