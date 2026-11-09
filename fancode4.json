@@ -2,26 +2,32 @@
     "author": "Amit",
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "source_last_updated": "08:38:23 AM 09-11-2026",
-    "generated_at": "2026-11-09 03:20:03",
+    "source_last_updated": "08:48:31 AM 09-11-2026",
+    "generated_at": "2026-11-09 03:25:10",
     "base_url": "https://allinonereborn2.online/fctest/",
     "fallback_mode": false,
     "total_matches": 40,
-    "live_matches_count": 0,
-    "upcoming_matches_count": 40,
+    "live_matches_count": 1,
+    "upcoming_matches_count": 39,
     "matches": [
         {
             "event_category": "Cricket",
-            "match_id": 4250527,
-            "title": "West Indies vs Bangladesh (West Indies tour of Bangladesh, 2026)",
-            "match_name": "West Indies vs Bangladesh",
+            "match_id": "4250527_ENG",
+            "title": "West Indies tour of Bangladesh, 2026 [English]",
+            "match_name": "West Indies vs Bangladesh [English]",
             "event_name": "West Indies tour of Bangladesh, 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/West-Indies-tour-of-Bangladesh-web-.jpg",
             "team_1": "West Indies",
             "team_2": "Bangladesh",
-            "status": "PAUSED",
+            "status": "LIVE",
             "startTime": "09:00:00 AM 05-11-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4250527_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
@@ -531,21 +537,28 @@
             "user-agent": null
         }
     ],
-    "live_matches": [],
-    "upcoming_matches": [
+    "live_matches": [
         {
             "event_category": "Cricket",
-            "match_id": 4250527,
-            "title": "West Indies vs Bangladesh (West Indies tour of Bangladesh, 2026)",
-            "match_name": "West Indies vs Bangladesh",
+            "match_id": "4250527_ENG",
+            "title": "West Indies tour of Bangladesh, 2026 [English]",
+            "match_name": "West Indies vs Bangladesh [English]",
             "event_name": "West Indies tour of Bangladesh, 2026",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/West-Indies-tour-of-Bangladesh-web-.jpg",
             "team_1": "West Indies",
             "team_2": "Bangladesh",
-            "status": "PAUSED",
+            "status": "LIVE",
             "startTime": "09:00:00 AM 05-11-2026",
-            "user-agent": null
-        },
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4250527_ENG/english.m3u8"
+                }
+            ]
+        }
+    ],
+    "upcoming_matches": [
         {
             "event_category": "Cricket",
             "match_id": 4249772,
