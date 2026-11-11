@@ -2,52 +2,70 @@
     "author": "Amit",
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "source_last_updated": "04:48:58 AM 12-11-2026",
-    "generated_at": "2026-11-11 23:25:02",
+    "source_last_updated": "04:59:11 AM 12-11-2026",
+    "generated_at": "2026-11-11 23:30:03",
     "base_url": "https://allinonereborn2.online/fctest/",
     "fallback_mode": false,
     "total_matches": 40,
-    "live_matches_count": 0,
-    "upcoming_matches_count": 40,
+    "live_matches_count": 3,
+    "upcoming_matches_count": 37,
     "matches": [
         {
             "event_category": "Cricket",
-            "match_id": 4249671,
-            "title": "New South Wales vs South Australia (Sheffield Shield, 2026/27)",
-            "match_name": "New South Wales vs South Australia",
+            "match_id": "4249671_ENG",
+            "title": "Sheffield Shield, 2026/27 [English]",
+            "match_name": "New South Wales vs South Australia [English]",
             "event_name": "Sheffield Shield, 2026/27",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4249671_53087_NSW_SAU_FC-WEB.jpg",
             "team_1": "New South Wales",
             "team_2": "South Australia",
-            "status": "PAUSED",
+            "status": "LIVE",
             "startTime": "05:00:00 AM 11-11-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249671_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
-            "match_id": 4249672,
-            "title": "Victoria vs Western Australia (Sheffield Shield, 2026/27)",
-            "match_name": "Victoria vs Western Australia",
+            "match_id": "4249672_ENG",
+            "title": "Sheffield Shield, 2026/27 [English]",
+            "match_name": "Victoria vs Western Australia [English]",
             "event_name": "Sheffield Shield, 2026/27",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4249672_53087_VCT_WAU_FC-WEB.jpg",
             "team_1": "Victoria",
             "team_2": "Western Australia",
-            "status": "PAUSED",
+            "status": "LIVE",
             "startTime": "05:00:00 AM 11-11-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249672_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
-            "match_id": 4249673,
-            "title": "Queensland vs Tasmania (Sheffield Shield, 2026/27)",
-            "match_name": "Queensland vs Tasmania",
+            "match_id": "4249673_ENG",
+            "title": "Sheffield Shield, 2026/27 [English]",
+            "match_name": "Queensland vs Tasmania [English]",
             "event_name": "Sheffield Shield, 2026/27",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4249673_53087_QUN_TAS_FC-WEB.jpg",
             "team_1": "Queensland",
             "team_2": "Tasmania",
-            "status": "PAUSED",
+            "status": "LIVE",
             "startTime": "05:30:00 AM 11-11-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249673_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
@@ -167,19 +185,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Badminton",
-            "match_id": 4250630,
-            "title": "Round of 16 vs Japan (BWF Super 500 - Japan Masters 2026)",
-            "match_name": "Round of 16",
-            "event_name": "BWF Super 500 - Japan Masters 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Japan-Masters_fc-web.jpg",
-            "team_1": "Round of 16",
-            "team_2": "Japan",
-            "status": "UPCOMING",
-            "startTime": "05:30:00 AM 12-11-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Football",
             "match_id": 4249503,
             "title": "Benfica Women vs Austria Wien Women (UEFA Women's Champions League 2026-27)",
@@ -190,6 +195,19 @@
             "team_2": "Austria Wien Women",
             "status": "UPCOMING",
             "startTime": "01:30:00 AM 13-11-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Badminton",
+            "match_id": 4250630,
+            "title": "Round of 16 vs Japan (BWF Super 500 - Japan Masters 2026)",
+            "match_name": "Round of 16",
+            "event_name": "BWF Super 500 - Japan Masters 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Japan-Masters_fc-web.jpg",
+            "team_1": "Round of 16",
+            "team_2": "Japan",
+            "status": "UPCOMING",
+            "startTime": "05:30:00 AM 12-11-2026",
             "user-agent": null
         },
         {
@@ -531,47 +549,66 @@
             "user-agent": null
         }
     ],
-    "live_matches": [],
-    "upcoming_matches": [
+    "live_matches": [
         {
             "event_category": "Cricket",
-            "match_id": 4249671,
-            "title": "New South Wales vs South Australia (Sheffield Shield, 2026/27)",
-            "match_name": "New South Wales vs South Australia",
+            "match_id": "4249671_ENG",
+            "title": "Sheffield Shield, 2026/27 [English]",
+            "match_name": "New South Wales vs South Australia [English]",
             "event_name": "Sheffield Shield, 2026/27",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4249671_53087_NSW_SAU_FC-WEB.jpg",
             "team_1": "New South Wales",
             "team_2": "South Australia",
-            "status": "PAUSED",
+            "status": "LIVE",
             "startTime": "05:00:00 AM 11-11-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249671_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
-            "match_id": 4249672,
-            "title": "Victoria vs Western Australia (Sheffield Shield, 2026/27)",
-            "match_name": "Victoria vs Western Australia",
+            "match_id": "4249672_ENG",
+            "title": "Sheffield Shield, 2026/27 [English]",
+            "match_name": "Victoria vs Western Australia [English]",
             "event_name": "Sheffield Shield, 2026/27",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4249672_53087_VCT_WAU_FC-WEB.jpg",
             "team_1": "Victoria",
             "team_2": "Western Australia",
-            "status": "PAUSED",
+            "status": "LIVE",
             "startTime": "05:00:00 AM 11-11-2026",
-            "user-agent": null
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249672_ENG/english.m3u8"
+                }
+            ]
         },
         {
             "event_category": "Cricket",
-            "match_id": 4249673,
-            "title": "Queensland vs Tasmania (Sheffield Shield, 2026/27)",
-            "match_name": "Queensland vs Tasmania",
+            "match_id": "4249673_ENG",
+            "title": "Sheffield Shield, 2026/27 [English]",
+            "match_name": "Queensland vs Tasmania [English]",
             "event_name": "Sheffield Shield, 2026/27",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4249673_53087_QUN_TAS_FC-WEB.jpg",
             "team_1": "Queensland",
             "team_2": "Tasmania",
-            "status": "PAUSED",
+            "status": "LIVE",
             "startTime": "05:30:00 AM 11-11-2026",
-            "user-agent": null
-        },
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "streams": [
+                {
+                    "language": "English",
+                    "playlist_url": "https://allinonereborn2.online/fctest/playlists/match_4249673_ENG/english.m3u8"
+                }
+            ]
+        }
+    ],
+    "upcoming_matches": [
         {
             "event_category": "Cricket",
             "match_id": 4250405,
@@ -690,19 +727,6 @@
             "user-agent": null
         },
         {
-            "event_category": "Badminton",
-            "match_id": 4250630,
-            "title": "Round of 16 vs Japan (BWF Super 500 - Japan Masters 2026)",
-            "match_name": "Round of 16",
-            "event_name": "BWF Super 500 - Japan Masters 2026",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Japan-Masters_fc-web.jpg",
-            "team_1": "Round of 16",
-            "team_2": "Japan",
-            "status": "UPCOMING",
-            "startTime": "05:30:00 AM 12-11-2026",
-            "user-agent": null
-        },
-        {
             "event_category": "Football",
             "match_id": 4249503,
             "title": "Benfica Women vs Austria Wien Women (UEFA Women's Champions League 2026-27)",
@@ -713,6 +737,19 @@
             "team_2": "Austria Wien Women",
             "status": "UPCOMING",
             "startTime": "01:30:00 AM 13-11-2026",
+            "user-agent": null
+        },
+        {
+            "event_category": "Badminton",
+            "match_id": 4250630,
+            "title": "Round of 16 vs Japan (BWF Super 500 - Japan Masters 2026)",
+            "match_name": "Round of 16",
+            "event_name": "BWF Super 500 - Japan Masters 2026",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Japan-Masters_fc-web.jpg",
+            "team_1": "Round of 16",
+            "team_2": "Japan",
+            "status": "UPCOMING",
+            "startTime": "05:30:00 AM 12-11-2026",
             "user-agent": null
         },
         {
